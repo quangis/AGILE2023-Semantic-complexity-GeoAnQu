@@ -1,0 +1,664 @@
+pharmacies	object
+pharmacy	object
+cathedral	object
+cathedrals	object
+church	object
+churches	object
+mountains	object
+mountain	object
+country councils	object
+high street	object
+car park	object
+car parks	object
+bridge	object
+bridges	object
+fort	object
+forts	object
+forest	object
+forests	object
+mountain	object
+mountains	object
+national park	object
+museum	object
+museums	object
+region	object
+regions	object
+aerodrome	object
+aerodromes	object
+train station	object
+train stations	object
+airfield	object
+airfields	object
+stadium	object
+stadiums	object
+historic buildings	object
+historic building	object
+historical monuments	object
+historical monument	object
+area	field	nominal
+distance	covAmount	ERA
+size	covAmount	ERA
+tourist attractions	object
+tourist attraction	object
+underground stations	object
+underground station	object
+public market	object
+public markets	object
+gas station	object
+main railway stations	object
+main railway station	object
+metropolitan counties	object
+metropolitan county	object
+non metropolitan counties	object
+non metropolitan county	object
+art museums	object
+art museum	object
+university	object
+universities	object
+city council	object
+city councils	object
+colleges	object
+college	object
+area size	covAmount	ERA
+department store	object
+department stores	object
+football stadium	object
+football stadiums	object
+capacity	conAmount	ERA
+forests	object
+forest	object
+Greek restaurants	object
+Greek restaurant	object
+county council	object
+county councils	object
+royal borough	object
+height	covAmount	ERA
+length	covAmount	ERA
+medieval castles	object
+medieval castle	object
+provinces	object
+province	object
+university colleges	object
+university college	object
+theaters	object
+theater	object
+visitors	object
+visitor	object
+recreational site	object
+visitor number	conAmount	IRA
+shark attacks	event
+shark attack	event
+vegetable exporters	object
+vegetable exporter	object
+Amnesty International human rights reports	object
+Amnesty International human rights report	object
+animal rights actions against fur industry	event
+animal rights action against fur industry	event
+rice imports	event
+rice import	event
+value	conAmount	ERA
+volume	conAmount	ERA
+oil accidents	event
+oil accident	event
+trade unions	object
+trade union	object
+milk consumption	conAmount	ERA
+working children	object
+working child	object
+floods	event
+flood	event
+Roman cities	object
+Roman city	object
+American Presidents visits	event
+environmentally hazardous incidents	event
+oil prospecting and ecological problems	object
+american troops	object
+walking holiday regions	object
+golf tournaments	event
+wind power regions	object
+visits	event
+visit	event
+genocide	event
+genocide occurences	event
+sea rescues	event
+sea rescue	event
+restored buildings	object
+restored building	object
+murders and violence	event
+tourist industry influences	object
+environmental concerns	object
+wine regions	object
+snowstorms	event
+snowstorm	event
+places	object
+place	object
+diamond trading places	object
+diamond trading place	object
+car bombings	event
+car bombing	event
+combats and embargo	object
+independence movement	object
+independence movements	object
+international sports competitions	event
+international sports competition	event
+malaria cases	event
+tropics	object
+credits	event
+automotive industry	object
+automotive industries	object
+archeological site	object
+archeological sites	object
+solar or lunar eclipse	event
+solar or lunar eclipses	event
+russian troops	object
+active volcanoes	object
+active volcanoe	object
+shipwrecks	object
+shipwreck	object
+regional elections	event
+regional election	event
+scientific research	event
+arms sales	event
+arms sale	event
+tourist regions	object
+tourist region	object
+forest fires	event
+forest fire	event
+Champions League games	event
+Champions League game	event
+fishing regions	object
+fishing region	object
+ETA incidents	event
+ETA incident	event
+wildfires	event
+wildfire	event
+caves	object
+cave	object
+Paleolithic human fossil remains	object
+Paleolithic human fossil remain	object
+amusement parks	object
+amusement park	object
+capitals	object
+capital	object
+carnival strongholds	object
+carnival stronghold	object
+cathedral libraries	object
+cathedral library	object
+inhabited castles	object
+inhabited castle	object
+left side tributaries	object
+left side tributary	object
+suspension bridge	object
+suspension bridges	object
+total ski trail length	covAmount	ERA
+winner	object
+winners	object
+2 time winners	object
+8 thousanders	object
+national parks	object
+national park	object
+European Union countries	object
+European Union country	object
+sections	object
+section	object
+provincial capitals	object
+provincial capital	object
+town privileges	object
+town privilege	object
+special statute	object
+brazilian architects	object
+brazilian architect	object
+clubs	object
+club	object
+brazilian football players	object
+brazilian football player	object
+brazilian theologists	object
+brazilian theologist	object
+bulgarian fighters	object
+bulgarian fighter	object
+swiss cantons	object
+swiss canton	object
+womens football team	object
+womens football teams	object
+Olympic stadium	object
+Olympic stadiums	object
+austrian chefs	object
+austrian chef	object
+coastal states	object
+coastal state	object
+Petrobras refineries	object
+Petrobras refinery	object
+companies	object
+company	object
+nanoelectronic components	object
+nanoelectronic component	object
+airplane nanoelectronic components	object
+airplane nanoelectronic component	object
+planes	object
+plane	object
+Renaissance music composers	object
+Renaissance music composer	object
+borders	object
+border	object
+bidet	object
+Italian as official language	object
+white green and red colors in national flag	object
+European futsal championship	object
+Dutch bands	object
+Dutch band	object
+Bulgarian footballer	object
+Bulgarian footballers	object
+famous portrait painters	object
+famous portrait painter	object
+violinists	object
+violinist	object
+royal concertgebouw orchestra concertmasters	object
+concertgebouw orchestra concertmaster	object
+formula 1 drivers	object
+formula 1 driver	object
+German writers	object
+German writer	object
+Honorary Citizens	object
+Honorary Citizen	object
+German speaking movies	object
+German speaking movie	object
+oscar nomination	object
+grape varieties	object
+vineyard area size	covAmount	ERA
+Japanese automakers companies	object
+Japanese automakers company	object
+manufacturing or assembling factories	object
+manufacturing or assembling factory	object
+manufacturing factory	object
+manufacturing factories	object
+assembling factory	object
+assembling factories	object
+Mexican poets	object
+Mexican poet	object
+published ballads	object
+published ballad	object
+biosphere reserves	object
+biosphere reserve	object
+islands	object
+island	object
+permanent snow	object
+mpb musicians	object
+mpb musician	object
+distinguished guitar players	object
+distinguished guitar player	object
+Picasso painting	object
+national football teams	object
+national football team	object
+yellow color	object
+Scandinavian national team football players	object
+Scandinavian national team football player	object
+sons	object
+son	object
+English clubs	object
+English club	object
+navigable rivers	object
+navigable river	object
+Norwegian musicians	object
+Norwegian musician	object
+church burning convicts	object
+church burning convict	object
+above the Arctic circle	object
+Shakespeare plays	object
+Shakespeare play	object
+Italian setting	object
+National Council parties	object
+National Council party	object
+poprock groups	object
+poprock group	object
+present monarchies	object
+present monarchy	object
+female head	object
+female heads	object
+Chianti producers	object
+Chianti producer	object
+rare diseases	object
+rare disease	object
+dedicated research centers	object
+dedicated research center	object
+Romanian poets	object
+Romanian poet	object
+Romanian writers	object
+Romanian writer	object
+Spanish drivers	object
+Spanish driver	object
+stave churches	object
+stave church	object
+religious usage	event
+Swiss snowboarders	object
+Swiss snowboarder	object
+Olympic medalists	object
+Olympic medalist	object
+technical universities	object
+technical university	object
+students	object
+student	object
+terminal stations	object
+terminal station	object
+passengers	object
+passenger	object
+big cities	object
+big city	object
+citizens	object
+citizen	object
+inhabitants	object
+inhabitant	object
+major cities	object
+major city	object
+major rivers	object
+major river	object
+major lakes	object
+major lake	object
+biggest rivers	object
+biggest river	object
+state capital	object
+state capitals	object
+states	object
+state	object
+restaurant with two or three Michelin stars	object
+written language	object
+UNESCO World Heritage Sites	object
+listing date	object
+Vienna circle members	object
+Vienna circle visitors	object
+wars	event
+war	event
+waterfalls	object
+waterfall	object
+tribes	object
+tribe	object
+African savannah	object
+african savannah animals	object
+african savannah animal	object
+zoos	object
+zoo	object
+casting show winners	object
+nobel prize winners	object
+portugese	object
+romantic and realist novelists of the XIXth century	object
+urban population	object conAmount	count
+basic elements	object
+cassata	object
+==============	object
+Sacramento capital	object
+Austin major city	object
+Denver city	object
+Kalamazoo	object
+Red river	object
+Chattahoochee river	object
+Scotts Valley	object
+San Jose	object
+San Diego	object
+New Orleans	object
+Mount Whitney	object
+Indianapolis	object
+Fort Wayne	object
+Baton Rouge	object
+Springfield	object
+Springfield town	object
+Salt Lake City	object
+Rochester city	object
+Portland city	object
+Portland	object
+Plano city	object
+Dallas city	object
+Springfield city	object
+Austin captial	object
+Austin city	object
+Oregon	object
+Dover capital	object
+Pittsburgh	object
+Miami	object
+Des Moines	object
+Dallas	object
+Columbus capital	object
+Salem capital	object
+Flint city	object
+San Antonio	object
+West Virginia	object
+Arizona	object
+Nevada	object
+Boston	object
+South Dakota	object
+Austin	object
+Kentucky	object
+San Francisco	object
+Georgia	object
+Greece	object
+Canada	object
+Mount McKinley	object
+Death Valley	object
+Washington	object
+Utah	object
+New Jersey	object
+New Hampshire	object
+Wisconsin	object
+capital Albany	object
+South Carolina	object
+Seattle	object
+Maryland	object
+Maine	object
+Idaho	object
+Pennsylvania	object
+Potomac	object
+Indiana	object
+Arkansas	object
+Illinois	object
+Colorado	object
+Virginia	object
+Alaska	object
+Michigan	object
+Wyoming	object
+Vermont	object
+Rhode Island	object
+Oklahoma	object
+North Carolina	object
+Kansas	object
+Rochester	object
+Tennessee	object
+Iowa	object
+Hawaii	object
+Austin	object
+Austin capital	object
+rio grande river	object
+Ohio river	object
+Ohio	object
+North Platte river	object
+Missouri river	object
+Missouri	object
+USA	object
+US	object
+California	object
+Mississippi river	object
+Mississippi	object
+Delaware river	object
+Colorado river	object
+rio grande	object
+Louisiana	object
+Florida	object
+Delaware	object
+Alabama	object
+Montana	object
+Mount McKinley	object
+Guadalupe peak	object
+New York city	object
+New York	object
+newyork city	object
+Texas	object
+North Dakota	object
+New Mexico	object
+Massachusetts	object
+Alaska	object
+Minardi	object
+Ernest Hemingway	object
+Switzerland	object
+Netherlands	object
+Spain	object
+English county	object
+English counties	object
+Hammersmith Bridge	object
+Hammersmith city	object
+Barnes	object
+Liverpool	object
+Everton FC	object
+Everton Football Club	object
+Edinburgh	object
+Thames River	object
+River Thames	object
+West Yorkshire county	object
+Stonehenge	object
+Big Ben	object
+Waterloo Bridge	object
+river Exe	object
+Trafalgar Square	object
+Westminster University	object
+Wight Isle	object
+county Cheshire	object
+cheshire	object
+north of Burnley	object
+Greater Manchester	object
+Manchester	object
+Modern Art Museum	object
+London	object
+Merseyside	object
+England	object
+York	object
+Grafton Street	object
+Essex	object
+Essex county	object
+Dublin	object
+Wellesbourne village	object
+Cardiff	object
+Buckinghamshire	object
+Glasgow	object
+county Down	object
+British Museum	object
+Belfast	object
+Bristol	object
+Elizabeth Tower	object
+Emirates Stadium	object
+Loch Goil	object
+Nelson Column	object
+Elephant underground station	object
+Castle underground station	object
+Saint Peter Square	object
+Tower Bridge	object
+Ireland	object
+Salford	object
+Northern Ireland	object
+Charlotte Square	object
+Prince street	object
+Saint Anthony Great church	object
+Saint John Baptist church	object
+Piccadilly Gardens	object
+Highland council area	object
+Lincolnshire county	object
+Scotland	object
+Irish counties	object
+Irish county	object
+Shannon River	object
+Scottish counties	object
+Scottish county	object
+Wales	object
+Central Park hotel	object
+Northern Ireland	object
+Wembley stadium	object
+Calton Hill	object
+Stirling Castle	object
+Jubilee Gardens	object
+Abercromby Square	object
+Old Trafford Stadium	object
+England capital	object
+Loch Ness	object
+Wharfside Way	object
+Republic of Ireland	object
+Saint George hotel	object
+Anfield stadium	object
+Guinness Brewery	object
+Mercure Hotel	object
+University of Liverpool	object
+Liverpool University	object
+London Bridge	object
+Baker Street	object
+Edinburgh Castle	object
+Kensington Palace	object
+Queensway Bridge	object
+Great Britain	object
+Derry	object
+Solway Firth	object
+Herefordshire	object
+Australia	object
+Europe	object
+Latin America	object
+United States	object
+Japan	object
+Holland	object
+Germany	object
+UK	object
+Siberia	object
+Caspian Sea	object
+Scottish Islands	object
+North Sea	object
+Rwanda	object
+Scottish Trossachs	object
+Scottish Highlands	object
+Frankfurt	object
+North America	object
+Angola	object
+South Africa	object
+Madrid	object
+Quebec	object
+Ruhr area	object
+former Eastern Bloc	object
+Sea of Japan	object
+Middle East	object
+southeast asia	object
+Southern Caucasus	object
+Atlantic Ocean	object
+Northern Germany	object
+Yugoslavia	object
+Northeast Brazil	object
+Northern Portugal	object
+Mediterranean Sea	object
+Newfoundland	object
+Greenland	object
+France	object
+Danube river	object
+Rhine river	object
+southern scotland	object
+southwestern scotland	object
+northern Iraq	object
+Suffolk county	object
+Durham county	object
+Durham	object
+Coleraine district	object
+Alnwick Castle	object
+Cavan county	object
+United Kingdom	object
+Islington	object
+Angel	object
+London Tower	object
+Goethe	object
+East Germany	object
+Rhineland	object
+Upper Bavaria	object
+Po river	object
+Mozart	object
+Asia	object
+Brazil	object
+Italo Calvino	object
+Ronde van Vlaanderen	object
+Belgium	object
+Tour de France	object
+Nepal	object
+North Western Alps	object
+Liberation Theology	object
+diamond belt	object
+Eifel Aqueduct	object
+Womens Football Bundesliga	object
+Michelin Star	object
+America	object

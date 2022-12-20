@@ -1,0 +1,881 @@
+ID;Question;qTypesCount;qTransCount;qOutputType;aggre;allocation;amount;boolfield;conamount;covamount;distanceBand;distfield;eveconamount;eveconobjconpro;event;eventquality;field;grid;location;network;networkquality;objconamount;objconobjconpro;object;objectquality;placename;proportion
+0;What are the cities in virginia;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+2;What are the rivers in arkansas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+3;What are the rivers in colorado;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+4;What is the capital of texas;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+5;Which area has the highest elevation in Oregon;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+7;What are the states in usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+8;What are the cities in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+9;What are the cities in usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+10;What are the cities in virginia;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+11;What are the cities in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+12;What are the lakes in california;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+13;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+14;Which river has the biggest length in the US;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+15;What is the number of rivers in California;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+16;Which states intersect with utah;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+17;What is the size of alaska;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+18;What is the size of massachusetts;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+19;What is the size of new mexico;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+20;What is the size of north dakota;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+21;What is the size of texas;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+22;What is the size of new york city;4;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+23;What is the highest elevation of each state;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+24;What is the highest elevation of guadalupe peak;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+25;What is the highest elevation of mount mckinley;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+26;What is the highest elevation of united states;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+27;What is the highest elevation of montana;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+29;What is the highest elevation of alabama;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+30;What is the highest elevation of delaware;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+31;What is the highest elevation of florida;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+32;What is the highest elevation of louisiana;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+33;What is the size of alaska;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+34;What is the size of texas;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+36;What is the length of rio grande;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+37;What is the length of the colorado river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+38;What is the length of the delaware river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+41;What is the length of the mississippi;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+42;What is the length of the mississippi river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+43;What is the length of the mississippi river in miles;4;2;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+44;What is the length of the missouri river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+45;What is the length of the north platte river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+46;What is the length of the ohio river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+47;What is the length of the rio grande;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+49;How many big cities are in Pennsylvania;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+50;How many capitals are in Rhode Island;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+51;How many cities are in Louisiana;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+52;How many cities are in Montana;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+53;How many cities are in the United States;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+54;How many cities are in the US;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+55;How many cities are in the US;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+56;How many cities are in the USA;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+57;How many cities are in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+58;How many cities are in the USA;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+61;How many citizens are in Alabama;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+62;How many citizens are in Boulder;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+63;How many citizens are in California;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+64;How many rivers are in Colorado;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+65;How many inhabitants are in Montgomery;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+66;How many major cities are in Arizona;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+67;How many major cities are in Florida;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+70;How many major cities are in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+71;How many major cities are in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+72;How many major cities are in Oregon;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+73;How many major rivers are in Ohio;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+74;How many people are in Nevada;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+75;How many people are in Iowa;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+76;How many people are in New York;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+77;How many people are in Boulder;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+78;How many people are in Austin;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+79;How many people are in Austin Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+80;How many people are in California;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+81;How many people are in Chicago;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+82;How many people are in Detroit;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+83;How many people are in Hawaii;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+84;How many people are in Houston;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+85;How many people are in Kalamazoo;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+86;How many people are in Kansas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+87;How many people are in Minneapolis Minnesota;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+88;How many people are in Mississippi;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+89;How many people are in Montana;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+90;How many people are in New Hampshire;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+91;How many people are in New Mexico;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+92;How many people are in New York;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+93;How many people are in Rhode Island;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+94;How many people are in Riverside;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+95;How many people are in San Francisco;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+96;How many people are in South Dakota;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+97;How many people are in Spokane Washington;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+98;How many people are in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+104;How many people are in the United States;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+105;How many people are in Washington;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+106;How many people are in Washington DC;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+107;How many people are in Austin;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+108;How many people are in Utah;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+109;How many people are in Utah;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+110;How many residents are in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+112;How many rivers are in Colorado;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+113;How many rivers are in Colorado;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+114;How many rivers are in Iowa;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+115;How many rivers are in Missouri;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+116;How many rivers are in New York;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+120;How many rivers are in Idaho;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+121;How many rivers are in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+122;How many rivers are in US;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+124;How many rivers are in Alaska;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+125;How many rivers are in Colorado;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+127;How many rivers are in Washington;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+128;How many rivers are in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+130;What is the size of the us;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+131;How many states are in the United States;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+132;How many states are in the USA;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+134;How many states are in the US;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+135;How many states are in the USA;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+136;How many states are in United States;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+158;How many states are in USA;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+166;What is the number of people in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+167;What is the highest elevation of mount mckinley;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+168;What is the highest elevation of montana;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+169;Which state contains mount mckinley;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+171;Which state contains rochester;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+173;What are the states in usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+174;What are the lakes in us;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+175;What are the rivers in colorado;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+176;What are the capitals in the usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+177;Which river has the biggest length in US;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+178;What are the major lakes in michigan;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+179;What are the major rivers in florida;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+180;What are the rivers in arkansas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+181;Which states do not intersect with a state;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+182;What is the number of citizens in Boulder;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+183;What is the number of people in Boulder;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+185;Which state has the smallest elevation and intersects with the mississippi river;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;5;0;0;0
+186;What is the number of people in Boulder;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+187;What is the number of people in Boulder;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+188;Which rivers are in new york;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+189;Which state has sacramento capital;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+190;Which state contains san antonio;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+191;What are the major cities in colorado;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+192;What are the major lakes in the us;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+193;Which state has the biggest size;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+194;Which states intersect with iowa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+195;What cities are in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+197;Which states intersect with the mississippi river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+198;Which states intersect with the mississippi river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+199;What are the rivers in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+200;What are the major rivers in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+201;What are the biggest rivers in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+203;What is the capital of texas;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+206;What are the cities in california;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+211;What are the lakes in states that intersect with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+213;What are the major cities in alabama;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+214;What are the major cities in alaska;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+215;What are the major cities in california;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+216;What are the major cities in delaware;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+217;What are the major cities in kansas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+218;What are the major cities in missouri;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+219;What are the major cities in new mexico;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+220;What are the major cities in new york;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+221;What are the major cities in north carolina;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+222;What are the major cities in ohio;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+223;What are the major cities in oklahoma;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+224;What are the major cities in rhode island;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+226;What are the major cities in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+229;What are the major cities in california;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+231;What are the major cities in the usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+232;What are the major cities in vermont;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+233;What are the major cities in wyoming;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+234;What are the major cities in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+235;What are the major cities in the united states;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+236;What are the major cities in the usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+237;What are the major lakes in united states;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+238;What are the major rivers in ohio;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+239;What are the major rivers in the us;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+240;What are the major cities in illinois;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+241;Which states intersect with michigan;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+243;What is the number of people in Mississippi;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+244;What is the population of each major city in Montana;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+250;What are the populations of the major cities in Texas;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+255;What are the rivers in alaska;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+256;What are the rivers in indiana;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+257;What are the rivers in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+258;What are the rivers in montana;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+259;What are the states in usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+261;Which states intersect with potomac;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+263;What is the number of people in Missouri;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+264;What capital has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+265;What capital has the biggest population in the US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+266;What cities are in pennsylvania;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+267;What are the cities in california;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+268;What cities have the highest number of citizens in Texas;5;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+269;What cities have the highest populations in Texas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+270;What city has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+271;What city has the fewest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+272;What city has the highest number of people;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+273;What city has the highest population density in the United States;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;1
+274;What is capital of iowa;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+276;What is the capital with the highest population;4;1;object;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+277;Which state intersects with california;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+278;What is the size of alaska;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+280;What is the size of california;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+281;What is the size of florida;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+282;What is the size of idaho;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+283;What is the size of maine;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+284;What is the size of maryland;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+285;What is the size of new mexico;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+286;What is the size of ohio;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+287;What is the size of seattle;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+288;What is the size of south carolina;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+289;What is the size of texas;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+294;What is the size of each states;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+295;What is the size of texas;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+296;What is the size of wisconsin;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+297;What is the average population of each state in US;4;2;aggre;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+301;Which capital has the biggest population in the US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+302;Which city has the biggest population in Arizona;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+303;Which city has the biggest population in Georgia;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+304;Which city has the biggest population in Kansas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+305;Which city has the biggest population in Louisiana;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+306;Which city has the biggest population in Nebraska;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+307;Which city has the biggest population in Oregon;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+308;Which city has the biggest population in Texas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+310;Which city has the biggest population in the US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+311;Which city has the biggest population in the USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+312;Which city has the biggest population in USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+313;Which city has the biggest population in Wyoming;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+314;Which river has the biggest size in Illinois;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+315;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+316;Which state has the biggest population in continental US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+317;Which state has the biggest population in the USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+319;What is the capital of california;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+320;What is the capital of colorado;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+321;What is the capital of georgias;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+322;What is the capital of hawaii;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+323;What is the capital of illinois;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+324;What is the capital of indiana;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+325;What is the capital of iowa;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+326;What is the capital of maine;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+327;What is the capital of maryland;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+328;What is the capital of massachusetts;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+329;What is the capital of michigan;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+330;What is the capital of new hampshire;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+331;What is the capital of new jersey;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+332;What is the capital of new york;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+333;What is the capital of north dakota;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+334;What is the capital of ohio;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+335;What is the capital of pennsylvania;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+337;What is the capital of texas;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+338;What is the capital of alabama;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+339;What is the capital of florida;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+342;What is the capital of texas;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+351;What is the capital of utah;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+352;What is the capital of vermont;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+353;What is the capital of washington;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+354;Which city has the biggest population in Texas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+355;Which city has the fewest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+358;What is the population density in texas;3;1;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2
+359;What is the population density in the newyork city;3;1;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2
+360;What is the elevation of death valley;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+361;What is the highest elevation of the usa;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+362;What is the height of mount mckinley;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+364;What is the highest elevation of the usa;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+365;Which area has the highest elevation in Wyoming;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+366;What is the highest elevation of new mexico;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+367;What is the highest elevation of south carolina;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+368;What is the highest elevation of texas;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+369;What is the highest elevation of the united states;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+370;Which mountain has the biggest height in Alaska;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+371;Which mountain has the biggest height in Texas;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+372;Which mountain has the biggest height in the US;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+373;Which mountain has the biggest height in US;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+374;Which area has the highest elevation in Colorado;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+375;Which area has the highest elevation in Delaware;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+377;Which area has the highest elevation in Florida;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+378;Which area has the highest elevation in Iowa;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+379;Which area has the highest elevation in Kansas;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+380;Which area has the highest elevation in Maine;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+381;Which area has the highest elevation in Montana;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+382;Which area has the highest elevation in Nevada;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+383;Which area has the highest elevation in New Mexico;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+384;Which area has the highest elevation in Ohio;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+385;Which area has the highest elevation in Rhode Island;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+387;Which area has the highest elevation in Texas;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+388;Which area has the highest elevation in the USA;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+396;Which area has the highest elevation in the United States;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+397;Which area has the highest elevation in the US;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+398;Which area has the highest elevation in the USA;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+399;Which area has the highest elevation in Virginia;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+400;Which area has the highest elevation in Wyoming;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+403;Which area has the highest elevation in the USA;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+404;Which capital has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+405;Which capital has the biggest population in the USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+407;Which city has the biggest population in Alabama;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+408;Which city has the biggest population in California;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+409;Which city has the biggest population in Michigan;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+410;Which city has the biggest population in Minnesota;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+411;Which city has the biggest population in Missouri;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+412;Which city has the biggest population in Rhode Island;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+415;Which city has the biggest population in Texas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+417;Which city has the biggest population in Wisconsin;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+418;Which city has the biggest population in Kansas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+420;Which river has the biggest size in Washington state;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+421;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+424;Which capital has the biggest population in each state;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+425;Which state has the biggest population in the US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+426;Which state has the biggest population in USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+432;Which state has the fewest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+433;What is the length of the colorado river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+434;What is the length of the colorado river in Texas;3;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+437;What is the length of the mississippi river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+442;Which river has the biggest length;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+443;Which river has the biggest length in New York;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+444;Which river has the biggest length in America;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+445;Which river has the biggest length in California;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+446;Which river has the biggest length in Florida;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+447;Which river has the biggest length in Mississippi;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+448;Which river has the biggest length in New York;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+449;Which river has the biggest length in Pennsylvania;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+450;Which river has the biggest length in Texas;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+456;Which river has the biggest length in the United States;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+457;Which river has the biggest length in the US;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+463;What is the lowest elevation of pennsylvania;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+464;Which area has the lowest elevation in Arkansas;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+465;Which area has the lowest elevation in California;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+466;Which area has the lowest elevation in Louisiana;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+467;Which area has the lowest elevation in Massachusetts;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+468;Which area has the lowest elevation in Mississippi;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+469;Which area has the lowest elevation in Nebraska;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+470;Which area has the lowest elevation in Oregon;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+471;Which area has the lowest elevation in Texas;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+472;Which area has the lowest elevation in California;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+473;Which area has the lowest elevation in Texas;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+474;Which area has the lowest elevation in the United States;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+475;Which area has the lowest elevation in USA;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+476;Which area has the lowest elevation in Wisconsin;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+478;Which area has the lowest elevation in Colorado;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+480;Which area has the lowest elevation in the US;4;1;field;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;1;0;0;0
+481;What are the major cities in montana;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+482;What is the biggest elevation of san francisco;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+483;Which state has the biggest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+484;Which capital has the biggest population in the USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+486;Which city has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+487;Which city has the biggest population in Texas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+488;Which city has the biggest population in Wyoming;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+489;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+490;Which state has the biggest population in the US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+492;Which state has the lowest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+495;What is the population density in maine;3;1;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2
+496;What is the population density in south dakota;3;1;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2
+497;What is the population density in texas;3;1;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2
+502;What is the population density in wyoming;3;1;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2
+503;What is the number of people in Boston;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+504;What is the number of people in Alaska;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+505;What is the number of people in Arizona;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+506;What is the number of people in Atlanta;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+507;What is the number of people in Atlanta GA;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+508;What is the number of people in Austin;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+509;What is the number of people in Austin Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+510;What is the number of people in Boston Massachusetts;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+511;What is the number of people in Boulder;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+512;What is the number of people in California;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+513;What is the number of people in Dallas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+514;What is the number of people in Denver;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+515;What is the number of people in Erie Pennsylvania;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+516;What is the number of people in Hawaii;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+517;What is the number of people in Houston;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+518;What is the number of people in Idaho;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+519;What is the number of people in Illinois;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+520;What is the number of people in Maine;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+521;What is the number of people in Maryland;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+522;What is the number of people in Minnesota;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+523;What is the number of people in Montana;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+524;What is the number of people in New Mexico;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+525;What is the number of people in New York;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+526;What is the number of people in New York City;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+527;What is the number of people in Oregon;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+528;What is the number of people in Portland Maine;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+529;What is the number of people in Rhode Island;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+530;What is the number of people in Sacramento;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+531;What is the number of people in San Antonio;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+532;What is the number of people in Seattle;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+533;What is the number of people in Seattle Washington;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+534;What is the number of people in South Dakota;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+535;What is the number of people in Springfield Missouri;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+536;What is the number of people in Springfield South Dakota;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+537;What is the number of people in Tempe Arizona;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+538;What is the number of people in Texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+545;What is the population of the major cities in Wisconsin;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+550;What is the number of people in Tucson;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+551;What is the number of people in Utah;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+552;What is the number of people in Washington;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+553;What is the number of people in Washington DC;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+554;Which river intersects with ohio;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+555;Which river has the shortest length;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+556;Which river has the shortest length in Alaska;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+557;Which river has the shortest length in Iowa;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+558;Which river has the shortest length in Nebraska;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+559;Which river has the shortest length in Texas;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+560;Which river has the shortest length in the United States;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+561;Which river has the shortest length in the US;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+562;Which river has the shortest length in the USA;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+563;What is the size of california;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+564;What is the size of florida;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+565;What is the size of texas;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+566;What is the size of the capital in Texas;3;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+568;Which city has the fewest population in Alaska;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+569;Which city has the fewest population in Arkansas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+570;Which city has the fewest population in Hawaii;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+572;Which city has the fewest population in the US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+573;Which city has the fewest population in the USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+574;Which city has the fewest population in Washington;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+578;Which state has the smallest size;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+579;Which state has the fewest population in the USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+584;Which state contains the highest elevation;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+585;Which state contains the highest elevation in the United States;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+586;Which state has the biggest size;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+587;Which state has the biggest density in USA;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;1
+588;Which state has the biggest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+589;Which state contains the lowest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+590;Which state has the fewest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+591;Which state has the lowest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+592;Which state has the smallest size;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+593;Which mountain has the biggest height in America;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+594;Which mountain has the biggest height in the United States;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+595;What is the size of area in USA;3;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+596;What is the total length of rivers in the USA;4;2;aggre;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+598;What is the length of the mississippi river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+599;Which major cities are in pennsylvania;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+600;Which major rivers are in illinois;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+601;Which mountains are in alaska;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+602;Which river is in kansas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+603;Which river is in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+605;Which river has the biggest length in the United States;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+606;Which river is in illinois;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+609;Which river is in virginia;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+612;Which rivers are in nevada;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+613;Which rivers are in new mexico;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+614;Which rivers are in oregon;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+616;Which rivers are in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+617;Which rivers are in utah;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+618;Which rivers are in texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+619;Which rivers are not in tennessee;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+620;Which rivers are in colorado;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+621;Which rivers are in missouri;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+626;Which rivers are in arizona;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+627;Which rivers are in austin;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+628;Which rivers are in colorado;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+629;Which rivers are in louisiana;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+630;Which rivers are in maine;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+631;Which rivers are in newyork city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+632;Which rivers are in the state with the lowest elevation in the USA;6;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;5;0;0;0
+634;Which rivers are in west virginia;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+637;Which state intersects with michigan;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+639;Which state intersects with new york;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+644;Which state has the biggest elevation in the US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;3;0;0;0
+646;Which state has the biggest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+647;Which state has no rivers;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+648;Which state has the salem capital;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+649;Which state has the flint city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+652;Which state has the biggest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+653;Which state has the biggest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+654;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+655;Which state has the biggest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+656;Which state has the biggest size;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+659;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+660;Which state has the biggest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+661;Which state has the biggest urban population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+662;Which state has the fewest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+664;Which state has the fewest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+665;Which state has the biggest number of cities;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+666;Which state has the biggest number of major cities;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+667;Which state has the biggest number of major rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+668;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+669;Which state has the biggest number of rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+670;Which state has the biggest number of rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+672;Which state has the smallest size;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+674;Which state has the fewest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+675;Which state has the fewest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+676;Which state has the fewest urban population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+677;Which state has the fewest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+678;Which state contains austin;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+679;Which state contains austin capital;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+680;Which state contains boston;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+681;Which state contains columbus capital;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+682;Which state contains dallas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+683;Which state contains des moines;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+684;Which state contains miami;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+685;Which state contains pittsburgh;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+686;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+687;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+688;Which state has the biggest number of rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+692;Which states intersect with arizona;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+693;Which states intersect with texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+694;Which states intersect with mississippi;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+695;Which states intersect with alaska;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+696;Which states intersect with arkansas;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+697;Which states intersect with delaware;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+698;Which states intersect with florida;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+699;Which states intersect with georgia;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+700;Which states intersect with hawaii;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+701;Which states intersect with indiana;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+702;Which states intersect with kentucky;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+703;Which states intersect with michigan;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+704;Which states intersect with missouri;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+705;Which states intersect with montana;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+706;Which states intersect with new hampshire;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+707;Which states intersect with new jersey;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+708;Which states intersect with ohio;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+709;Which states intersect with rhode island;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+710;Which states intersect with states that intersect with colorado;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+711;Which states intersect with states that intersect with mississippi;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+715;Which states intersect with states that intersect with the mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+716;Which states intersect with states that intersect with the ohio river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+717;Which states intersect with states that intersect with the mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+718;Which states intersect with texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+719;Which states intersect with texas and have a major river;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+720;Which states intersect with the mississippi river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+725;Which states intersect with the state that has the smallest size;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+727;Which states intersect with wisconsin;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+728;Which state has dover capital;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+730;Which states intersect with the colorado river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+731;Which states intersect with the delaware river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+732;Which states intersect with the mississippi river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+733;Which states intersect with the mississippi river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+734;Which states intersect with the missouri river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+735;Which states intersect with the missouri river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+736;Which states intersect with the ohio river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+737;Which states intersect with the ohio river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+738;Which states intersect with the river that have the smallest length;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+740;Which states have the austin city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+741;Which states have austin city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+742;Which states have dallas city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+743;Which states have plano city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+744;Which states have portland city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+745;Which states have rochester city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+746;Which states have salt lake city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+747;Which states do not intersect with a state;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+748;Which states have colorado river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+749;Which states have rivers;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+750;Which states have springfield town;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+752;Which states have the springfield city in the United States;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+753;Which states intersect with maine;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+754;Which states intersect with kentucky;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+755;What city has the biggest population in Texas;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+756;Which city has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+757;Where are mountains;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+758;Where austin is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+759;Where baton rouge is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+760;Where dallas is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+761;Where fort wayne is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+762;Where houston is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0
+763;Where indianapolis is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+764;Where massachusetts is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+765;Where mount whitney is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+766;Where mount whitney is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+767;Where new hampshire is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+768;Where new orleans is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+769;Where portland is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+770;Where san diego is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+771;Where san jose is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+772;Where scotts valley is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+773;Where springfield is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+774;Where the chattahoochee river is located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+775;Where is the mountain with the biggest height in the United States;6;2;location;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;3;0;0;0
+776;Where is the area with the biggest elevation in Hawaii;6;2;location;0;0;0;1;0;0;0;0;0;0;0;0;3;0;1;0;0;0;0;1;0;0;0
+777;Where is the area with the biggest elevation in Montana;6;2;location;0;0;0;1;0;0;0;0;0;0;0;0;3;0;1;0;0;0;0;1;0;0;0
+778;Where is the area with the fewest elevation in Maryland;6;2;location;0;0;0;1;0;0;0;0;0;0;0;0;3;0;1;0;0;0;0;1;0;0;0
+779;Where is the area with the fewest elevation in the US;6;2;location;0;0;0;1;0;0;0;0;0;0;0;0;3;0;1;0;0;0;0;1;0;0;0
+780;Where is the area with the fewest elevation in Iowa;6;2;location;0;0;0;1;0;0;0;0;0;0;0;0;3;0;1;0;0;0;0;1;0;0;0
+781;Where is the area with the biggest population in New Mexico;6;2;location;0;0;0;1;0;0;0;0;0;0;0;0;2;0;1;0;0;1;0;1;0;0;0
+782;Where is the city with the smallest size;3;1;location;0;0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+783;Which capitals are inside the states that intersect with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+784;Which capitals are not major cities;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+785;Which city has the biggest population in California;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+788;Which river has the biggest length in USA;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+790;Which river has the smallest length;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+791;Which state has the smallest size;3;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+792;Which state has the biggest population and intersects with pennsylvania;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;5;0;0;0
+797;Which rivers are in alaska;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+798;What are the rivers that not intersect with usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+799;What are the rivers that not intersect with usa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+800;Which rivers are in alaska;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+806;Which state intersects with kentucky;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+807;Which state intersects with florida;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+808;Which state intersects with hawaii;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+811;Which capital has the smallest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+813;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+814;Which state has the biggest density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+815;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+816;Which state has the biggest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+817;Which state has the biggest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+818;Which state has the biggest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+819;Which state has the biggest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+821;Which state has the biggest density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+822;Which state has the fewest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+824;Which state has the smallest elevation;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+826;Which state has the smallest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+827;Which state has the biggest number of major cities;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+828;Which state has the biggest number of major rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+829;Which state has the biggest number of major rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+830;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+831;Which state has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+832;Which state has the the biggest number of rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+833;Which state has the the biggest number of rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+834;Which state has the red river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+836;Which state has the smallest average urban population;4;2;object;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+837;Which state has the smallest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+838;Which state has the smallest population density;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+839;Which state contains kalamazoo;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+840;Which state contains mount mckinley;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+841;Which state contains denver city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+843;Which state has the smallest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+844;Which states intersect with alabama;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+845;Which states intersect with alabama;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+846;Which states intersect with alaska;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+847;Which states intersect with arizona;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+848;Which states intersect with colorado;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+849;Which states intersect with hawaii;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+850;Which states intersect with illinois;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+851;Which states intersect with iowa;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+852;Which states intersect with kentucky;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+853;Which states intersect with michigan;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+854;Which states intersect with new york;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+855;Which states intersect with no states;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+856;Which states intersect with south dakota;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+857;Which states intersect with states that intersect with the mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+858;Which states intersect with texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+860;Which states intersect with the missouri river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+861;Which states intersect with the state with the smallest size;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+863;Which states intersect with the colorado river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+864;Which states do not intersect with texas;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+865;Which states intersect with the chattahoochee river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+866;Which states intersect with the colorado river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+869;Which states intersect with the mississippi river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+870;Which states intersect with the mississippi river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+871;Which states intersect with the missouri river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+872;Which states intersect with the missouri river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+873;Which states have austin major city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+874;Which states have a river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+875;Which states have austin city;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+879;Which city has the biggest population density in US;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;1
+59;How many cities named austin are in the USA;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+60;How many citizens are in the biggest city in the USA;6;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+68;How many major cities are in states bordering Nebraska;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+69;How many major cities are in states bordering Utah;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+99;What is the population of the biggest city in New York state;4;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;2;0;0;0
+100;What is the population of the capital in Georgia;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+101;What is the population of the capital in Texas;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+102;What is the population of the smallest state bordering Wyoming;5;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;3;0;0;0
+103;What is the population of the state with the largest population density;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;1
+111;How many rivers are called Colorado;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+117;How many rivers are in the state that has the most rivers;5;3;conamount;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+118;How many rivers are in the state with the highest point;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;3;0;0;0
+119;How many rivers are in the state with the largest population;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+123;How many rivers do not traverse the state with the capital Albany;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+126;How many rivers are longer than the Red river in Texas;6;3;conamount;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+129;How many rivers run through the states bordering Colorado;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+133;How many states intersect with major rivers;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+149;How many states do not have rivers;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+165;How many states does the shortest river run through in the US;6;2;conamount;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+159;How many states have a city called Rochester;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+160;How many states have a city named Springfield;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+161;How many states have a higher point than the highest point of the state with the largest capital city in the US;8;4;conamount;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;1;0;5;0;0;0
+162;How many states have cities named Austin;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+163;How many states have cities or towns named Springfield;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+164;How many states have major rivers;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+137;How many states intersect with alaska;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+138;How many states intersect with at least one other state;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+139;How many states intersect with Colorado and border New Mexico;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+153;How many states intersect with colorado river;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+154;How many states intersect with colorado river;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+140;How many states intersect with hawaii;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+141;How many states intersect with iowa;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+150;How many states intersect with iowa;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+172;How many states intersect with iowa;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+151;How many states intersect with missouri;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+157;How many states intersect with missouri;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+142;How many states intersect with the state whose capital is Boston;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+143;How many states intersect with tennessee;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+152;How many states intersect with tennessee;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+144;How many states intersect with texas;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+145;How many states intersect with the largest state;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+146;How many states intersect with the mississippi river;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+155;How many states intersect with the mississippi river;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+156;How many states intersect with the mississippi river;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+147;How many states intersect with the state that borders the most states;5;3;conamount;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+148;How many states intersect with the state with the largest population;4;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+204;What are the capitals of the states that intersect with missouri;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+205;What are the capitals of the states that intersect with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+202;What are the capitals of the states which intersect with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+207;What are the cities in states that intersect with mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+208;What are the cities of the state with the highest point;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;4;0;0;0
+1;What are the high points of states surrounding Mississippi;5;2;field;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;3;0;0;0
+212;What are the largest cities in the states that border the largest state;8;4;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;6;0;0;0
+225;What are the major cities in states through which the Mississippi runs;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+227;What are the major cities in the largest state;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+228;What are the major cities in the smallest state in the US;6;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;5;0;0;0
+230;What are the major cities in the states through which the major river in Virginia runs;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0
+242;What are the population densities of each state in US;4;1;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;1
+245;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+246;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+247;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+248;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+251;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+252;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+253;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+254;What are the populations of states that intersect with mississippi river;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+249;What are the populations of states that intersect with texas;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+260;What are the states that intersect with the state with the greatest population;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+275;What is capital of the state with the lowest point;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;3;0;0;0
+298;What is the average population per 1 square km in Pennsylvania;4;1;aggre;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+299;What is the average population per 1 square km in the US;4;1;aggre;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+300;What is the biggest city in a state with a river in the US;8;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;7;0;0;0
+318;What is the capital city of the largest state in the US;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+336;What is the capital of states that contain durham;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+340;What is the capital of the largest state;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+341;What is the capital of the smallest state;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+343;What is the capital of the state that intersects with the most states;5;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+344;What is the capital of the state that intersects with the state that intersects texas;5;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+345;What is the capital of the state with the highest elevation;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;3;0;0;0
+346;What is the capital of the state with the highest elevation;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;3;0;0;0
+347;What is the capital of the state with the largest population;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+348;What is the capital of the state with the largest population density;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;1
+349;What is the capital of the state with the longest river;6;3;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+350;What is the capital of the state with the most inhabitants;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+356;What is the combined area size of all 50 states;3;1;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+357;What is the combined population of all 50 states;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0
+363;What is the height of the highest mountain in Texas;5;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;3;0;0;0
+28;What is the highest elevation of the largest state;5;2;field;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;0;2;0;0;0
+39;What is the length of the longest river in California;4;1;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+40;What is the length of the longest river in the USA;4;1;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+438;What is the length of the river that intersects with the most states;5;3;covamount;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+439;What is the length of the river that intersects with the most states;5;3;covamount;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+440;What is the length of the river that intersects with the most states;5;3;covamount;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+441;What is the length of the river that intersects with the most states;5;3;covamount;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+436;What is the length of the river with the biggest length in Texas;4;1;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+435;What is the length of the river with the biggest length in the USA;4;1;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+48;What is the length of the shortest river in the USA;4;1;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+209;What is the location of highest elevation in each state;4;2;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;1;0;0;0
+210;What is the location of highest elevation in each state that intersect with mississippi;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+184;How many states intersect with iowa;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+493;How many states intersect with kentucky;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+6;How many states have elevations lower than what Alabama has;7;4;conamount;0;0;0;0;1;0;0;0;0;0;0;0;3;0;0;0;0;0;0;3;0;0;0
+498;What is the population density in the largest state;4;2;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;1
+499;What is the population density in the smallest state;4;2;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;1
+494;What is the population density in the state with capital austin;4;2;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;1
+501;What is the population density in the state with the smallest population;4;2;proportion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;1
+500;What is the population density in the state with the smallest size;4;2;proportion;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+786;What is the population density of the state that intersects with the river that has the longest length in the United States;7;3;proportion;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;1
+539;What is the population of the capital of the largest state;6;3;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;4;0;0;0
+540;What is the population of the capital of the largest state through which the mississippi runs;8;4;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;6;0;0;0
+541;What is the population of the capital of the smallest state;6;3;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;4;0;0;0
+542;What is the population of the largest city in the state with the largest area;7;3;objconamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;4;0;0;0
+544;What is the population of the largest state that borders Texas;5;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;3;0;0;0
+546;What is the population of the smallest state;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0
+547;What is the population of the state that borders the most states;5;3;objconamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+543;What is the population of the largest state;3;1;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0
+548;What is the population of the state with the highest population density;4;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;1
+549;What is the population of the state with the largest size;4;2;objconamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+290;What is the size of the biggest state;4;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+35;What is the size of the largest city in Alaska;5;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+567;What is the size of the largest state in the USA;5;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+291;What is the size of the smallest state;4;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+292;What is the size of the state that contains the capital Albany;4;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+293;What is the size of the state with the fewest population density;4;2;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1
+597;What is the total population of the states that border Texas;5;2;objconamount;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;3;0;0;0
+279;What is the total size of the states;3;1;covamount;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+789;Where is the area with the lowest elevation and inside the states that intersect with mississippi river;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+376;Which area has the highest elevation in each state whose lowest point is sea level;7;4;location;0;0;0;0;0;1;0;0;0;0;0;0;3;0;1;0;0;0;0;2;0;0;0
+386;Which area has the highest elevation in states that intersect with georgia;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+389;Which area has the highest elevation in the smallest state;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;1;0;2;0;0;0
+390;Which area has the highest elevation in the state with capital Austin;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+391;Which area has the highest elevation in the state with capital Des Moines;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+392;Which area has the highest elevation in the state with capital Des Moines;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+393;Which area has the highest elevation in the state with the most rivers;7;4;location;0;0;0;0;1;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+394;Which area has the highest elevation in the state with the smallest population;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;1;0;2;0;0;0
+395;Which area has the highest elevation in the states that intersect with colorado;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+401;Which area has the highest elevation of the state with the largest area;6;3;location;0;0;0;0;0;1;0;0;0;0;0;0;2;0;1;0;0;0;0;2;0;0;0
+402;Which area has the highest elevation of the state with the smallest population density;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;2;0;0;1
+477;Which area has the lowest elevation in states intersect with the colorado river;6;3;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;3;0;0;0
+479;Which area has the lowest elevation in the state with the largest size;6;3;location;0;0;0;0;0;1;0;0;0;0;0;0;2;0;1;0;0;0;0;2;0;0;0
+406;Which city has the biggest population in a state that intersects with texas;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;6;0;0;0
+413;Which city has the biggest population in smallest state that intersects with mississippi river;8;4;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;7;0;0;0
+414;Which city has the biggest population in states that intersects with california;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;6;0;0;0
+309;Which city has the biggest population in the smallest state;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;5;0;0;0
+416;Which city has the biggest population in the smallest state in the USA;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;6;0;0;0
+571;Which city has the fewest population in the largest state;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;5;0;0;0
+575;Which city has the fewest population of the smallest state in the US;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;6;0;0;0
+787;Which peak has the biggest elevation and outside of alaska;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;4;0;0;0
+458;Which river has the biggest length and not in Texas;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+459;Which river has the biggest length in a state that intersects with indiana;7;3;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+462;Which river has the biggest length in a state that intersects with tennessee;7;3;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+460;Which river has the biggest length in Colorado;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+451;Which river has the biggest length in the largest state;7;3;object;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+452;Which river has the biggest length in the smallest state in the USA;8;3;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;6;0;0;0
+453;Which river has the biggest length in the state with the highest point;7;3;object;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;5;0;0;0
+454;Which river has the biggest length in the state with the most major cities;8;4;object;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+455;Which river has the biggest length in the states that intersects with nebraska;7;3;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+461;Which river has the biggest length and passes the states that border the state that borders the most states;9;5;object;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0
+607;Which river intersects with biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+610;Which river intersects with biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+604;Which river intersects with the biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+793;Which river intersects with the biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+794;Which river intersects with the biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+795;Which river intersects with the biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+796;Which river intersects with the biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+611;Which river intersects with the state that intersects with the most states;6;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+608;Which river intersects with the state with the most cities;6;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+622;Which rivers are in states that intersect with alabama;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+615;Which rivers are in states that intersect with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+623;Which rivers are in states that intersect with the state with the largest population;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;6;0;0;0
+635;Which rivers are in the state that borders the most states;6;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+624;Which rivers are in the state with the biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+625;Which rivers are in the state with the biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+633;Which rivers are in the states that intersects with the state with the capital Atlanta;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0
+803;Which rivers intersect with states that have the fewest number of cities;6;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+801;Which rivers intersect with states that intersect with new mexico;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+802;Which rivers intersect with states that intersect with the state that contains austin captial;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+804;Which rivers intersect with the state with the biggest city in the US;8;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;7;0;0;0
+805;Which rivers intersect with the state with the lowest elevation in the USA;6;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;5;0;0;0
+812;Which state contains the biggest number of rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+170;Which state contains the highest point in USA;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0
+645;Which state has the biggest elevation of those the Colorado river traverses;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;4;0;0;0
+422;Which state has the biggest population and intersects with arkansas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+427;Which state has the biggest population and intersects with california;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+491;Which state has the biggest population and intersects with mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+636;Which state has the biggest population and intersects with nevada;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+485;Which state has the biggest population and intersects with oklahoma;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+419;Which state has the biggest population and intersects with rio grande river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+423;Which state has the biggest population and intersects with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+428;Which state has the biggest population and intersects with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+689;Which state has the biggest population and intersects with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+690;Which state has the biggest population and intersects with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+431;Which state has the biggest population and intersects with the mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+691;Which state has the biggest population and intersects with the mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+429;Which state has the biggest population and intersects with the state with the biggest population;5;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+430;Which state has the biggest population and intersects with the state with the lowest point in the USA;7;3;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;5;0;0;0
+862;Which state has the capital with biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+657;Which state has the capital with the biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+673;Which state has the capital with the fewest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+650;Which state has the city with the biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+651;Which state has the city with the biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+658;Which state has the city with the biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+820;Which state has the city with the biggest population;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+842;Which state has the city with the biggest population in Montana;6;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;5;0;0;0
+576;Which state has the fewest population and intersects with ohio;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+580;Which state has the fewest population and intersects with texas;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+582;Which state has the fewest population and intersects with the mississippi river;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+581;Which state has the fewest population and intersects with the most states;6;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+583;Which state has the fewest population and intersects with the the longest river;7;3;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;5;0;0;0
+577;Which state has the fewest population and intersects with wyoming;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+825;Which state has the lowest elevation and intersects with Idaho;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;4;0;0;0
+663;Which state has the river with the biggest length;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+823;Which state has the river with the biggest length;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+671;Which state has the river with the shortest length;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+835;Which state has the smallest size and intersects with texas;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+638;Which state intersects with most other states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+809;Which state intersects with the biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+810;Which state intersects with the biggest number of states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+640;Which state intersects with the least states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+641;Which state intersects with the least states excluding Alaska and excluding Hawaii;5;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+642;Which state intersects with the most states;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+643;Which state intersects with the state with the smallest population;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+751;Which state 's high point is higher than that of Colorado;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;3;0;0;0
+729;Which states contain at least 1 major rivers;4;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+739;Which states have a capital that has the biggest elevation in the state;7;4;object;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;4;0;0;0
+876;Which states have elevation bigger than the biggest elevation in colorado;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;3;0;0;0
+877;Which states have elevation bigger than the biggest elevation in texas;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;3;0;0;0
+712;Which states intersect with states that intersect with states that intersect with florida;5;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+713;Which states intersect with states that intersect with states that intersect with states that intersect with texas;6;4;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+714;Which states intersect with states that intersect with the state with the largest population;5;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+262;Which states intersect with the longest river;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+859;Which states intersect with the river that has the biggest length in the USA;6;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+867;Which states intersect with the river with the biggest length;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+868;Which states intersect with the river with the biggest length;5;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+196;Which states intersect with the river with the biggest length in Texas;6;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+878;Which states intersect with the river with the biggest length in the United States;6;2;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+723;Which states intersect with the state that has the biggest number of cities;5;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+724;Which states intersect with the state that has the biggest number of major cities;5;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+721;Which states intersect with the state that has the biggest population;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+722;Which states intersect with the state that intersects with the biggest number of states;5;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+726;Which states intersect with the states that have the biggest number of cities;5;3;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0

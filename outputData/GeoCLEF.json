@@ -1,0 +1,4412 @@
+[
+    {
+        "id": "1",
+        "qParsed": {
+            "question": "Shark attacks near Australia and California",
+            "cleaned_Question": "Shark attacks near Australia and California",
+            "placename": [
+                "Australia",
+                "California"
+            ],
+            "event": [
+                "shark attacks"
+            ],
+            "ner_Question": "event0 near placename0 and placename1",
+            "parseTreeStr": "(start (measure (coreC event 0)) near (extent placename 0) and (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "shark attacks"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Australia"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "California"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "shark attacks"
+                    }
+                ],
+                "extent": [
+                    "1",
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the shark attacks in australia and california",
+            "cleaned_Question": "What are shark attacks in australia and california",
+            "placename": [],
+            "object": [
+                "australia",
+                "california"
+            ],
+            "event": [
+                "shark attacks"
+            ],
+            "ner_Question": "what are event0 in object0 and object1",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))) and (condition (coreC object 1)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "california"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "australia"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "shark attacks"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "shark attacks"
+                    },
+                    {
+                        "type": "event",
+                        "id": "4",
+                        "keyword": "shark attacks"
+                    },
+                    {
+                        "type": "event",
+                        "id": "5",
+                        "keyword": "shark attacks"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "2",
+        "qParsed": {
+            "question": "Vegetable exporters in Europe",
+            "cleaned_Question": "Vegetable exporters in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "object": [
+                "vegetable exporters"
+            ],
+            "ner_Question": "object0 in placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "vegetable exporters"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "vegetable exporters"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the vegetable exporters in europe",
+            "cleaned_Question": "What are vegetable exporters in europe",
+            "placename": [],
+            "object": [
+                "vegetable exporters",
+                "europe"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "vegetable exporters"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "vegetable exporters"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "3",
+        "qParsed": {
+            "question": "Amnesty International human rights reports in Latin America",
+            "cleaned_Question": "Amnesty International human rights reports in Latin America",
+            "placename": [
+                "Latin America"
+            ],
+            "object": [
+                "amnesty international human rights reports"
+            ],
+            "ner_Question": "object0 in placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "amnesty international human rights reports"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Latin America"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "amnesty international human rights reports"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the Amnesty International human rights reports in latin america",
+            "cleaned_Question": "What are Amnesty International human rights reports in latin america",
+            "placename": [],
+            "object": [
+                "amnesty international human rights reports",
+                "latin america",
+                "america"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "latin america"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "amnesty international human rights reports"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "amnesty international human rights reports"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "4",
+        "qParsed": {
+            "question": "Animal rights actions against the fur industry in Europe and the United States",
+            "cleaned_Question": "Animal rights actions against fur industry in Europe and United States",
+            "placename": [
+                "Europe",
+                "United States"
+            ],
+            "event": [
+                "animal rights actions against fur industry"
+            ],
+            "ner_Question": "event0 in placename0 and placename1",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0) and (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "animal rights actions against fur industry"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "United States"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "animal rights actions against fur industry"
+                    }
+                ],
+                "extent": [
+                    "1",
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the animal rights actions against the fur industry in europe and the united states",
+            "cleaned_Question": "What are animal rights actions against fur industry in europe and united states",
+            "placename": [],
+            "object": [
+                "europe",
+                "united states",
+                "states"
+            ],
+            "event": [
+                "animal rights actions against fur industry"
+            ],
+            "ner_Question": "what are event0 in object0 and object1",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))) and (condition (coreC object 1)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "united states"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "europe"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "animal rights actions against fur industry"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "animal rights actions against fur industry"
+                    },
+                    {
+                        "type": "event",
+                        "id": "4",
+                        "keyword": "animal rights actions against fur industry"
+                    },
+                    {
+                        "type": "event",
+                        "id": "5",
+                        "keyword": "animal rights actions against fur industry"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "5",
+        "qParsed": {
+            "question": "Rice imports in Japan",
+            "cleaned_Question": "Rice imports in Japan",
+            "placename": [
+                "Japan"
+            ],
+            "event": [
+                "rice imports"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "rice imports"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Japan"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "rice imports"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What is the volume of rice imports in Japan",
+            "cleaned_Question": "What is volume of rice imports in Japan",
+            "placename": [
+                "Japan"
+            ],
+            "event": [
+                "rice imports"
+            ],
+            "conamount": [
+                "volume"
+            ],
+            "ner_Question": "what is conamount0 era of event0 in placename0",
+            "parseTreeStr": "(start what is (measure (coreC conamount 0 era) of (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "rice imports"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "1",
+                        "keyword": "volume",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Japan"
+                    }
+                ],
+                "extent": [
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ],
+                        "key": "2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "6",
+        "qParsed": {
+            "question": "Oil accidents in Europe",
+            "cleaned_Question": "Oil accidents in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "event": [
+                "oil accidents"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "oil accidents"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Europe"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "oil accidents"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the oil accidents in europe",
+            "cleaned_Question": "What are oil accidents in europe",
+            "placename": [
+                "europe"
+            ],
+            "event": [
+                "oil accidents"
+            ],
+            "ner_Question": "what are event0 in placename0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "oil accidents"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "europe"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "oil accidents"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "7",
+        "qParsed": {
+            "question": "Trade unions in Europe",
+            "cleaned_Question": "Trade unions in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "object": [
+                "trade unions"
+            ],
+            "ner_Question": "object0 in placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "trade unions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "trade unions"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the trade unions in europe",
+            "cleaned_Question": "What are trade unions in europe",
+            "placename": [],
+            "object": [
+                "trade unions",
+                "europe"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "trade unions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "trade unions"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "8",
+        "qParsed": {
+            "question": "Milk consumption in Europe",
+            "cleaned_Question": "Milk consumption in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "conamount": [
+                "milk consumption"
+            ],
+            "ner_Question": "conamount0 era in placename0",
+            "parseTreeStr": "(start (measure (coreC conamount 0 era)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "conamount",
+                        "id": "0",
+                        "keyword": "milk consumption",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Europe"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "0"
+                        ],
+                        "key": "1"
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What is the milk consumption per europe",
+            "cleaned_Question": "What is milk consumption per europe",
+            "placename": [],
+            "object": [
+                "europe"
+            ],
+            "conamount": [
+                "milk consumption"
+            ],
+            "ner_Question": "what is conamount0 era per object0",
+            "parseTreeStr": "(start what is (measure (coreC conamount 0 era)) per (support (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "europe"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "1",
+                        "keyword": "milk consumption",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "milk consumption",
+                        "measureLevel": "era"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+                        "key": "0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "9",
+        "qParsed": {
+            "question": "Child labor in Asia",
+            "cleaned_Question": "Child labor in Asia",
+            "placename": [
+                "Asia"
+            ],
+            "ner_Question": "child labor in placename0",
+            "parseTreeStr": "(start or in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What is the number of working children in Asia",
+            "cleaned_Question": "What is number of working children in Asia",
+            "placename": [
+                "Asia"
+            ],
+            "object": [
+                "working children"
+            ],
+            "conamount": [
+                "number"
+            ],
+            "ner_Question": "what is conamount0 count of object0 in placename0",
+            "parseTreeStr": "(start what is (measure (coreC conamount 0 count) of (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "working children"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "1",
+                        "keyword": "number",
+                        "measureLevel": "count"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Asia"
+                    }
+                ],
+                "extent": [
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ],
+                        "key": "2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "10",
+        "qParsed": {
+            "question": "Floods, flooding in Holland and Germany",
+            "cleaned_Question": "Floods , flooding in Holland and Germany",
+            "placename": [
+                "Holland",
+                "Germany"
+            ],
+            "event": [
+                "floods"
+            ],
+            "ner_Question": "event0 , flooding in placename0 and placename1",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0) and (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "floods"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Holland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Germany"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "floods"
+                    }
+                ],
+                "extent": [
+                    "1",
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the floods in holland and germany",
+            "cleaned_Question": "What are floods in holland and germany",
+            "placename": [],
+            "object": [
+                "holland",
+                "germany"
+            ],
+            "event": [
+                "floods"
+            ],
+            "ner_Question": "what are event0 in object0 and object1",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))) and (condition (coreC object 1)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "germany"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "holland"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "floods"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "floods"
+                    },
+                    {
+                        "type": "event",
+                        "id": "4",
+                        "keyword": "floods"
+                    },
+                    {
+                        "type": "event",
+                        "id": "5",
+                        "keyword": "floods"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "11",
+        "qParsed": {
+            "question": "Roman cities in the UK and Germany",
+            "cleaned_Question": "Roman cities in UK and Germany",
+            "placename": [
+                "UK",
+                "Germany"
+            ],
+            "object": [
+                "roman cities"
+            ],
+            "ner_Question": "object0 in placename0 and placename1",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0) and (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "roman cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "UK"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Germany"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "roman cities"
+                    }
+                ],
+                "extent": [
+                    "1",
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the Roman cities in the uk and germany",
+            "cleaned_Question": "What are Roman cities in uk and germany",
+            "placename": [],
+            "object": [
+                "roman cities",
+                "uk",
+                "germany"
+            ],
+            "ner_Question": "what are object0 in object1 and object2",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))) and (condition (coreC object 2)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "germany"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "uk"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "roman cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "roman cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "roman cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "roman cities"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "12",
+        "qParsed": {
+            "question": "Cathedrals in Europe",
+            "cleaned_Question": "Cathedrals in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "object": [
+                "cathedrals"
+            ],
+            "ner_Question": "object0 in placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cathedrals"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cathedrals"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the cathedrals in europe",
+            "cleaned_Question": "What are cathedrals in europe",
+            "placename": [],
+            "object": [
+                "cathedrals",
+                "europe"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "cathedrals"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cathedrals"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "13",
+        "qParsed": {
+            "question": "Visits of American President in Germany",
+            "cleaned_Question": "Visits of American President in Germany",
+            "placename": [
+                "Germany"
+            ],
+            "event": [
+                "visits"
+            ],
+            "ner_Question": "event0 of american president in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) of in placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "visits"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "visits"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the american presidents` visits in germany",
+            "cleaned_Question": "What are american presidents ` visits in germany",
+            "placename": [
+                "`"
+            ],
+            "object": [
+                "germany"
+            ],
+            "event": [
+                "visits"
+            ],
+            "ner_Question": "what are american presidents placename0 event0 in object0",
+            "parseTreeStr": "(start what are placename (measure 0 (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "germany"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "visits"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "visits"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "14",
+        "qParsed": {
+            "question": "Environmentally hazardous incidents in or around North Sea",
+            "cleaned_Question": "Environmentally hazardous incidents in or around North Sea",
+            "placename": [
+                "North Sea"
+            ],
+            "event": [
+                "environmentally hazardous incidents"
+            ],
+            "ner_Question": "event0 in or around placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in or placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "environmentally hazardous incidents"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "environmentally hazardous incidents"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the environmentally hazardous incidents in north sea and nearest to north sea",
+            "cleaned_Question": "What are environmentally hazardous incidents in north sea and nearest to north sea",
+            "placename": [],
+            "object": [
+                "north sea",
+                "north sea"
+            ],
+            "event": [
+                "environmentally hazardous incidents"
+            ],
+            "ner_Question": "what are event0 in object0 and nearest to object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))) and (condition (distanceR nearest to) (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "north sea"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "north sea"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "environmentally hazardous incidents"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "environmentally hazardous incidents"
+                    },
+                    {
+                        "type": "event",
+                        "id": "4",
+                        "keyword": "environmentally hazardous incidents"
+                    },
+                    {
+                        "type": "event",
+                        "id": "5",
+                        "keyword": "environmentally hazardous incidents"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "15",
+        "qParsed": {
+            "question": "Genocide in Rwanda",
+            "cleaned_Question": "Genocide in Rwanda",
+            "placename": [
+                "Rwanda"
+            ],
+            "ner_Question": "genocide in placename0",
+            "parseTreeStr": "(start no in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What are the genocide occurences in rwanda",
+            "cleaned_Question": "What are genocide occurences in rwanda",
+            "placename": [],
+            "object": [
+                "rwanda"
+            ],
+            "event": [
+                "genocide occurences"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "rwanda"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "genocide occurences"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "genocide occurences"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "16",
+        "qParsed": {
+            "question": "Oil prospecting and ecological problems in Siberia and near the Caspian Sea",
+            "cleaned_Question": "Oil prospecting and ecological problems in Siberia and near Caspian Sea",
+            "placename": [
+                "Siberia",
+                "Caspian Sea"
+            ],
+            "object": [
+                "oil prospecting and ecological problems"
+            ],
+            "ner_Question": "object0 in placename0 and near placename1",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0) and near (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "oil prospecting and ecological problems"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Siberia"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Caspian Sea"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "oil prospecting and ecological problems"
+                    }
+                ],
+                "extent": [
+                    "1",
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the oil prospecting and ecological problems in siberia and the caspian sea",
+            "cleaned_Question": "What are oil prospecting and ecological problems in siberia and caspian sea",
+            "placename": [],
+            "object": [
+                "siberia",
+                "caspian sea",
+                "oil prospecting and ecological problems"
+            ],
+            "ner_Question": "what are object2 in object0 and object1",
+            "parseTreeStr": "(start what are (measure (coreC object 2)) (condition (topoRIn in (coreC object 0))) and (condition (coreC object 1)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "caspian sea"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "siberia"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "oil prospecting and ecological problems"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "oil prospecting and ecological problems"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "oil prospecting and ecological problems"
+                    },
+                    {
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "oil prospecting and ecological problems"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "17",
+        "qParsed": {
+            "question": "American troops in Sarajevo, Bosnia-Herzegovina",
+            "cleaned_Question": "American troops in Sarajevo , Bosnia Herzegovina",
+            "placename": [
+                "Sarajevo",
+                "Bosnia Herzegovina"
+            ],
+            "object": [
+                "american troops"
+            ],
+            "ner_Question": "object0 in placename0 , placename1",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0) (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "american troops"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Sarajevo"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Bosnia Herzegovina"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "american troops"
+                    }
+                ],
+                "extent": [
+                    "1",
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Where are american troops in Sarajevo, Bosnia-Herzegovina",
+            "cleaned_Question": "Where are american troops in Sarajevo , Bosnia Herzegovina",
+            "placename": [
+                "Sarajevo",
+                "Bosnia Herzegovina"
+            ],
+            "object": [
+                "american troops"
+            ],
+            "ner_Question": "where are object0 in placename0 , placename1",
+            "parseTreeStr": "(start (measure (location where are (coreC object 0))) in (extent placename 0) (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "american troops"
+                    },
+                    {
+                        "type": "location",
+                        "id": "1",
+                        "keyword": ""
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Sarajevo"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Bosnia Herzegovina"
+                    }
+                ],
+                "extent": [
+                    "2",
+                    "3"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "18",
+        "qParsed": {
+            "question": "Walking holidays in Scotland",
+            "cleaned_Question": "Walking holidays in Scotland",
+            "placename": [
+                "Scotland"
+            ],
+            "ner_Question": "walking holidays in placename0",
+            "parseTreeStr": "(start in in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What are the walking holiday regions in scotland",
+            "cleaned_Question": "What are walking holiday regions in scotland",
+            "placename": [],
+            "object": [
+                "scotland",
+                "walking holiday regions"
+            ],
+            "ner_Question": "what are object1 in object0",
+            "parseTreeStr": "(start what are (measure (coreC object 1)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "scotland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "walking holiday regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "walking holiday regions"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "19",
+        "qParsed": {
+            "question": "Golf tournaments in Europe",
+            "cleaned_Question": "Golf tournaments in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "event": [
+                "golf tournaments"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "golf tournaments"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Europe"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "golf tournaments"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the golf tournaments in europe",
+            "cleaned_Question": "What are golf tournaments in europe",
+            "placename": [],
+            "object": [
+                "europe"
+            ],
+            "event": [
+                "golf tournaments"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "europe"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "golf tournaments"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "golf tournaments"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "20",
+        "qParsed": {
+            "question": "Wind power in the Scottish Islands",
+            "cleaned_Question": "Wind power in Scottish Islands",
+            "placename": [
+                "Scottish Islands"
+            ],
+            "ner_Question": "wind power in placename0",
+            "parseTreeStr": "(start in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What are the wind power regions in the scottish islands",
+            "cleaned_Question": "What are wind power regions in scottish islands",
+            "placename": [],
+            "object": [
+                "wind power regions",
+                "scottish islands"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "scottish islands"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "wind power regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "wind power regions"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "21",
+        "qParsed": {
+            "question": "Sea rescue in North Sea",
+            "cleaned_Question": "Sea rescue in North Sea",
+            "placename": [
+                "North Sea"
+            ],
+            "event": [
+                "sea rescue"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "sea rescue"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "North Sea"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "sea rescue"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the sea rescues in north sea",
+            "cleaned_Question": "What are sea rescues in north sea",
+            "placename": [],
+            "object": [
+                "north sea"
+            ],
+            "event": [
+                "sea rescues"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "north sea"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "sea rescues"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "sea rescues"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "22",
+        "qParsed": {
+            "question": "Restored buildings south of Scotland",
+            "cleaned_Question": "Restored buildings south of Scotland",
+            "placename": [
+                "Scotland"
+            ],
+            "object": [
+                "buildings"
+            ],
+            "ner_Question": "restored object0 south of placename0",
+            "parseTreeStr": "(start to (measure (coreC object 0) of (origin (objectC placename 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "placename",
+                        "id": "0",
+                        "keyword": "Scotland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "buildings"
+                    }
+                ],
+                "transformations": []
+            }
+        },
+        "rqParsed": {
+            "question": "What are the restored buildings in southern scotland",
+            "cleaned_Question": "What are restored buildings in southern scotland",
+            "placename": [],
+            "object": [
+                "buildings",
+                "southern scotland"
+            ],
+            "ner_Question": "what are restored object0 in object1",
+            "parseTreeStr": "(start what are to (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "southern scotland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "buildings"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "buildings"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "23",
+        "qParsed": {
+            "question": "Murders and violence South-West of Scotland",
+            "cleaned_Question": "Murders and violence South West of Scotland",
+            "placename": [
+                "South West of Scotland"
+            ],
+            "event": [
+                "murders and violence"
+            ],
+            "ner_Question": "event0 placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "murders and violence"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "South West of Scotland"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "murders and violence"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the murders and violence in southwestern scotland",
+            "cleaned_Question": "What are murders and violence in southwestern scotland",
+            "placename": [],
+            "object": [
+                "southwestern scotland"
+            ],
+            "event": [
+                "murders and violence"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "southwestern scotland"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "murders and violence"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "murders and violence"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "24",
+        "qParsed": {
+            "question": "Influences on tourist industry in Scottish Highlands",
+            "cleaned_Question": "Influences on tourist industry in Scottish Highlands",
+            "placename": [
+                "Scottish Highlands"
+            ],
+            "ner_Question": "influences on tourist industry in placename0",
+            "parseTreeStr": "(start in on to in in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What are the tourist industry influences in scottish highlands",
+            "cleaned_Question": "What are tourist industry influences in scottish highlands",
+            "placename": [],
+            "object": [
+                "tourist industry influences",
+                "scottish highlands"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "scottish highlands"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "tourist industry influences"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "tourist industry influences"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "25",
+        "qParsed": {
+            "question": "Environmental concerns in and around the Scottish Trossachs",
+            "cleaned_Question": "Environmental concerns in and around Scottish Trossachs",
+            "placename": [
+                "Scottish Trossachs"
+            ],
+            "object": [
+                "environmental concerns"
+            ],
+            "ner_Question": "object0 in and around placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in and placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "environmental concerns"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "environmental concerns"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the environmental concerns in scottish trossachs and nearest to scottish trossachs",
+            "cleaned_Question": "What are environmental concerns in scottish trossachs and nearest to scottish trossachs",
+            "placename": [],
+            "object": [
+                "environmental concerns",
+                "scottish trossachs"
+            ],
+            "ner_Question": "what are object0 in object1 and nearest to object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))) and (condition (distanceR nearest to) (coreC object 1)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "scottish trossachs"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "scottish trossachs"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "environmental concerns"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "environmental concerns"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "environmental concerns"
+                    },
+                    {
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "environmental concerns"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "26",
+        "qParsed": {
+            "question": "Wine regions around rivers in Europe",
+            "cleaned_Question": "Wine regions around rivers in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "object": [
+                "wine regions",
+                "rivers"
+            ],
+            "ner_Question": "object0 around object1 in placename0",
+            "parseTreeStr": "(start (measure (coreC object 0) (coreC object 1)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "rivers"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "wine regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Europe"
+                    }
+                ],
+                "extent": [
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the wine regions nearest to rivers in Europe",
+            "cleaned_Question": "What are wine regions nearest to rivers in Europe",
+            "placename": [
+                "Europe"
+            ],
+            "object": [
+                "wine regions",
+                "rivers"
+            ],
+            "ner_Question": "what are object0 nearest to object1 in placename0",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (distanceR nearest to) (coreC object 1)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "rivers"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "wine regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Europe"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "wine regions"
+                    }
+                ],
+                "extent": [
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "27",
+        "qParsed": {
+            "question": "Cities within 100km of Frankfurt",
+            "cleaned_Question": "Cities within 100 km of Frankfurt",
+            "placename": [
+                "Frankfurt"
+            ],
+            "quantity": [
+                "100 km"
+            ],
+            "object": [
+                "cities"
+            ],
+            "ner_Question": "object0 within equantity0 of placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) within equantity 0 of placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "cities"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the cities within 100 km from frankfurt",
+            "cleaned_Question": "What are cities within 100 km from frankfurt",
+            "placename": [],
+            "quantity": [
+                "100 km"
+            ],
+            "object": [
+                "cities",
+                "frankfurt"
+            ],
+            "ner_Question": "what are object0 within equantity0 from object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (boolField (topoR within) (distField (quantity equantity 0) from (coreC object 1)))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "frankfurt"
+                    },
+                    {
+                        "type": "distfield",
+                        "id": "1",
+                        "keyword": ""
+                    },
+                    {
+                        "type": "boolfield",
+                        "id": "2",
+                        "keyword": ""
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "cities"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "2"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "28",
+        "qParsed": {
+            "question": "Snowstorms in North America",
+            "cleaned_Question": "Snowstorms in North America",
+            "placename": [
+                "North America"
+            ],
+            "event": [
+                "snowstorms"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "snowstorms"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "North America"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "snowstorms"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the snowstorms in north america",
+            "cleaned_Question": "What are snowstorms in north america",
+            "placename": [],
+            "object": [
+                "north america",
+                "america"
+            ],
+            "event": [
+                "snowstorms"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "north america"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "snowstorms"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "snowstorms"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "29",
+        "qParsed": {
+            "question": "Diamond trade in Angola and South Africa",
+            "cleaned_Question": "Diamond trade in Angola and South Africa",
+            "placename": [
+                "Angola",
+                "South Africa"
+            ],
+            "ner_Question": "diamond trade in placename0 and placename1",
+            "parseTreeStr": "(start in placename 0 and placename 1)"
+        },
+        "rqParsed": {
+            "question": "What are the diamond trading places in angola and south africa",
+            "cleaned_Question": "What are diamond trading places in angola and south africa",
+            "placename": [],
+            "object": [
+                "diamond trading places",
+                "angola",
+                "south africa"
+            ],
+            "ner_Question": "what are object0 in object1 and object2",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))) and (condition (coreC object 2)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "south africa"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "angola"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "diamond trading places"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "diamond trading places"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "diamond trading places"
+                    },
+                    {
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "diamond trading places"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "30",
+        "qParsed": {
+            "question": "Car bombings near Madrid",
+            "cleaned_Question": "Car bombings near Madrid",
+            "placename": [
+                "Madrid"
+            ],
+            "event": [
+                "car bombings"
+            ],
+            "ner_Question": "event0 near placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) near (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "car bombings"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Madrid"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "car bombings"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What were the car bombings nearest to madrid",
+            "cleaned_Question": "What were car bombings nearest to madrid",
+            "placename": [],
+            "event": [
+                "car bombings"
+            ],
+            "ner_Question": "what were event0 nearest to madrid",
+            "parseTreeStr": "(start what were (measure (coreC event 0)) (condition (distanceR nearest to)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "car bombings"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "car bombings"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "31",
+        "qParsed": {
+            "question": "Combats and embargo in the northern part of Iraq",
+            "cleaned_Question": "Combats and embargo in northern part of Iraq",
+            "placename": [
+                "Iraq"
+            ],
+            "object": [
+                "combats and embargo"
+            ],
+            "ner_Question": "object0 in northern part of placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in no of placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "combats and embargo"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "combats and embargo"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What were the combats and embargo in northern Iraq",
+            "cleaned_Question": "What were combats and embargo in northern Iraq",
+            "placename": [
+                "Iraq"
+            ],
+            "object": [
+                "combats and embargo"
+            ],
+            "ner_Question": "what were object0 in northern placename0",
+            "parseTreeStr": "(start what were (measure (coreC object 0)) in no placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "combats and embargo"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "combats and embargo"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "32",
+        "qParsed": {
+            "question": "Independence movement in Quebec",
+            "cleaned_Question": "Independence movement in Quebec",
+            "placename": [
+                "Quebec"
+            ],
+            "object": [
+                "independence movement"
+            ],
+            "ner_Question": "object0 in placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "independence movement"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Quebec"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "independence movement"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What was the independence movement in quebec",
+            "cleaned_Question": "What was independence movement in quebec",
+            "placename": [],
+            "object": [
+                "independence movement",
+                "quebec"
+            ],
+            "ner_Question": "what was object0 in object1",
+            "parseTreeStr": "(start what was (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "quebec"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "independence movement"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "independence movement"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "33",
+        "qParsed": {
+            "question": "International sports competitions in the Ruhr area",
+            "cleaned_Question": "International sports competitions in Ruhr area",
+            "placename": [
+                "Ruhr"
+            ],
+            "field": [
+                "area"
+            ],
+            "event": [
+                "international sports competitions"
+            ],
+            "ner_Question": "event0 in placename0 field0 nominal",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "international sports competitions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Ruhr"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "international sports competitions"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What were the international sports competitions in the ruhr area",
+            "cleaned_Question": "What were international sports competitions in ruhr area",
+            "placename": [],
+            "object": [
+                "ruhr area"
+            ],
+            "event": [
+                "international sports competitions"
+            ],
+            "ner_Question": "what were event0 in object0",
+            "parseTreeStr": "(start what were (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "ruhr area"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "international sports competitions"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "international sports competitions"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "34",
+        "qParsed": {
+            "question": "Malaria in the tropics",
+            "cleaned_Question": "Malaria in tropics",
+            "placename": [],
+            "object": [
+                "tropics"
+            ],
+            "ner_Question": "malaria in object0",
+            "parseTreeStr": "(start in (measure (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "tropics"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "tropics"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the malaria cases in the tropics",
+            "cleaned_Question": "What are malaria cases in tropics",
+            "placename": [],
+            "object": [
+                "tropics"
+            ],
+            "event": [
+                "malaria cases"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "tropics"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "malaria cases"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "malaria cases"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "35",
+        "qParsed": {
+            "question": "Credits to the former Eastern Bloc",
+            "cleaned_Question": "Credits to former Eastern Bloc",
+            "placename": [],
+            "object": [
+                "former eastern bloc"
+            ],
+            "event": [
+                "credits"
+            ],
+            "ner_Question": "event0 to object0",
+            "parseTreeStr": "(start (measure (coreC event 0) to (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "former eastern bloc"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "credits"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the credits in the former eastern bloc",
+            "cleaned_Question": "What are credits in former eastern bloc",
+            "placename": [],
+            "object": [
+                "former eastern bloc"
+            ],
+            "event": [
+                "credits"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "former eastern bloc"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "credits"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "credits"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "36",
+        "qParsed": {
+            "question": "Automotive industry around the Sea of Japan",
+            "cleaned_Question": "Automotive industry around Sea of Japan",
+            "placename": [
+                "Sea of Japan"
+            ],
+            "object": [
+                "automotive industry"
+            ],
+            "ner_Question": "object0 around placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "automotive industry"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Sea of Japan"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "automotive industry"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What is the automotive industry nearest to the sea of japan",
+            "cleaned_Question": "What is automotive industry nearest to sea of japan",
+            "placename": [],
+            "object": [
+                "automotive industry",
+                "japan",
+                "sea of japan"
+            ],
+            "ner_Question": "what is object0 nearest to sea of object1",
+            "parseTreeStr": "(start what is (measure (coreC object 0)) (condition (distanceR nearest to)) of object 1)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "automotive industry"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "automotive industry"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "37",
+        "qParsed": {
+            "question": "Archeology in the Middle East",
+            "cleaned_Question": "Archeology in Middle East",
+            "placename": [
+                "Middle East"
+            ],
+            "ner_Question": "archeology in placename0",
+            "parseTreeStr": "(start in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What are the archeological sites in the middle east",
+            "cleaned_Question": "What are archeological sites in middle east",
+            "placename": [],
+            "object": [
+                "archeological sites",
+                "middle east"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "middle east"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "archeological sites"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "archeological sites"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "38",
+        "qParsed": {
+            "question": "Solar or lunar eclipse in Southeast Asia",
+            "cleaned_Question": "Solar or lunar eclipse in Southeast Asia",
+            "placename": [
+                "Southeast Asia"
+            ],
+            "event": [
+                "solar or lunar eclipse"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "solar or lunar eclipse"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Southeast Asia"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "solar or lunar eclipse"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the solar or lunar eclipse in southeast asia",
+            "cleaned_Question": "What are solar or lunar eclipse in southeast asia",
+            "placename": [],
+            "object": [
+                "southeast asia"
+            ],
+            "event": [
+                "solar or lunar eclipse"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "southeast asia"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "solar or lunar eclipse"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "solar or lunar eclipse"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "39",
+        "qParsed": {
+            "question": "Russian troops in the southern Caucasus",
+            "cleaned_Question": "Russian troops in southern Caucasus",
+            "placename": [
+                "Caucasus"
+            ],
+            "object": [
+                "russian troops"
+            ],
+            "ner_Question": "object0 in southern placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "russian troops"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Caucasus"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "russian troops"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Where are the russian troops in the southern caucasus",
+            "cleaned_Question": "Where are russian troops in southern caucasus",
+            "placename": [],
+            "object": [
+                "russian troops",
+                "southern caucasus"
+            ],
+            "ner_Question": "where are object0 in object1",
+            "parseTreeStr": "(start (measure (location where are (coreC object 0))) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "southern caucasus"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "russian troops"
+                    },
+                    {
+                        "type": "location",
+                        "id": "2",
+                        "keyword": ""
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "russian troops"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "40",
+        "qParsed": {
+            "question": "Cities near active volcanoes",
+            "cleaned_Question": "Cities near active volcanoes",
+            "placename": [],
+            "object": [
+                "cities",
+                "active volcanoes"
+            ],
+            "ner_Question": "object0 near object1",
+            "parseTreeStr": "(start (measure (coreC object 0)) near object 1)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "cities"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the cities nearest to active volcanoes",
+            "cleaned_Question": "What are cities nearest to active volcanoes",
+            "placename": [],
+            "object": [
+                "cities",
+                "active volcanoes"
+            ],
+            "ner_Question": "what are object0 nearest to object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (distanceR nearest to) (coreC object 1)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "active volcanoes"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cities"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "41",
+        "qParsed": {
+            "question": "Shipwrecks in the Atlantic Ocean",
+            "cleaned_Question": "Shipwrecks in Atlantic Ocean",
+            "placename": [
+                "Atlantic Ocean"
+            ],
+            "object": [
+                "shipwrecks"
+            ],
+            "ner_Question": "object0 in placename0",
+            "parseTreeStr": "(start (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "shipwrecks"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Atlantic Ocean"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "shipwrecks"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the shipwrecks in the atlantic ocean",
+            "cleaned_Question": "What are shipwrecks in atlantic ocean",
+            "placename": [],
+            "object": [
+                "shipwrecks",
+                "atlantic ocean"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "atlantic ocean"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "shipwrecks"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "shipwrecks"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "42",
+        "qParsed": {
+            "question": "Regional elections in Northern Germany",
+            "cleaned_Question": "Regional elections in Northern Germany",
+            "placename": [
+                "Northern Germany"
+            ],
+            "event": [
+                "regional elections"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "regional elections"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Northern Germany"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "regional elections"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the regional elections in northern germany",
+            "cleaned_Question": "What are regional elections in northern germany",
+            "placename": [],
+            "object": [
+                "northern germany"
+            ],
+            "event": [
+                "regional elections"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "northern germany"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "regional elections"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "regional elections"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "43",
+        "qParsed": {
+            "question": "Scientific research in New England Universities",
+            "cleaned_Question": "Scientific research in New England Universities",
+            "placename": [],
+            "event": [
+                "scientific research"
+            ],
+            "ner_Question": "event0 in new england universities",
+            "parseTreeStr": "(start (measure (coreC event 0)) in new and)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "scientific research"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "scientific research"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What is the scientific research in universities in New England",
+            "cleaned_Question": "What is scientific research in universities in New England",
+            "placename": [
+                "New England"
+            ],
+            "object": [
+                "universities"
+            ],
+            "event": [
+                "scientific research"
+            ],
+            "ner_Question": "what is event0 in object0 in placename0",
+            "parseTreeStr": "(start what is (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "universities"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "scientific research"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "New England"
+                    },
+                    {
+                        "type": "event",
+                        "id": "3",
+                        "keyword": "scientific research"
+                    }
+                ],
+                "extent": [
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "44",
+        "qParsed": {
+            "question": "Arms sales in former Yugoslavia",
+            "cleaned_Question": "Arms sales in former Yugoslavia",
+            "placename": [
+                "Yugoslavia"
+            ],
+            "event": [
+                "arms sales"
+            ],
+            "ner_Question": "event0 in former placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in for placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "arms sales"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "arms sales"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What were the arms sales in yugoslavia",
+            "cleaned_Question": "What were arms sales in yugoslavia",
+            "placename": [],
+            "object": [
+                "yugoslavia"
+            ],
+            "event": [
+                "arms sales"
+            ],
+            "ner_Question": "what were event0 in object0",
+            "parseTreeStr": "(start what were (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "yugoslavia"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "arms sales"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "arms sales"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "45",
+        "qParsed": {
+            "question": "Tourism in Northeast Brazil",
+            "cleaned_Question": "Tourism in Northeast Brazil",
+            "placename": [
+                "Northeast Brazil"
+            ],
+            "ner_Question": "tourism in placename0",
+            "parseTreeStr": "(start to in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What are the tourist regions in northeast brazil",
+            "cleaned_Question": "What are tourist regions in northeast brazil",
+            "placename": [],
+            "object": [
+                "tourist regions",
+                "northeast brazil"
+            ],
+            "ner_Question": "what are object0 in object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "northeast brazil"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "tourist regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "tourist regions"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "46",
+        "qParsed": {
+            "question": "Forest fires in Northern Portugal",
+            "cleaned_Question": "Forest fires in Northern Portugal",
+            "placename": [
+                "Northern Portugal"
+            ],
+            "event": [
+                "forest fires"
+            ],
+            "ner_Question": "event0 in placename0",
+            "parseTreeStr": "(start (measure (coreC event 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "forest fires"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Northern Portugal"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "forest fires"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the forest fires in northern portugal",
+            "cleaned_Question": "What are forest fires in northern portugal",
+            "placename": [],
+            "object": [
+                "northern portugal"
+            ],
+            "event": [
+                "forest fires"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "northern portugal"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "forest fires"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "forest fires"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "47",
+        "qParsed": {
+            "question": "Champions League games near the Mediterranean",
+            "cleaned_Question": "Champions League games near Mediterranean",
+            "placename": [],
+            "event": [
+                "champions league games"
+            ],
+            "ner_Question": "event0 near mediterranean",
+            "parseTreeStr": "(start (measure (coreC event 0)) near)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "champions league games"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "champions league games"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What are the Champions League games nearest to the mediterranean sea",
+            "cleaned_Question": "What are Champions League games nearest to mediterranean sea",
+            "placename": [],
+            "event": [
+                "champions league games"
+            ],
+            "ner_Question": "what are event0 nearest to mediterranean sea",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (distanceR nearest to)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "champions league games"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "champions league games"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "48",
+        "qParsed": {
+            "question": "Fishing in Newfoundland and Greenland",
+            "cleaned_Question": "Fishing in Newfoundland and Greenland",
+            "placename": [
+                "Newfoundland",
+                "Greenland"
+            ],
+            "ner_Question": "fishing in placename0 and placename1",
+            "parseTreeStr": "(start in placename 0 and placename 1)"
+        },
+        "rqParsed": {
+            "question": "What are the fishing regions in newfoundland and greenland",
+            "cleaned_Question": "What are fishing regions in newfoundland and greenland",
+            "placename": [],
+            "object": [
+                "fishing regions",
+                "newfoundland",
+                "greenland"
+            ],
+            "ner_Question": "what are object0 in object1 and object2",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (topoRIn in (coreC object 1))) and (condition (coreC object 2)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "greenland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "newfoundland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "fishing regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "fishing regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "fishing regions"
+                    },
+                    {
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "fishing regions"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "49",
+        "qParsed": {
+            "question": "ETA in France",
+            "cleaned_Question": "ETA in France",
+            "placename": [
+                "France"
+            ],
+            "ner_Question": "eta in placename0",
+            "parseTreeStr": "(start in placename 0)"
+        },
+        "rqParsed": {
+            "question": "What are the ETA incidents in france",
+            "cleaned_Question": "What are ETA incidents in france",
+            "placename": [],
+            "object": [
+                "france"
+            ],
+            "event": [
+                "eta incidents"
+            ],
+            "ner_Question": "what are event0 in object0",
+            "parseTreeStr": "(start what are (measure (coreC event 0)) (condition (topoRIn in (coreC object 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "france"
+                    },
+                    {
+                        "type": "event",
+                        "id": "1",
+                        "keyword": "eta incidents"
+                    },
+                    {
+                        "type": "event",
+                        "id": "2",
+                        "keyword": "eta incidents"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "50",
+        "qParsed": {
+            "question": "Cities along the Danube and the Rhine",
+            "cleaned_Question": "Cities along Danube and Rhine",
+            "placename": [
+                "Danube",
+                "Rhine"
+            ],
+            "object": [
+                "cities"
+            ],
+            "ner_Question": "object0 along placename0 and placename1",
+            "parseTreeStr": "(start (measure (coreC object 0)) on (temEx placename 0 and placename 1))"
+        },
+        "rqParsed": {
+            "question": "What are the cities nearest to the danube river and the rhine river",
+            "cleaned_Question": "What are cities nearest to danube river and rhine river",
+            "placename": [],
+            "object": [
+                "cities",
+                "river",
+                "rhine river"
+            ],
+            "ner_Question": "what are object0 nearest to danube object1 and rhine object1",
+            "parseTreeStr": "(start what are (measure (coreC object 0)) (condition (distanceR nearest to) (coreC object 1)) and (condition (topoRIn in (coreC object 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "river"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "river"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "cities"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "2",
+                            "0"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "2",
+                            "1"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "3",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]

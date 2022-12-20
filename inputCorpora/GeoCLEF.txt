@@ -1,0 +1,51 @@
+ID;OrgId;Event;Question;RQuestion;Type;Fixed
+1;GeoC001;GeoCLEF2005;Shark attacks near Australia and California;What are the shark attacks in australia and california;event;2
+2;GeoC002;GeoCLEF2005;Vegetable exporters in Europe;What are the vegetable exporters in europe;object;2
+3;GeoC003;GeoCLEF2005;Amnesty International human rights reports in Latin America;What are the Amnesty International human rights reports in latin america;event;2
+4;GeoC004;GeoCLEF2005;Animal rights actions against the fur industry in Europe and the United States;What are the animal rights actions against the fur industry in europe and the united states;event;2
+5;GeoC005;GeoCLEF2005;Rice imports in Japan;What is the volume of rice imports in Japan;ambiguous;1
+6;GeoC006;GeoCLEF2005;Oil accidents in Europe;What are the oil accidents in europe;event;1
+7;GeoC007;GeoCLEF2005;Trade unions in Europe;What are the trade unions in europe;object;2
+8;GeoC008;GeoCLEF2005;Milk consumption in Europe;What is the milk consumption in Europe;amount;1
+9;GeoC009;GeoCLEF2005;Child labor in Asia;What is the number of working children in Asia;ambiguous;2
+10;GeoC010;GeoCLEF2005;"Floods, flooding in Holland and Germany";What are the floods in holland and germany;event;2
+11;GeoC011;GeoCLEF2005;Roman cities in the UK and Germany;What are the Roman cities in the uk and germany;object;2
+12;GeoC012;GeoCLEF2005;Cathedrals in Europe;What are the cathedrals in europe;object;2
+13;GeoC013;GeoCLEF2005;Visits of American President in Germany;What are the american presidents` visits in germany;event;1
+14;GeoC014;GeoCLEF2005;Environmentally hazardous incidents in or around North Sea;What are the environmentally hazardous incidents in north sea and nearest to north sea;event;1
+15;GeoC015;GeoCLEF2005;Genocide in Rwanda;What are the genocide occurences in rwanda;ambiguous;2
+16;GeoC016;GeoCLEF2005;Oil prospecting and ecological problems in Siberia and near the Caspian Sea;What are the oil prospecting and ecological problems in siberia and the caspian sea;event;1
+17;GeoC017;GeoCLEF2005;"American troops in Sarajevo, Bosnia-Herzegovina";"Where are american troops in Sarajevo, Bosnia-Herzegovina";ambiguous;2
+18;GeoC018;GeoCLEF2005;Walking holidays in Scotland;What are the walking holiday regions in scotland;ambiguous;1
+19;GeoC019;GeoCLEF2005;Golf tournaments in Europe;What are the golf tournaments in europe;event;2
+20;GeoC020;GeoCLEF2005;Wind power in the Scottish Islands;What are the wind power regions in the scottish islands;ambiguous;1
+21;GeoC021;GeoCLEF2005;Sea rescue in North Sea;What are the sea rescues in north sea;event;2
+22;GeoC022;GeoCLEF2005;Restored buildings south of Scotland;What are the restored buildings in southern scotland;object;1
+23;GeoC023;GeoCLEF2005;Murders and violence South-West of Scotland;What are the murders and violence in southwestern scotland;event;1
+24;GeoC024;GeoCLEF2005;Influences on tourist industry in Scottish Highlands;What are the tourist industry influences in scottish highlands;object;1
+25;GeoC025;GeoCLEF2005;Environmental concerns in and around the Scottish Trossachs;What are the environmental concerns in scottish trossachs and nearest to scottish trossachs;event;1
+26;GeoC026;GeoCLEF2006;Wine regions around rivers in Europe;What are the wine regions nearest to rivers in Europe;object;2
+27;GeoC027;GeoCLEF2006;Cities within 100km of Frankfurt;What are the cities within 100 km from frankfurt;object;2
+28;GeoC028;GeoCLEF2006;Snowstorms in North America;What are the snowstorms in north america;event;2
+29;GeoC029;GeoCLEF2006;Diamond trade in Angola and South Africa;What are the diamond trading places in angola and south africa;object;2
+30;GeoC030;GeoCLEF2006;Car bombings near Madrid;What were the car bombings nearest to madrid;event;1
+31;GeoC031;GeoCLEF2006;Combats and embargo in the northern part of Iraq;What were the combats and embargo in northern Iraq;event;1
+32;GeoC032;GeoCLEF2006;Independence movement in Quebec;What was the independence movement in quebec;event;2
+33;GeoC033;GeoCLEF2006;International sports competitions in the Ruhr area;What were the international sports competitions in the ruhr area;event;2
+34;GeoC034;GeoCLEF2006;Malaria in the tropics;What are the malaria cases in the tropics;event;2
+35;GeoC035;GeoCLEF2006;Credits to the former Eastern Bloc;What are the credits in the former eastern bloc;event;1
+36;GeoC036;GeoCLEF2006;Automotive industry around the Sea of Japan;What is the automotive industry nearest to the sea of japan;object;1
+37;GeoC037;GeoCLEF2006;Archeology in the Middle East;What are the archeological sites in the middle east;object;2
+38;GeoC038;GeoCLEF2006;Solar or lunar eclipse in Southeast Asia;What are the solar or lunar eclipse in southeast asia;event;2
+39;GeoC039;GeoCLEF2006;Russian troops in the southern Caucasus;Where are the russian troops in the southern caucasus;location;1
+40;GeoC040;GeoCLEF2006;Cities near active volcanoes;What are the cities nearest to active volcanoes;object;2
+41;GeoC041;GeoCLEF2006;Shipwrecks in the Atlantic Ocean;What are the shipwrecks in the atlantic ocean;object;2
+42;GeoC042;GeoCLEF2006;Regional elections in Northern Germany;What are the regional elections in northern germany;event;2
+43;GeoC043;GeoCLEF2006;Scientific research in New England Universities;What is the scientific research in universities in New England;event;2
+44;GeoC044;GeoCLEF2006;Arms sales in former Yugoslavia;What were the arms sales in yugoslavia;event;2
+45;GeoC045;GeoCLEF2006;Tourism in Northeast Brazil;What are the tourist regions in northeast brazil;object;2
+46;GeoC046;GeoCLEF2006;Forest fires in Northern Portugal;What are the forest fires in northern portugal;event;2
+47;GeoC047;GeoCLEF2006;Champions League games near the Mediterranean;What are the Champions League games nearest to the mediterranean sea;event;1
+48;GeoC048;GeoCLEF2006;Fishing in Newfoundland and Greenland;What are the fishing regions in newfoundland and greenland;object;2
+49;GeoC049;GeoCLEF2006;ETA in France;What are the ETA incidents in france;event;2
+50;GeoC050;GeoCLEF2006;Cities along the Danube and the Rhine;What are the cities nearest to the danube river and the rhine river;object;1

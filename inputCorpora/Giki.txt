@@ -1,0 +1,98 @@
+ID;OrgId;Event;Question;RQuestion;Type;Fixed
+1;GikiC-2009-01;GikiCLEF2009;List the Italian places where Ernest Hemingway visited during his life;Which places were visited by ernest hemingway in Italy;object;1
+2;GikiC-2009-02;GikiCLEF2009;"Which countries have the white, green and red colors in their national flag";Which countries have the white green and red colors in national flag;object;2
+3;GikiC-2009-03;GikiCLEF2009;In which countries outside Bulgaria are there published opinions on Petar Dunov's (Beinsa Duno's) ideas;Which countries outside Bulgaria have published opinions on Petar Dunov's (Beinsa Duno's) ideas;object;0
+4;GikiC-2009-04;GikiCLEF2009;Name Romanian poets who published volumes with ballads until 1941;Which romanian poets have published ballads before 1942;object;2
+5;GikiC-2009-05;GikiCLEF2009;Which written fictional works of non-Romanian authors have as subject the Carpathians mountains;Which written fictional works of non-Romanian authors have as subject the Carpathians mountains;object;0
+6;GikiC-2009-06;GikiCLEF2009;Which Dutch violinists held the post of concertmaster at the Royal Concertgebouw Orchestra in the 20th century;Which violinists were royal concertgebouw orchestra concertmasters in the 20th century in the Netherlands;object;1
+7;GikiC-2009-07;GikiCLEF2009;What capitals of Dutch provinces received their town privileges before the fourteenth century;What provincial capitals had town privileges before the 14th century in the Netherlands;object;1
+8;GikiC-2009-08;GikiCLEF2009;Which authors were born in and write about the Bohemian Forest;Which authors were born in and write about the Bohemian Forest;object;0
+9;GikiC-2009-09;GikiCLEF2009;Name places where Goethe fell in love;Where did goethe fall in love;object;1
+10;GikiC-2009-10;GikiCLEF2009;Which Flemish towns hosted a restaurant with two or three Michelin stars in 2008;Which towns hosted a restaurant with two or three Michelin stars in 2009 in Flanders;object;1
+11;GikiC-2009-11;GikiCLEF2009;What Belgians won the Ronde van Vlaanderen exactly twice;Who are the 2 time winners of the ronde van vlaanderen in belgium;object;1
+12;GikiC-2009-12;GikiCLEF2009;Present monarchies in Europe headed by a woman;Which present monarchies have female heads in Europe;object;2
+13;GikiC-2009-13;GikiCLEF2009;Romantic and realist European novelists of the XIXth century who died of tuberculosis;Who are the romantic and realist European novelists of the XIXth century who died of tuberculosis;object;0
+14;GikiC-2009-14;GikiCLEF2009;Name rare diseases with dedicated research centers in Europe;Which rare diseases have dedicated research centers in Europe;object;2
+15;GikiC-2009-15;GikiCLEF2009;List the basic elements of the cassata;What are the basic elements of the cassata;object;1
+16;GikiC-2009-16;GikiCLEF2009;In which European countries is the bidet commonly used;Which countries use bidet in Europe;object;1
+17;GikiC-2009-17;GikiCLEF2009;List the 5 Italian regions with a special statute;Which regions have a special statute in Italia;object;1
+18;GikiC-2009-18;GikiCLEF2009;In which Tuscan provinces is Chianti produced;Which provinces are Chianti producers in Tuscany;object;2
+19;GikiC-2009-19;GikiCLEF2009;Name mountains in Chile with permanent snow;Which mountains have permanent snow in Chile;object;2
+20;GikiC-2009-20;GikiCLEF2009;List the name of the sections of the North-Western Alps;What are the sections in the north western alps;object;2
+21;GikiC-2009-21;GikiCLEF2009;List the left side tributaries of the Po river;What are the left side tributaries of the po river;object;1
+22;GikiC-2009-22;GikiCLEF2009;Which South American national football teams use the yellow color;Which national football teams have the yellow color in South America;object;2
+23;GikiC-2009-23;GikiCLEF2009;Name American museums which have any Picasso painting;Which museums have picasso painting in America;object;2
+24;GikiC-2009-24;GikiCLEF2009;Which countries have won a futsal European championship played in Spain;Which countries have won a European futsal championship played in spain;object;1
+25;GikiC-2009-25;GikiCLEF2009;Name Spanish drivers who have driven in Minardi;Which spanish drivers drove in minardi;object;2
+26;GikiC-2009-26;GikiCLEF2009;"Which Bulgarian fighters were awarded the ""Diamond belt""";Which bulgarian fighters have the diamond belt;object;2
+27;GikiC-2009-27;GikiCLEF2009;Which Dutch bands are named after a Bulgarian footballer;Which dutch bands are named after a bulgarian footballer;object;2
+28;GikiC-2009-28;GikiCLEF2009;Find coastal states with Petrobras refineries;Which coastal states have petrobras refineries;object;2
+29;GikiC-2009-29;GikiCLEF2009;Places above the Arctic circle with a population larger than 100000 people;Which places have a population greater than 100000 people in above the Arctic circle;object;1
+30;GikiC-2009-30;GikiCLEF2009;Which Japanese automakers companies have manufacturing or assembling factories in Europe;Which japanese automakers companies have manufacturing or assembling factories in Europe;object;2
+31;GikiC-2009-31;GikiCLEF2009;Which countries have Italian as an official language;Which countries have italian as official language;object;2
+32;GikiC-2009-32;GikiCLEF2009;Name Romanian writers who were living in USA in 2003;Which romanian writers were living in 2004 in USA;object;1
+33;GikiC-2009-33;GikiCLEF2009;What European Union countries have national parks in the Alps;Which European Union countries have national parks in the Alps;object;2
+34;GikiC-2009-34;GikiCLEF2009;What eight-thousanders are at least partially in Nepal;Which mountains have elevation higher than 8000 meters in Nepal;object;1
+35;GikiC-2009-35;GikiCLEF2009;Which Romanian mountains are declared biosphere reserves;Which mountains are biosphere reserves in Romania;object;2
+36;GikiC-2009-36;GikiCLEF2009;Name Romanian caves where Paleolithic human fossil remains were found;Which caves had paleolithic human fossil remains in Romanian;object;1
+37;GikiC-2009-37;GikiCLEF2009;Which Norwegian musicians were convicted for burning churches;Which norwegian musicians are church burning convicts;object;2
+38;GikiC-2009-38;GikiCLEF2009;Which Norwegian waterfalls are higher than 200 m;Which waterfalls have height more than 200 meters in Norway;object;1
+39;GikiC-2009-39;GikiCLEF2009;National team football players from Scandinavia with sons who have played for English clubs;Which Scandinavian national team football players have sons who played for english clubs;object;0
+40;GikiC-2009-40;GikiCLEF2009;Which rivers in North Rhine Westphalia are approximately 10 km long;Which rivers have length equal to 10 km in North Rhine Westphalia;object;0
+41;GikiC-2009-41;GikiCLEF2009;Chefs born in Austria who have received a Michelin Star;Which austrian chefs have a michelin star;object;2
+42;GikiC-2009-42;GikiCLEF2009;Political parties in the National Council of Austria which were founded after the end of World War II;Which national council parties were founded after 1945 in Austria;object;1
+43;GikiC-2009-43;GikiCLEF2009;Austrian ski resorts with a total ski trail length of at least 100 km;What are the ski resorts with a total ski trail length of at least 100 km in Austria;object;0
+44;GikiC-2009-44;GikiCLEF2009;Find Austrian grape varieties with a vineyard area below 100 ha;Which grape varieties have a vineyard area size less than 100 ha in Austria;object;0
+45;GikiC-2009-45;GikiCLEF2009;Find Swiss casting show winners;Which casting show winners are in switzerland;object;1
+46;GikiC-2009-46;GikiCLEF2009;German writers who are Honorary Citizens in Switzerland;Which german writers are honorary citizens in Switzerland;object;2
+47;GikiC-2009-47;GikiCLEF2009;Which cities in Germany have more than one university;Which cities have number of universities more than 1 in Germany;object;1
+48;GikiC-2009-48;GikiCLEF2009;Which German-speaking movies have been nominated for an Oscar;Which german speaking movies have oscar nomination;object;2
+49;GikiC-2009-49;GikiCLEF2009;Formula One drivers who moved to Switzerland;Which formula 1 drivers moved to switzerland;object;0
+50;GikiC-2009-50;GikiCLEF2009;Which Swiss people were Olympic medalists in snowboarding at the Winter Olympic Games in 2006;Which Swiss people were Olympic medalists in snowboarding at the Winter Olympic Games in 2007;object;0
+51;GikiC-2009-EX01;GikiCLEF2009;Name Portuguese-speaking Nobel prize winners;Which nobel prize winners speak portugese;object;1
+52;GikiC-2009-EX02;GikiCLEF2009;List Portuguese Pop/Rock groups created in the 90s;Which poprock groups were created between 1990 and 2000 in Portugal;object;1
+53;GikiC-2009-EX03;GikiCLEF2009;Which Brazilian football players play in clubs in the Iberian Pensinsula;Which brazilian football players are in clubs in the Iberian Pensinsula;object;2
+54;GikiC-2009-EX04;GikiCLEF2009;What capitals of Dutch provinces received their town privileges during the sixteenth century;What provincial capitals had town privileges during the 16th century in the Netherlands;object;1
+55;GikiC-2009-EX05;GikiCLEF2009;In which places did Italo Calvino live during adulthood;Where did italo calvino live between 1944 and 1985;object;1
+56;GikiC-2009-EX06;GikiCLEF2009;Name Mexican poets who published volumes with ballads until 1930;Which Mexican poets have published ballads before 1931;object;1
+57;GikiC-2009-EX07;GikiCLEF2009;Name authors born in Alaska and who wrote fiction about it;Which authors were born in Alaska and wrote fiction about it;object;0
+58;GikiC-2009-EX08;GikiCLEF2009;What Belgians won the Tour de France exactly twice;Who are the 2 time winners of the tour de france in belgium;object;1
+59;GikiC-2009-EX09;GikiCLEF2009;Find Amazon tribes which have no written language;Which tribes have no written language in Amazon;object;1
+60;GikiC-2009-EX10;GikiCLEF2009;Find Northern Europe companies which produce nano-electronic components for planes;Which companies produce airplane nanoelectronic components in Northern Europe;object;1
+61;GikiC-2009-EX11;GikiCLEF2009;Which MPB musicians are also distinguished Spanish guitar players;Which mpb musicians are distinguished guitar players in Spain;object;2
+62;GikiC-2009-EX12;GikiCLEF2009;Which stave churches are still used for religious purposes in Norway;Which stave churches have religious usage in Norway;object;2
+63;GikiC-2009-EX13;GikiCLEF2009;Name Brazilian theologists connected with Liberation Theology;Which brazilian theologists were connected with liberation theology;object;1
+64;GikiC-2009-EX14;GikiCLEF2009;Amusement parks in East Germany;What are the amusement parks in east germany;object;2
+65;GikiC-2009-EX15;GikiCLEF2009;Technical universities in Germany with more than 10000 students;Which technical universities have more than 10000 students in Germany;object;1
+66;GikiC-2009-EX16;GikiCLEF2009;Carnival strongholds in the Rhineland;What are the carnival strongholds in the rhineland;object;2
+67;GikiC-2009-EX17;GikiCLEF2009;Cathedral libraries in Germany;What are the cathedral libraries in germany;object;2
+68;GikiC-2009-EX18;GikiCLEF2009;Cities having an Olympic stadium;Which cities have an olympic stadium;object;2
+69;GikiC-2009-EX19;GikiCLEF2009;Cities situated by the former Eifel Aqueduct;Which cities are nearest to eifel aqueduct;object;1
+70;GikiC-2009-EX20;GikiCLEF2009;"Castles in Upper Bavaria, that are still inhabited";What are the inhabited castles in upper bavaria;object;2
+71;GikiC-2009-EX21;GikiCLEF2009;German zoos with animals from the African savannah;Which zoos have african savannah animals in Germany;object;2
+72;GikiC-2009-EX22;GikiCLEF2009;Cities that have a womens's football (soccer) team that won the Women's Football Bundesliga;Which cities have a womens football team that won the womens football bundesliga;object;2
+73;GikiC-2009-EX23;GikiCLEF2009;Terminal stations in Germany with more than 100000 passengers a day;Which terminal stations have more than 100000 passengers a day in Germany;object;1
+74;GikiC-2009-EX24;GikiCLEF2009;"Transalpine UNESCO World Heritage Sites, listed before 2000";Which UNESCO World Heritage Sites were listed before 2001 in Transalpina;object;1
+75;GikiP2008-1;GikiP2008;"Which waterfalls are used in the film ""The Last of the Mohicans""";"Which waterfalls are used in the film ""The Last of the Mohicans""";object;0
+76;GikiP2008-2;GikiP2008;Which Vienna circle members or visitors were born outside the Austria-Hungarian empire or Germany;Which Vienna circle members or visitors were born outside the Austria-Hungarian empire or Germany;object;0
+77;GikiP2008-3;GikiP2008;Portuguese rivers that flow through cities with more than 150000 inhabitants;Which rivers intersect with cities with population more than 150000 people in Portugal;object;0
+78;GikiP2008-4;GikiP2008;Which Swiss cantons border Germany;Which swiss cantons intersect with germany;object;1
+79;GikiP2008-5;GikiP2008;Name all wars that occurred on Greek soil;Which wars occurred in Greece;event;2
+80;GikiP2008-6;GikiP2008;Which Australian mountains are higher than 2000 m;Which mountains have elevation higher than 2000 meters in Australia;object;2
+81;GikiP2008-7;GikiP2008;African capitals with a population of two million inhabitants or more;What are the capitals with a population of more than 2000000 people in Afrika;object;0
+82;GikiP2008-8;GikiP2008;Suspension bridges in Brazil;What are the suspension bridges in brazil;object;2
+83;GikiP2008-9;GikiP2008;Composers of Renaissance music born in Germany;Which renaissance music composers were born in germany;object;1
+84;GikiP2008-10;GikiP2008;Polynesian islands with more than 5000 inhabitants;Which islands have population more than 5000 people in Polynesia;object;1
+85;GikiP2008-11;GikiP2008;Which plays of Shakespeare take place in an Italian setting;Which shakespeare plays have an italian setting;object;2
+86;GikiP2008-12;GikiP2008;Places where Goethe lived;Where did goethe live;object;1
+87;GikiP2008-13;GikiP2008;Which navigable rivers in Afghanistan are longer than 1000 km;Which navigable rivers have length larger than 1000 km in Afghanistan;object;1
+88;GikiP2008-14;GikiP2008;Brazilian architects who designed buildings in Europe;Which brazilian architects designed buildings in europe;object;1
+89;GikiP2008-15;GikiP2008;French bridges which were in construction between 1980 and 1990;Which bridges were in construction between 1980 and 1991 in France;object;1
+90;GikiP2008-exGP1;GikiP2008;Which Dutch painters became famous by their portraits;What are the famous portrait painters in the netherlands;object;2
+91;GikiP2008-exGP2;GikiP2008;Which European physicists emigrated to the US between the two world wars;Which European physicists emigrated to the US between the two world wars;object;0
+92;GikiP2008-exGP3;GikiP2008;Which countries changed their borders in the 19th century;Which countries changed their borders in the 19th century;object;0
+93;GikiP2008-exGP4;GikiP2008;Suspension bridges in Asia;What are the suspension bridges in asia;object;2
+94;GikiP2008-exGP5;GikiP2008;Places where Mozart lived;Where did mozart live;object;1
+95;GikiP2008-exGP6;GikiP2008;Which navigable rivers in Italy are longer than 500 km;Which navigable rivers have length larger than 500 km in Italy;object;1
+96;GikiP2008-exGP7;GikiP2008;Name all wars that occurred in Canadian soil;Which wars occurred in Canada;event;2
+97;GikiP2008-exGP8;GikiP2008;South American capitals with an area larger than 1000 square km;Which capitals have an area size larger than 1000 square km in South American;object;1

@@ -1,0 +1,51 @@
+ID;Question;qTypesCount;qTransCount;qOutputType;aggre;allocation;amount;boolfield;conamount;covamount;distanceBand;distfield;eveconamount;eveconobjconpro;event;eventquality;field;grid;location;network;networkquality;objconamount;objconobjconpro;object;objectquality;placename;proportion
+1;Shark attacks near Australia and California;4;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;2;0;0;0
+2;Vegetable exporters in Europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+3;Amnesty International human rights reports in Latin America;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+4;Animal rights actions against the fur industry in Europe and the United States;4;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;2;0;0;0
+5;Rice imports in Japan;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+6;Oil accidents in Europe;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+7;Trade unions in Europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+8;Milk consumption in Europe;2;1;NA;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+9;Child labor in Asia;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+10;Floods, flooding in Holland and Germany;4;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;2;0;0;0
+11;Roman cities in the UK and Germany;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+12;Cathedrals in Europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+13;Visits of American President in Germany;2;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0
+14;Environmentally hazardous incidents in or around North Sea;2;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0
+15;Genocide in Rwanda;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+16;Oil prospecting and ecological problems in Siberia and near the Caspian Sea;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+17;American troops in Sarajevo, Bosnia-Herzegovina;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+18;Walking holidays in Scotland;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+19;Golf tournaments in Europe;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+20;Wind power in the Scottish Islands;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+21;Sea rescue in North Sea;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+22;Restored buildings south of Scotland;2;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0
+23;Murders and violence South-West of Scotland;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+24;Influences on tourist industry in Scottish Highlands;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+25;Environmental concerns in and around the Scottish Trossachs;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+26;Wine regions around rivers in Europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+27;Cities within 100km of Frankfurt;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+28;Snowstorms in North America;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+29;Diamond trade in Angola and South Africa;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+30;Car bombings near Madrid;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+31;Combats and embargo in the northern part of Iraq;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+32;Independence movement in Quebec;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+33;International sports competitions in the Ruhr area;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+34;Malaria in the tropics;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+35;Credits to the former Eastern Bloc;2;1;event;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0
+36;Automotive industry around the Sea of Japan;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+37;Archeology in the Middle East;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+38;Solar or lunar eclipse in Southeast Asia;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+39;Russian troops in the southern Caucasus;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+40;Cities near active volcanoes;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+41;Shipwrecks in the Atlantic Ocean;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+42;Regional elections in Northern Germany;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+43;Scientific research in New England Universities;2;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0
+44;Arms sales in former Yugoslavia;2;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0
+45;Tourism in Northeast Brazil;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+46;Forest fires in Northern Portugal;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+47;Champions League games near the Mediterranean;2;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0
+48;Fishing in Newfoundland and Greenland;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+49;ETA in France;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+50;Cities along the Danube and the Rhine;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0

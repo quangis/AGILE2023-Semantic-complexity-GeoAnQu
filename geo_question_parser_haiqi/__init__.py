@@ -1,0 +1,1 @@
+from geo_question_parser_haiqi.Identify_new import QuestionParser as QuestionParserNew

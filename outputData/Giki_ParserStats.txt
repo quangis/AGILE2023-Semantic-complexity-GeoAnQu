@@ -1,0 +1,98 @@
+ID;Question;qTypesCount;qTransCount;qOutputType;aggre;allocation;amount;boolfield;conamount;covamount;distanceBand;distfield;eveconamount;eveconobjconpro;event;eventquality;field;grid;location;network;networkquality;objconamount;objconobjconpro;object;objectquality;placename;proportion
+1;List the Italian places where Ernest Hemingway visited during his life;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0
+2;Which countries have the white, green and red colors in their national flag;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+4;Name Romanian poets who published volumes with ballads until 1941;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+6;Which Dutch violinists held the post of concertmaster at the Royal Concertgebouw Orchestra in the 20th century;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+7;What capitals of Dutch provinces received their town privileges before the fourteenth century;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+9;Name places where Goethe fell in love;3;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0
+10;Which Flemish towns hosted a restaurant with two or three Michelin stars in 2008;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+11;What Belgians won the Ronde van Vlaanderen exactly twice;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+12;Present monarchies in Europe headed by a woman;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+14;Name rare diseases with dedicated research centers in Europe;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+15;List the basic elements of the cassata;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+16;In which European countries is the bidet commonly used;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+17;List the 5 Italian regions with a special statute;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+18;In which Tuscan provinces is Chianti produced;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+19;Name mountains in Chile with permanent snow;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+20;List the name of the sections of the North-Western Alps;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+21;List the left side tributaries of the Po river;3;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0
+22;Which South American national football teams use the yellow color;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+23;Name American museums which have any Picasso painting;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+24;Which countries have won a futsal European championship played in Spain;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+25;Name Spanish drivers who have driven in Minardi;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+26;"Which Bulgarian fighters were awarded the ""Diamond belt";3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+27;Which Dutch bands are named after a Bulgarian footballer;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+28;Find coastal states with Petrobras refineries;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+29;Places above the Arctic circle with a population larger than 100000 people;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+30;Which Japanese automakers companies have manufacturing or assembling factories in Europe;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+31;Which countries have Italian as an official language;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+32;Name Romanian writers who were living in USA in 2003;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+33;What European Union countries have national parks in the Alps;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+34;What eight-thousanders are at least partially in Nepal;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+35;Which Romanian mountains are declared biosphere reserves;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+36;Name Romanian caves where Paleolithic human fossil remains were found;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+37;Which Norwegian musicians were convicted for burning churches;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+38;Which Norwegian waterfalls are higher than 200 m;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+41;Chefs born in Austria who have received a Michelin Star;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+42;Political parties in the National Council of Austria which were founded after the end of World War II;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+45;Find Swiss casting show winners;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+46;German writers who are Honorary Citizens in Switzerland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+47;Which cities in Germany have more than one university;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+48;Which German-speaking movies have been nominated for an Oscar;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+51;Name Portuguese-speaking Nobel prize winners;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+52;List Portuguese Pop/Rock groups created in the 90s;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+53;Which Brazilian football players play in clubs in the Iberian Pensinsula;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+54;What capitals of Dutch provinces received their town privileges during the sixteenth century;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+55;In which places did Italo Calvino live during adulthood;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+56;Name Mexican poets who published volumes with ballads until 1930;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+58;What Belgians won the Tour de France exactly twice;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+59;Find Amazon tribes which have no written language;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+60;Find Northern Europe companies which produce nano-electronic components for planes;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+61;Which MPB musicians are also distinguished Spanish guitar players;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+62;Which stave churches are still used for religious purposes in Norway;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+63;Name Brazilian theologists connected with Liberation Theology;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+64;Amusement parks in East Germany;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+65;Technical universities in Germany with more than 10000 students;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+66;Carnival strongholds in the Rhineland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+67;Cathedral libraries in Germany;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+68;Cities having an Olympic stadium;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+69;Cities situated by the former Eifel Aqueduct;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+70;Castles in Upper Bavaria, that are still inhabited;1;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+71;German zoos with animals from the African savannah;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+72;Cities that have a womens's football (soccer) team that won the Women's Football Bundesliga;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+73;Terminal stations in Germany with more than 100000 passengers a day;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+74;Transalpine UNESCO World Heritage Sites, listed before 2000;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+78;Which Swiss cantons border Germany;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+79;Name all wars that occurred on Greek soil;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+80;Which Australian mountains are higher than 2000 m;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+82;Suspension bridges in Brazil;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+83;Composers of Renaissance music born in Germany;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+84;Polynesian islands with more than 5000 inhabitants;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+85;Which plays of Shakespeare take place in an Italian setting;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+86;Places where Goethe lived;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+87;Which navigable rivers in Afghanistan are longer than 1000 km;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+88;Brazilian architects who designed buildings in Europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+89;French bridges which were in construction between 1980 and 1990;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+90;Which Dutch painters became famous by their portraits;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+93;Suspension bridges in Asia;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+94;Places where Mozart lived;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+95;Which navigable rivers in Italy are longer than 500 km;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+96;Name all wars that occurred in Canadian soil;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+97;South American capitals with an area larger than 1000 square km;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0
+3;In which countries outside Bulgaria are there published opinions on Petar Dunov's (Beinsa Duno's) ideas;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+5;Which written fictional works of non-Romanian authors have as subject the Carpathians mountains;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+8;Which authors were born in and write about the Bohemian Forest;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+13;Romantic and realist European novelists of the XIXth century who died of tuberculosis;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+39;National team football players from Scandinavia with sons who have played for English clubs;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+40;Which rivers in North Rhine Westphalia are approximately 10 km long;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+43;Austrian ski resorts with a total ski trail length of at least 100 km;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+44;Find Austrian grape varieties with a vineyard area below 100 ha;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+49;Formula One drivers who moved to Switzerland;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0
+50;Which Swiss people were Olympic medalists in snowboarding at the Winter Olympic Games in 2006;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+57;Name authors born in Alaska and who wrote fiction about it;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+75;"Which waterfalls are used in the film ""The Last of the Mohicans";2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+76;Which Vienna circle members or visitors were born outside the Austria-Hungarian empire or Germany;1;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+77;Portuguese rivers that flow through cities with more than 150000 inhabitants;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+81;African capitals with a population of two million inhabitants or more;2;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;0;0
+91;Which European physicists emigrated to the US between the two world wars;0;0;NA;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+92;Which countries changed their borders in the 19th century;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0

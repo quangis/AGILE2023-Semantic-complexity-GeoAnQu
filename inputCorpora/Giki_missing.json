@@ -1,0 +1,1085 @@
+[
+    {
+        "id": "3",
+        "qParsed": {
+            "question": "In which countries outside Bulgaria are there published opinions on Petar Dunov's (Beinsa Duno's) ideas",
+            "cleaned_Question": "In which countries outside Bulgaria are there published opinions on Petar Dunov 's Beinsa Duno 's ideas",
+            "placename": [
+                "Bulgaria"
+            ],
+            "object": [
+                "countries"
+            ],
+            "ner_Question": "in which object0 outside placename0 are there published opinions on petar dunov 's beinsa duno 's ideas",
+            "parseTreeStr": "(start in which (measure (coreC object 0)) outside placename 0 are is in on)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "countries"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "countries"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which countries outside Bulgaria have published opinions on Petar Dunov's (Beinsa Duno's) ideas",
+            "cleaned_Question": "Which countries outside Bulgaria have published opinions on Petar Dunov 's Beinsa Duno 's ideas",
+            "placename": [
+                "Bulgaria"
+            ],
+            "object": [
+                "countries"
+            ],
+            "ner_Question": "which object0 outside placename0 have published opinions on petar dunov 's beinsa duno 's ideas",
+            "parseTreeStr": "(start which (measure (coreC object 0)) outside placename 0 have is in on)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "countries"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "published opinions on Petar Dunov's (Beinsa Duno's) ideas"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "countries"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Bulgaria"
+                    },
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "countries"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+					{
+                        "before": [
+                            "2",
+                            "3"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "5",
+        "qParsed": {
+            "question": "Which written fictional works of non-Romanian authors have as subject the Carpathians mountains",
+            "cleaned_Question": "Which written fictional works of non Romanian authors have as subject Carpathians mountains",
+            "placename": [],
+            "ner_Question": "which written fictional works of non romanian authors have as subject carpathians mountains",
+            "parseTreeStr": "(start which on of no have)"
+        },
+        "rqParsed": {
+            "question": "Which written fictional works of non-Romanian authors have as subject the Carpathians mountains",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "written fictional works of non-Romanian authors"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Carpathians mountains"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "written fictional works of non-Romanian authors"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+			}
+        }
+    },
+    {
+        "id": "8",
+        "qParsed": {
+            "question": "Which authors were born in and write about the Bohemian Forest",
+            "cleaned_Question": "Which authors were born in and write about Bohemian Forest",
+            "placename": [],
+            "ner_Question": "which authors were born in and write about bohemian forest",
+            "parseTreeStr": "(start which were in and for)"
+        },
+        "rqParsed": {
+            "question": "Which authors were born in and write about the Bohemian Forest",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "authors"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Bohemian Forest"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "authors"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "authors"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+					{
+                        "before": [
+                            "1",
+							"2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+			}
+        }
+    },
+    {
+        "id": "13",
+        "qParsed": {
+            "question": "Romantic and realist European novelists of the XIXth century who died of tuberculosis",
+            "cleaned_Question": "Romantic and realist European novelists of XIXth century who died of tuberculosis",
+            "placename": [],
+            "ner_Question": "romantic and realist european novelists of xixth century who died of tuberculosis",
+            "parseTreeStr": "(start and no of of is)"
+        },
+        "rqParsed": {
+            "question": "Who are the romantic and realist European novelists of the XIXth century who died of tuberculosis",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "romantic and realist European novelists of the XIXth century"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "tuberculosis"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "authors"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+			}
+        }
+    },
+    {
+        "id": "39",
+        "qParsed": {
+            "question": "National team football players from Scandinavia with sons who have played for English clubs",
+            "cleaned_Question": "National team football players from Scandinavia with sons who have played for English clubs",
+            "placename": [
+                "Scandinavia"
+            ],
+            "object": [
+                "sons",
+                "english clubs"
+            ],
+            "ner_Question": "national team football players from placename0 with object0 who have played for object1",
+            "parseTreeStr": "(start on from placename 0 with object 0 have for object 1)"
+        },
+        "rqParsed": {
+            "question": "Which Scandinavian national team football players have sons who played for english clubs",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "sons who played for english clubs"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "scandinavian national team football players"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "scandinavian national team football players"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "40",
+        "qParsed": {
+            "question": "Which rivers in North Rhine Westphalia are approximately 10 km long",
+            "cleaned_Question": "Which rivers in North Rhine Westphalia are approximately 10 km long",
+            "placename": [
+                "North Rhine Westphalia"
+            ],
+            "quantity": [
+                "10 km"
+            ],
+            "ner_Question": "which rivers in placename0 are approximately equantity0 long",
+            "parseTreeStr": "(start which in placename 0 are equantity 0)"
+        },
+        "rqParsed": {
+            "question": "Which rivers have length equal to 10 km in North Rhine Westphalia",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "covamount",
+                        "id": "0",
+                        "keyword": "length",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "rivers"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "rivers"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "North Rhine Westphalia"
+                    }
+                ],
+                "extent": [
+                    "3"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "43",
+        "qParsed": {
+            "question": "Austrian ski resorts with a total ski trail length of at least 100 km",
+            "cleaned_Question": "Austrian ski resorts with total ski trail length of at least 100 km",
+            "placename": []
+        },
+        "rqParsed": {
+            "question": "What are the ski resorts with a total ski trail length of at least 100 km in Austria",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "covamount",
+                        "id": "0",
+                        "keyword": "total ski trail length",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "ski resorts"
+                    },
+                    {
+                        "type": "aggre",
+                        "id": "2",
+                        "keyword": "total",
+                        "measureLevel": "ratio"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "ski resorts"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "Austria"
+                    }
+                ],
+                "extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "1"
+                    },
+                    {
+                        "before": [
+                            "1",
+							"2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "44",
+        "qParsed": {
+            "question": "Find Austrian grape varieties with a vineyard area below 100 ha",
+            "cleaned_Question": "Find Austrian grape varieties with vineyard area below 100 ha",
+            "placename": [],
+            "ner_Question": "find austrian grape varieties with vineyard area below 100 ha",
+            "parseTreeStr": "(start with area 100)"
+        },
+        "rqParsed": {
+            "question": "Which grape varieties have a vineyard area size less than 100 ha in Austria",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "covamount",
+                        "id": "0",
+                        "keyword": "vineyard area size",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "grape varieties"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "grape varieties"
+                    },
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "Austria"
+                    }
+                ],
+				"extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "49",
+        "qParsed": {
+            "question": "Formula One drivers who moved to Switzerland",
+            "cleaned_Question": "Formula 1 drivers who moved to Switzerland",
+            "placename": [
+                "Switzerland"
+            ],
+            "object": [
+                "formula 1 drivers"
+            ],
+            "ner_Question": "object0 who moved to placename0",
+            "parseTreeStr": "(start (measure (coreC object 0) to (destination (objectC placename 0))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "placename",
+                        "id": "0",
+                        "keyword": "Switzerland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "formula 1 drivers"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which formula 1 drivers moved to switzerland",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "switzerland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "formula 1 drivers"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "formula 1 drivers"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "50",
+        "qParsed": {
+            "question": "Which Swiss people were Olympic medalists in snowboarding at the Winter Olympic Games in 2006",
+            "cleaned_Question": "Which Swiss people were Olympic medalists in snowboarding at Winter Olympic Games in 2006",
+            "placename": [],
+            "date": [
+                "2006"
+            ],
+            "object": [
+                "olympic medalists"
+            ],
+            "ner_Question": "which swiss people were object0 in snowboarding at winter olympic games in edate0",
+            "parseTreeStr": "(start which is were (measure (coreC object 0)) in in in in edate 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "olympic medalists"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "olympic medalists"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which Swiss people were Olympic medalists in snowboarding at the Winter Olympic Games in 2007",
+            "cctrans": {
+                "types": [
+					{
+                        "type": "event",
+                        "id": "0",
+                        "keyword": "Winter Olympic Games in 2007"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "swiss olympic medalists"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "57",
+        "qParsed": {
+            "question": "Name authors born in Alaska and who wrote fiction about it",
+            "cleaned_Question": "Name authors born in Alaska and who wrote fiction about it",
+            "placename": [
+                "Alaska"
+            ],
+            "ner_Question": "name authors born in placename0 and who wrote fiction about it",
+            "parseTreeStr": "(start in placename 0 and on)"
+        },
+        "rqParsed": {
+            "question": "Which authors were born in Alaska and wrote fiction about it",
+            "cctrans": {
+				"types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "authors"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Alaska"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "authors born in Alaska"
+                    },
+					{
+						"type": "object",
+                        "id": "3",
+                        "keyword": "fiction about Alaska"
+					},
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "authors"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+					{
+                        "before": [
+                            "2",
+							"3"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    }
+                ]
+			}
+        }
+    },
+    {
+        "id": "75",
+        "qParsed": {
+            "question": "Which waterfalls are used in the film \"The Last of the Mohicans",
+            "cleaned_Question": "Which waterfalls are used in film Last of Mohicans",
+            "placename": [],
+            "object": [
+                "waterfalls"
+            ],
+            "ner_Question": "which object0 are used in film last of mohicans",
+            "parseTreeStr": "(start which (measure (coreC object 0)) are in of)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "waterfalls"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "waterfalls"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which waterfalls are used in the film The Last of the Mohicans",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "waterfalls"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Last of the Mohicans"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "waterfalls"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "76",
+        "qParsed": {
+            "question": "Which Vienna circle members or visitors were born outside the Austria-Hungarian empire or Germany",
+            "cleaned_Question": "Which Vienna circle members or visitors were born outside Austria Hungarian empire or Germany",
+            "placename": [
+                "Vienna",
+                "Austria",
+                "Germany"
+            ],
+            "object": [
+                "visitors"
+            ],
+            "ner_Question": "which placename0 circle members or object0 were born outside placename1 hungarian empire or placename2",
+            "parseTreeStr": "(start which placename (measure 0 circle or) (condition (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "visitors"
+                    }
+                ],
+                "transformations": []
+            }
+        },
+        "rqParsed": {
+            "question": "Which Vienna circle members or visitors were born outside the Austria-Hungarian empire or Germany",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Vienna circle members or visitors"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Austria-Hungarian empire"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Germany"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Vienna circle members or visitors"
+                    }
+                ],
+                "transformations": [
+					{
+                        "before": [
+                            "0",
+                            "1",
+							"2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+				]
+            }
+        }
+    },
+    {
+        "id": "77",
+        "qParsed": {
+            "question": "Portuguese rivers that flow through cities with more than 150000 inhabitants",
+            "cleaned_Question": "Portuguese rivers that flow through cities with more than 150000 inhabitants",
+            "placename": [],
+            "object": [
+                "cities",
+                "inhabitants"
+            ],
+            "ner_Question": "portuguese rivers that flow through object0 with more than 150000 object1",
+            "parseTreeStr": "(start that through object 0 with more than 150000 object 1)"
+        },
+        "rqParsed": {
+            "question": "Which rivers intersect with cities with population more than 150000 people in Portugal",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "objconamount",
+                        "id": "0",
+                        "keyword": "population",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cities"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "rivers"
+                    },
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "rivers"
+                    },
+                    {
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "Portugal"
+                    }
+                ],
+                "extent": [
+                    "5"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+					{
+                        "before": [
+                            "2",
+							"3"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "81",
+        "qParsed": {
+            "question": "African capitals with a population of two million inhabitants or more",
+            "cleaned_Question": "African capitals with population of 2000000 inhabitants or more",
+            "placename": [],
+            "object": [
+                "inhabitants"
+            ],
+            "objconamount": [
+                "population"
+            ],
+            "ner_Question": "african capitals with objconamount0 era of 2000000 object0 or more",
+            "parseTreeStr": "(start with (measure (coreC objconamount 0 era) of 2000000 (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "inhabitants"
+                    },
+                    {
+                        "type": "objconamount",
+                        "id": "1",
+                        "keyword": "population",
+                        "measureLevel": "era"
+                    }
+                ],
+                "transformations": []
+            }
+        },
+        "rqParsed": {
+            "question": "What are the capitals with a population of more than 2000000 people in Afrika",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "objconamount",
+                        "id": "0",
+                        "keyword": "population",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "capitals"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "capitals"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Afrika"
+                    }
+                ],
+                "extent": [
+                    "3"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "91",
+        "qParsed": {
+            "question": "Which European physicists emigrated to the US between the two world wars",
+            "cleaned_Question": "Which European physicists emigrated to US between 2 world wars",
+            "placename": [
+                "US"
+            ],
+            "ner_Question": "which european physicists emigrated to placename0 between 2 world wars",
+            "parseTreeStr": "(start which to placename 0 2 world)"
+        },
+        "rqParsed": {
+            "question": "Which European physicists emigrated to the US between the two world wars",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "European physicists"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "US"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "European physicists"
+                    }
+                ],
+				"temporalEx": [
+                    "between the two world wars"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "92",
+        "qParsed": {
+            "question": "Which countries changed their borders in the 19th century",
+            "cleaned_Question": "Which countries changed borders in 19th century",
+            "placename": [],
+            "date": [
+                "19th century"
+            ],
+            "object": [
+                "countries",
+                "borders"
+            ],
+            "ner_Question": "which object0 changed object1 in edate0",
+            "parseTreeStr": "(start which (measure (coreC object 0) (coreC object 1)) in (temEx edate 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "borders"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "countries"
+                    }
+                ],
+                "temporalEx": [
+                    "19th century"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which countries changed their borders in the 19th century",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "borders"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "countries"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "countries"
+                    }
+                ],
+                "temporalEx": [
+                    "19th century"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]

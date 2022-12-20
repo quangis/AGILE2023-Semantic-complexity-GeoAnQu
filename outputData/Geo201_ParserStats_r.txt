@@ -1,0 +1,201 @@
+ID;Question;qTypesCount;qTransCount;qOutputType;aggre;allocation;amount;boolfield;conamount;covamount;distanceBand;distfield;eveconamount;eveconobjconpro;event;eventquality;field;grid;location;network;networkquality;objconamount;objconobjconpro;object;objectquality;placename;proportion
+1;How many hospitals are in Oxford;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+2;How many pharmacies are within 200 meters from high street in Oxford;7;4;conamount;0;0;0;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+3;Which airport is nearest to london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+4;How many underground lines does London have;3;1;conamount;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+5;Which restaurants are nearest to edinburgh castle;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+6;Which hotels are nearest to big ben;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+7;How many counties does England have;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+9;Which airports are in ireland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+10;Which restaurants are closest to london bridge;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+12;Which hospitals are closest to stirling castle;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+13;Which hospitals are within 1 km from jubilee gardens in London;6;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+14;Where is the public market closest to elephant underground station and castle underground station;7;5;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;5;0;0;0
+15;Where is the highest elevation in Cheshire;4;2;location;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;0;1;0;0;0
+16;Which counties intersect with lincolnshire county;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+17;Which lake has the biggest area size in England;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+18;Which building has the biggest height in London;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+19;Where is loch goil;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+20;Which theaters are nearest to trafalgar square;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+21;Which airports are in london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+22;Which bridges intersect with thames river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+23;Which cities overlap with thames river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+24;Which universities are in england;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+25;Which mountain has the biggest height in Ireland;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+26;Which rivers are in great britain;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+27;Which mountains are in scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+28;What is the longest river in Britain;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+29;Which airports are in salford;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+30;Where is elizabeth tower located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+31;What is the number of universities in London;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+32;Where is a car park nearest to big ben;4;2;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;3;0;0;0
+33;Which pubs are nearest to the old trafford stadium in Manchester;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+34;Which rivers are in wales;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+35;Is there a river that overlap with manchester;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+36;Are there rivers that intersect with derry;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+37;Which Scottish counties intersect with england;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+38;Which Scottish counties intersect with england;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+39;What is the size of area in Northern Ireland;3;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+40;Where is nelson column located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+41;Is there a car park within 1 km from waterloo bridge;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+43;Does durham county intersect with essex;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+44;Where is trafalgar square located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+45;Where is emirates stadium located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+48;Which forts are in the highland council area in Scotland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+49;Which restaurants are within 1 km from big ben;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+50;What are the rivers crossing both England and Wales;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+51;How many counties are in England;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+52;Which county council has the biggest area size in the Republic of Ireland;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+53;Which county has the biggest area size in England;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+54;Which lake has the smallest area size in Scotland;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+56;What is the longest bridge in Scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+57;Is there a national park nearest to york;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+58;Which pubs are nearest to guinness brewery in Dublin;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+59;Which hospital is nearest to calton hill in Edinburgh;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+60;Which cafes are nearest to piccadilly gardens in Manchester;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+61;Which hospitals are nearest to abercromby square in Liverpool;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+62;Which pubs are within 2 km from anfield stadium in Liverpool;6;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+63;Which hotels are nearest to wharfside way in Manchester;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+64;Which cafes are within 3 km from saint anthony great church and saint john baptist church in London;7;4;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+65;Which pubs are nearest to anfield stadium in Liverpool;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+67;Which department stores are within 2 km from central park hotel in London;6;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+68;Which hotels are in england capital;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+69;Where are the car parks in bristol;4;2;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;3;0;0;0
+70;Which football stadium has the biggest capacity in Ireland;4;1;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+71;Which city is nearest to london in England;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+72;Which hotel is nearest to old trafford stadium in Manchester;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+73;Which universities are in essex county;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+74;Is there a forest in north of burnley in Lancashire;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+75;Which villages are in herefordshire;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+76;Is there a church within 2 km from westminster university;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+77;Is there a English county that intersect with wight isle;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+78;How many mountains are in Scotland;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+79;Which recreational site has highest visitor number in Manchester;4;1;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+82;Which mountain has height larger than 1300 meters in Greater Manchester;5;2;object;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+84;Which university colleges are in scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+86;Which village have a population of less than 500 peoples in Scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+87;Which city contains big ben;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+88;Is there a river that intersects with london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+89;Is there a modern art museum in london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+90;Which English county has the biggest population;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+91;How many cities intersect with thames river in Britain;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+92;Which cities overlap with thames river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+93;Does the coleraine district intersect with belfast;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+94;Which districts intersect with london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+95;Is there a train station in dublin;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+96;Which forests are in northern ireland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+97;Which are the metropolitan counties in england;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+98;Which royal borough has the biggest area size in London;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+100;Is there a river that intersects with the queensway bridge in Liverpool;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+101;Is there a fort nearest to trafalgar square in London;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+102;Is there a park nearest to grafton street in Dublin;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+104;Which English counties intersect with scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+105;Is trafalgar square in london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+106;Which bridge has the highest age in London;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0
+107;Is there an airfield nearest to wellesbourne village in England;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+108;How many parks are in Northampton;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+109;Is there a stadium in cardiff;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+110;Is there an aerodrome in essex;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+111;Which aerodrome is in essex;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+112;Which aerodromes are within 50 km from london;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+115;How many rivers intersect with west yorkshire county in England;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+116;How many cities are in Merseyside;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+117;Is there an airport in dublin;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+118;Which are the counties in northern ireland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+119;What historic buildings are in buckinghamshire;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+120;Which Greek restaurants are nearest to wembley stadium in London;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+121;Is there a national park in england;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+122;Is there a mountain in merseyside;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+123;Which town has the biggest population in Scotland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+124;Where is the gas station nearest to saint peter square in Manchester;5;2;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;4;0;0;0
+125;Does suffolk county intersect with durham county;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+126;Which Irish counties intersect with shannon river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+127;Is cavan county in ireland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+128;Which restaurants are within 500 meters from the liverpool university;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+129;Which restaurants are nearest to baker street in London;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+130;Which rivers are in ireland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+131;Which parks are nearest to trafalgar square;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+132;Which countries intersect with wales;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+133;What cities are within 2 km from church in Wales;6;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+135;Which river has biggest length in Scotland;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+136;Which city has the biggest population in Scotland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+137;Which lake has the biggest area size in Great Britain;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+138;Is england in the united kingdom;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+140;Is everton fc in liverpool;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+142;Is alnwick castle in scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+143;Which city has the biggest area size in Ireland;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+144;How many country councils are in Ireland;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+145;Which colleges are in london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+146;Which city council cover dublin;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+147;Which restaurants are near Stonehenge;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+148;How many districts are in Northern Ireland;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+149;Which are the non metropolitan counties in england;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+150;What tourist attractions are in belfast, Northern Ireland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+151;Which pubs are nearest to mercure hotel in Glasgow, Scotland;5;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
+152;Which are the main railway stations in glasgow, Scotland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+154;Is there a mountain within 20 km from cheshire;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+155;What historical monuments are in london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+157;What is the highest elevation in county down;3;1;field;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;1;0;0;0
+158;What is the area of cheshire;2;1;field;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0
+159;Which are the districts in county cheshire;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+160;Which county has the biggest area size in England;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+161;What is the length of thames river;2;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+162;Where is tower bridge located;2;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0
+163;Which mountains are in london;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+164;How many rivers intersect with cities in England;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+166;Is islington nearest to angel;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+168;What are the lakes in Scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+169;Is there a car park closest to a bridge on top of river exe;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+170;Which car park is closest to a bridge on top of river exe;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+172;What is the longest river in England and Wales;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+173;Which restaurants are nearest to kensington palace in London;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+174;Is there a forest nearest to manchester;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+175;Which medieval castles are in scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+176;Which provinces have population larger than 2000000 in Ireland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+177;What underground stations are closest to the british museum in London;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+178;What city has the highest population except london the United Kingdom;5;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;0;0;0
+180;Is the london tower nearest to thames river;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+181;Which bars are nearest to prince street in Edinburgh;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+182;What city has the highest population density in Ireland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;1
+183;Does hammersmith bridge intersect with hammersmith city and barnes;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+184;Which hotels are nearest to loch ness;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+185;Is there a museum within 1 km from liverpool;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+186;Where is Liverpool in England;3;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;2;0;0;0
+187;Which city has the biggest population in Scotland;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;3;0;0;0
+190;Is liverpool in scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+191;Which county contains stonehenge;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+192;Are there rivers that intersect with the solway firth;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+193;Which museums are within 3 km of saint george hotel in London;6;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+194;Is there a forest in county cheshire;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+195;Which art museums are within 1 km from charlotte square in Edinburgh;6;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+196;How many rivers intersect with edinburgh in Britain;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+197;How many counties intersect with thames river in Britain;5;2;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+198;Are there rivers that intersect with county cheshire;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+200;Is there a river that overlap with greater manchester;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+47;Are the cities that River Thames crosses more than 10;5;2;objectquality;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+153;Are there more than 10 districts in Hampshire, England;5;2;objectquality;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+8;Does England have more counties than Ireland;6;3;objectquality;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0
+55;Is county Oxfordshire east of the county Essex;3;1;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+114;Is Edinburgh west of Glasgow;3;1;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+188;Is Glasgow the largest city of Scotland in terms of population;6;2;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4;1;0;0
+103;Is Hampshire north of Berkshire;3;1;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+165;Is London south of Manchester;3;1;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+113;Is Somerset west of Westmorland;3;1;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+11;Is the Castle of Edinburgh less than 2 km away from Calton Hill;5;3;objectquality;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+167;Is the City of London north of the Thames river;3;1;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+42;Is the county of Antrim bigger than the county of Armagh;4;1;objectquality;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+179;Is the monument of the Great Fire of London east of King WIlliam Street;3;1;objectquality;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0
+80;Is there a church in the county of Greater Manchester dedicated to St. Patrick;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+83;Is there a river that crosses more than 3 cities in Ireland;5;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+189;What is the distance between Liverpool and Glasgow;3;1;covamount;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+46;Which cities in England have at least 2 castles;5;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+139;Which cities or towns of the United Kingdom have a university;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+81;Which city is southeast of Salford;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+171;Which counties border county Donegal to the south;4;2;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+199;Which county is east of county Dorset;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+66;Which county is west of South Yorkshire;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+85;Which mountains have height more than 1000 meters in Scotland;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+134;Which river crosses the most cities in England;5;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+156;Which rivers have more than 100 km length in Scotland;4;1;object;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+141;Which towns have at least 2 hospitals in England;5;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+99;Which Welsh district has the most adjacent Welsh districts;5;2;object;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0

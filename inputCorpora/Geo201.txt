@@ -1,0 +1,201 @@
+ID;OrgId;Question;RQuestion;Type;Fixed
+1;1;How many hospitals are there in Oxford;How many hospitals are in Oxford;amount;2
+2;2;How many pharmacies are in 200 meter radius of High Street in Oxford;How many pharmacies are within 200 meters from high street in Oxford;amount;1
+3;3;Which is the closest airport to London;Which airport is nearest to london;object;2
+4;4;How many underground lines does London have;How many underground lines does London have;amount;2
+5;5;Which restaurants are near Edinburgh Castle;Which restaurants are nearest to edinburgh castle;object;2
+6;6;Which hotels are near Big Ben;Which hotels are nearest to big ben;object;2
+7;7;How many counties does England have;How many counties does England have;amount;2
+8;8;Does England have more counties than Ireland;Does England have more counties than Ireland;boolean;0
+9;9;Which airports are in Ireland;Which airports are in ireland;object;2
+10;10;Which restaurants are close to London Bridge;Which restaurants are closest to london bridge;object;2
+11;11;Is the Castle of Edinburgh less than 2 km away from Calton Hill;Is the Castle of Edinburgh less than 2 km away from Calton Hill;boolean;0
+12;12;Which hospitals are close to Stirling Castle;Which hospitals are closest to stirling castle;object;2
+13;13;Is there any hospital in a range of 1 km from Jubilee Gardens in London;Which hospitals are within 1 km from jubilee gardens in London;object;2
+14;14;Where is the closest market to Elephant and Castle underground station;Where is the public market closest to elephant underground station and castle underground station;location;1
+15;15;Which is the highest point in Cheshire;Where is the highest elevation in Cheshire;object;1
+16;16;Which counties border county Lincolnshire;Which counties intersect with lincolnshire county;object;2
+17;17;Which is the largest lake in England;Which lake has the biggest area size in England;object;2
+18;18;Which is the highest building in London;Which building has the biggest height in London;object;2
+19;19;Where is Loch Goil located;Where is loch goil;location;1
+20;20;Which theaters are near Trafalgar Square;Which theaters are nearest to trafalgar square;object;2
+21;21;Which airports are in London;Which airports are in london;object;2
+22;22;Which bridges cross River Thames;Which bridges intersect with thames river;object;2
+23;23;Through which cities does River Thames flow;Which cities overlap with thames river;object;2
+24;24;Which universities are in England;Which universities are in england;object;2
+25;25;Which is the highest mountain in Ireland;Which mountain has the biggest height in Ireland;object;2
+26;26;Which rivers are in Great Britain;Which rivers are in great britain;object;2
+27;27;Which mountains are in Scotland;Which mountains are in scotland;object;2
+28;28;What is the name of Britain's longest river;What is the longest river in Britain;object;2
+29;29;Which airports are in the city of Salford;Which airports are in salford;object;2
+30;30;Where is Elizabeth Tower located;Where is elizabeth tower located;location;1
+31;31;What is the number of universities in London;What is the number of universities in London;amount;2
+32;32;Where is a car park near Big Ben;Where is a car park nearest to big ben;location;2
+33;33;Which pubs in Manchester are near the Old Trafford stadium;Which pubs are nearest to the old trafford stadium in Manchester;object;2
+34;34;Which rivers are in Wales;Which rivers are in wales;object;2
+35;35;Is there a river that crosses Manchester;Is there a river that overlap with manchester;boolean;1
+36;36;Which rivers cross Derry;Are there rivers that intersect with derry;object;1
+37;37;Which counties of Scotland border England;Which Scottish counties intersect with england;object;2
+38;38;Which Scottish counties border England;Which Scottish counties intersect with england;object;2
+39;39;What is the total area of Northern Ireland;What is the size of area in Northern Ireland;amount;2
+40;40;Where is Nelson Column located;Where is nelson column located;location;1
+41;41;Is there a car park at most 1 km from Waterloo Bridge;Is there a car park within 1 km from waterloo bridge;boolean;2
+42;42;Is the county of Antrim bigger than the county of Armagh;Is the county of Antrim bigger than the county of Armagh;boolean;0
+43;43;Does the county of Durham border Essex;Does durham county intersect with essex;boolean;1
+44;44;Where is Trafalgar square located;Where is trafalgar square located;location;1
+45;45;Where is Emirates Stadium located;Where is emirates stadium located;location;1
+46;46;Which cities in England have at least 2 castles;Which cities in England have at least 2 castles;object;0
+47;47;Are the cities that River Thames crosses more than 10;Are the cities that River Thames crosses more than 10;boolean;0
+48;48;Which castles are in the Highland council area of Scotland;Which forts are in the highland council area in Scotland;object;2
+49;49;Which restaurants are at most 1 km away from Big Ben;Which restaurants are within 1 km from big ben;object;2
+50;50;Are there any rivers that cross both England and Wales;What are the rivers crossing both England and Wales;boolean;2
+51;51;How many counties are in England;How many counties are in England;amount;2
+52;52;Which is the biggest county council in the Republic of Ireland;Which county council has the biggest area size in the Republic of Ireland;object;2
+53;53;Which county of England occupies the largest area;Which county has the biggest area size in England;object;1
+54;54;Which is the smallest lake in Scotland;Which lake has the smallest area size in Scotland;object;2
+55;55;Is county Oxfordshire east of the county Essex;Is county Oxfordshire east of the county Essex;boolean;0
+56;56;What is the longest bridge in Scotland;What is the longest bridge in Scotland;object;2
+57;57;Is there a national park near York;Is there a national park nearest to york;boolean;1
+58;58;Which pubs in Dublin are near Guinness Brewery;Which pubs are nearest to guinness brewery in Dublin;object;2
+59;59;Which hospital is nearest to Calton Hill in Edinburgh;Which hospital is nearest to calton hill in Edinburgh;object;2
+60;60;Which cafes in Manchester are near Piccadilly Gardens;Which cafes are nearest to piccadilly gardens in Manchester;object;2
+61;61;Which hospitals in Liverpool are near Abercromby Square;Which hospitals are nearest to abercromby square in Liverpool;object;2
+62;62;Which pubs in Liverpool are at most 2 km from Anfield stadium;Which pubs are within 2 km from anfield stadium in Liverpool;object;2
+63;63;Which hotels in Manchester are near Wharfside Way;Which hotels are nearest to wharfside way in Manchester;object;2
+64;64;Which cafes in London are at most 3 km from St. Anthony the Great and St. John the Baptist church;Which cafes are within 3 km from saint anthony great church and saint john baptist church in London;object;1
+65;65;Which pubs in Liverpool are near Anfield stadium;Which pubs are nearest to anfield stadium in Liverpool;object;2
+66;66;Which county is west of South Yorkshire;Which county is west of South Yorkshire;object;0
+67;67;Which department stores are at most 2 km from Central Park hotel in London;Which department stores are within 2 km from central park hotel in London;object;2
+68;68;Which hotels are in England capital;Which hotels are in england capital;object;2
+69;69;Where can I find a car park in Bristol;Where are the car parks in bristol;location;2
+70;70;Which football stadium has the biggest capacity in Ireland;Which football stadium has the biggest capacity in Ireland;object;1
+71;71;Which city of England is nearest to London;Which city is nearest to london in England;object;2
+72;72;Which hotel is the nearest to Old Trafford Stadium in Manchester;Which hotel is nearest to old trafford stadium in Manchester;object;2
+73;73;Which universities are in county Essex;Which universities are in essex county;object;2
+74;74;Is there a forest in Lancashire north of Burnley;Is there a forest in north of burnley in Lancashire;boolean;1
+75;75;Which villages are in Herefordshire;Which villages are in herefordshire;object;2
+76;76;Is there a church at most 2 km from the University of Westminster;Is there a church within 2 km from westminster university;boolean;2
+77;77;Is there a county of England that borders the Isle of Wight;Is there a English county that intersect with wight isle;boolean;1
+78;78;How many mountains are there in Scotland;How many mountains are in Scotland;amount;2
+79;79;Which site of Manchester is the most popular;Which recreational site has highest visitor number in Manchester;object;2
+80;80;Is there a church in the county of Greater Manchester dedicated to St. Patrick;Is there a church in the county of Greater Manchester dedicated to St. Patrick;boolean;0
+81;81;Which city is southeast of Salford;Which city is southeast of Salford;object;0
+82;82;Is there a mountain in the county of Greater Manchester taller than 1300 meters above sea level;Which mountain has height larger than 1300 meters in Greater Manchester;boolean;1
+83;83;Is there a river in Ireland that crosses more than 3 cities;Is there a river that crosses more than 3 cities in Ireland;boolean;0
+84;84;Which university colleges are in Scotland;Which university colleges are in scotland;object;2
+85;85;Which mountains in Scotland have height more than 1000 meters;Which mountains have height more than 1000 meters in Scotland;object;0
+86;86;Which villages in Scotland have a population of less than 500 people;Which village have a population of less than 500 peoples in Scotland;object;1
+87;87;In which city is Big Ben located;Which city contains big ben;object;1
+88;88;What is the name of the river that runs through London;Is there a river that intersects with london;object;1
+89;89;Is there a Modern Art Museum in London;Is there a modern art museum in london;boolean;1
+90;90;Which county of England has the biggest population;Which English county has the biggest population;object;2
+91;91;How many cities does Thames river cross;How many cities intersect with thames river in Britain;amount;1
+92;92;Through which cities does River Thames flow;Which cities overlap with thames river;object;2
+93;93;Does the distric of Coleraine border Belfast;Does the coleraine district intersect with belfast;boolean;1
+94;94;Which districts border London;Which districts intersect with london;object;2
+95;95;Is there a train station in Dublin;Is there a train station in dublin;boolean;1
+96;96;Which forests are in Northern Ireland;Which forests are in northern ireland;object;2
+97;97;Which are the metropolitan counties of England;Which are the metropolitan counties in england;object;2
+98;98;Which is the largest royal borough of London;Which royal borough has the biggest area size in London;object;2
+99;99;Which Welsh district has the most adjacent Welsh districts;Which Welsh district has the most adjacent Welsh districts;object;0
+100;100;What is the name of the river that flows under the Queensway Bridge in Liverpool;Is there a river that intersects with the queensway bridge in Liverpool;object;1
+101;101;Is there a castle in London near Trafalgar Square;Is there a fort nearest to trafalgar square in London;boolean;1
+102;102;Is there a park in Dublin near Grafton Street;Is there a park nearest to grafton street in Dublin;boolean;1
+103;103;Is Hampshire north of Berkshire;Is Hampshire north of Berkshire;boolean;0
+104;104;Which counties of England border country Scotland;Which English counties intersect with scotland;object;1
+105;105;Is Trafalgar square located in London;Is trafalgar square in london;boolean;1
+106;106;Which is the oldest bridge of London;Which bridge has the highest age in London;object;2
+107;107;Is there any airfield in Wellesbourne village in England;Is there an airfield nearest to wellesbourne village in England;boolean;1
+108;108;How many parks are there in Northampton;How many parks are in Northampton;amount;2
+109;109;Is there any stadium in Cardiff;Is there a stadium in cardiff;boolean;1
+110;110;Is there an aerodrome in Essex;Is there an aerodrome in essex;boolean;1
+111;111;Which aerodrome is in Essex;Which aerodrome is in essex;object;2
+112;112;Which aerodromes are at most 50 km from London;Which aerodromes are within 50 km from london;object;2
+113;113;Is Somerset west of Westmorland;Is Somerset west of Westmorland;boolean;0
+114;114;Is Edinburgh west of Glasgow;Is Edinburgh west of Glasgow;boolean;0
+115;115;How many rivers cross the county West Yorkshire;How many rivers intersect with west yorkshire county in England;amount;1
+116;116;How many cities does Merseyside have;How many cities are in Merseyside;amount;2
+117;117;Is there an airport in Dublin;Is there an airport in dublin;boolean;1
+118;118;Which are the counties of Northern Ireland;Which are the counties in northern ireland;object;2
+119;119;What historic buildings are in Buckinghamshire;What historic buildings are in buckinghamshire;object;1
+120;120;Which Greek restaurants in London are near Wembley stadium;Which Greek restaurants are nearest to wembley stadium in London;object;2
+121;121;Is there a National Park in England;Is there a national park in england;boolean;1
+122;122;Is there a mountain in Merseyside;Is there a mountain in merseyside;boolean;1
+123;123;Which town has the biggest population in Scotland;Which town has the biggest population in Scotland;object;2
+124;124;Where is the nearest gas station to St. Peter Square in Manchester;Where is the gas station nearest to saint peter square in Manchester;location;2
+125;125;Does county Suffolk border county Durham;Does suffolk county intersect with durham county;boolean;1
+126;126;Which counties of Ireland does River Shannon cross;Which Irish counties intersect with shannon river;object;2
+127;127;Is Cavan a county of Ireland;Is cavan county in ireland;boolean;1
+128;128;Which restaurants are at most 500m from the University of Liverpool;Which restaurants are within 500 meters from the liverpool university;object;1
+129;129;Which restaurants are near Baker Street in London;Which restaurants are nearest to baker street in London;object;2
+130;130;Which lakes are in Ireland;Which rivers are in ireland;object;1
+131;131;Which parks are near Trafalgar Square;Which parks are nearest to trafalgar square;object;2
+132;132;Which countries border Wales;Which countries intersect with wales;object;2
+133;133;Are there cities that are at most 2 km away from St. David in Wales;What cities are within 2 km from church in Wales;boolean;1
+134;134;Which river crosses the most cities in England;Which river crosses the most cities in England;object;0
+135;135;Which is the longest river in Scotland;Which river has biggest length in Scotland;object;2
+136;136;Which city in Scotland has the largest population;Which city has the biggest population in Scotland;object;2
+137;137;Which is the largest lake by area in Great Britain;Which lake has the biggest area size in Great Britain;object;2
+138;138;Is England part of the United Kingdom ;Is england in the united kingdom;boolean;1
+139;139;Which cities or towns of the United Kingdom have a university;Which cities or towns of the United Kingdom have a university;object;0
+140;140;Does Everton FC play in Liverpool;Is everton fc in liverpool;boolean;1
+141;141;Which towns of England have at least two hospitals;Which towns have at least 2 hospitals in England;object;0
+142;142;Is Alnwick Castle in Scotland;Is alnwick castle in scotland;boolean;1
+143;143;Which is the largest city of Ireland;Which city has the biggest area size in Ireland;object;2
+144;144;How many country councils are there in Ireland;How many country councils are in Ireland;amount;2
+145;145;Which colleges are in London;Which colleges are in london;object;2
+146;146;Which city council includes Dublin;Which city council cover dublin;object;2
+147;147;Which restaurants are near Stonehenge;Which restaurants are near Stonehenge;object;1
+148;148;How many districts does Northern Ireland have;How many districts are in Northern Ireland;amount;2
+149;149;Which are the non-metropolitan counties of England;Which are the non metropolitan counties in england;object;2
+150;150;"What tourist attractions are there in Belfast, Northern Ireland";"What tourist attractions are in belfast, Northern Ireland";object;1
+151;151;"Which pubs are near Mercure Hotel in Glasgow, Scotland";"Which pubs are nearest to mercure hotel in Glasgow, Scotland";object;2
+152;152;"Which are the main railway stations in Glasgow, Scotland";"Which are the main railway stations in glasgow, Scotland";object;2
+153;153;"Are there more than 10 districts in Hampshire, England";"Are there more than 10 districts in Hampshire, England";boolean;0
+154;154;Is there a mountain within 20 km of Cheshire;Is there a mountain within 20 km from cheshire;boolean;1
+155;155;What historical monuments are there in London;What historical monuments are in london;object;1
+156;156;Which rivers in Scotland have more than 100 km length;Which rivers have more than 100 km length in Scotland;object;0
+157;157;What is the elevation of the most elevated spot in county Down;What is the highest elevation in county down;amount;1
+158;158;What is the area of county Cheshire;What is the area of cheshire;amount;1
+159;159;Which are the districts of county Cheshire;Which are the districts in county cheshire;object;2
+160;160;Which is the largest county of England;Which county has the biggest area size in England;object;2
+161;161;What is the length of river Thames;What is the length of thames river;amount;2
+162;162;Where is Tower Bridge located;Where is tower bridge located;location;1
+163;163;Does London have a mountain;Which mountains are in london;boolean;1
+164;164;How many rivers cross England cities;How many rivers intersect with cities in England;amount;2
+165;165;Is London south of Manchester;Is London south of Manchester;boolean;0
+166;166;Is Islington near Angel;Is islington nearest to angel;boolean;1
+167;167;Is the City of London north of the Thames river;Is the City of London north of the Thames river;boolean;0
+168;168;Are there any lakes in Scotland;What are the lakes in Scotland;boolean;2
+169;169;Is there a car park near a bridge on river Exe;Is there a car park closest to a bridge on top of river exe;boolean;1
+170;170;Which car park is closest to a bridge on river Exe;Which car park is closest to a bridge on top of river exe;object;1
+171;171;Which counties border county Donegal to the south;Which counties border county Donegal to the south;object;0
+172;172;What is the longest river in England and Wales;What is the longest river in England and Wales;object;2
+173;173;Which restaurants in London are near Kensington Palace;Which restaurants are nearest to kensington palace in London;object;2
+174;174;Is there a forest near Manchester;Is there a forest nearest to manchester;boolean;1
+175;175;Which medieval castles are in Scotland;Which medieval castles are in scotland;object;2
+176;176;Which provinces of Ireland have population over 2 million;Which provinces have population larger than 2000000 in Ireland;object;1
+177;177;What London underground stations are closest to the British Museum;What underground stations are closest to the british museum in London;object;2
+178;178;What is the most populated city in the United Kingdom except London;What city has the highest population except london the United Kingdom;object;1
+179;179;Is the monument of the Great Fire of London east of King WIlliam Street;Is the monument of the Great Fire of London east of King WIlliam Street;boolean;0
+180;180;Is the Tower of London near river Thames;Is the london tower nearest to thames river;boolean;1
+181;181;Which bars are near Prince street in Edinburgh;Which bars are nearest to prince street in Edinburgh;object;2
+182;182;What is the most densely populated city in Ireland;What city has the highest population density in Ireland;object;2
+183;183;Does Hammersmith Bridge connect Hammersmith with Barnes;Does hammersmith bridge intersect with hammersmith city and barnes;boolean;1
+184;184;Which hotels are near Loch Ness;Which hotels are nearest to loch ness;object;2
+185;185;Is there a museum at most 1 km from Liverpool;Is there a museum within 1 km from liverpool;boolean;1
+186;186;In which part of England is Liverpool located;Where is Liverpool in England;location;2
+187;187;Which city in Scotland has the largest population;Which city has the biggest population in Scotland;object;2
+188;188;Is Glasgow the largest city of Scotland in terms of population;Is Glasgow the largest city of Scotland in terms of population;boolean;0
+189;189;What is the distance between Liverpool and Glasgow;What is the distance between Liverpool and Glasgow;amount;0
+190;190;Is Liverpool part of Scotland;Is liverpool in scotland;boolean;1
+191;191;In what county is Stonehenge located;Which county contains stonehenge;object;1
+192;192;Which rivers discharge into the Solway Firth;Are there rivers that intersect with the solway firth;object;1
+193;193;Which museums are within 3 km of Saint George hotel in London;Which museums are within 3 km of saint george hotel in London;object;2
+194;194;Is there a forest in county Cheshire;Is there a forest in county cheshire;boolean;1
+195;195;Which art museums are at most 1 km from Charlotte Square in Edinburgh;Which art museums are within 1 km from charlotte square in Edinburgh;object;2
+196;196;How many rivers cross Edinburgh;How many rivers intersect with edinburgh in Britain;amount;1
+197;197;How many counties does the river Thames cross;How many counties intersect with thames river in Britain;amount;1
+198;198;Which rivers cross county Cheshire;Are there rivers that intersect with county cheshire;object;1
+199;199;Which county is east of county Dorset;Which county is east of county Dorset;object;0
+200;200;Is there a river that crosses county Greater Manchester;Is there a river that overlap with greater manchester;boolean;1

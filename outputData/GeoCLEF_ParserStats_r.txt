@@ -1,0 +1,51 @@
+ID;Question;qTypesCount;qTransCount;qOutputType;aggre;allocation;amount;boolfield;conamount;covamount;distanceBand;distfield;eveconamount;eveconobjconpro;event;eventquality;field;grid;location;network;networkquality;objconamount;objconobjconpro;object;objectquality;placename;proportion
+1;What are the shark attacks in australia and california;6;3;event;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;2;0;0;0
+2;What are the vegetable exporters in europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+3;What are the Amnesty International human rights reports in latin america;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+4;What are the animal rights actions against the fur industry in europe and the united states;6;3;event;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;2;0;0;0
+5;What is the volume of rice imports in Japan;3;1;conamount;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0
+6;What are the oil accidents in europe;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+7;What are the trade unions in europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+8;What is the milk consumption per europe;3;1;conamount;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+9;What is the number of working children in Asia;3;1;conamount;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+10;What are the floods in holland and germany;6;3;event;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;2;0;0;0
+11;What are the Roman cities in the uk and germany;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+12;What are the cathedrals in europe;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+13;What are the american presidents` visits in germany;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+14;What are the environmentally hazardous incidents in north sea and nearest to north sea;6;3;event;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;2;0;0;0
+15;What are the genocide occurences in rwanda;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+16;What are the oil prospecting and ecological problems in siberia and the caspian sea;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+17;Where are american troops in Sarajevo, Bosnia-Herzegovina;4;1;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;3;0;0;0
+18;What are the walking holiday regions in scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+19;What are the golf tournaments in europe;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+20;What are the wind power regions in the scottish islands;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+21;What are the sea rescues in north sea;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+22;What are the restored buildings in southern scotland;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+23;What are the murders and violence in southwestern scotland;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+24;What are the tourist industry influences in scottish highlands;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+25;What are the environmental concerns in scottish trossachs and nearest to scottish trossachs;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+26;What are the wine regions nearest to rivers in Europe;4;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
+27;What are the cities within 100 km from frankfurt;5;3;object;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+28;What are the snowstorms in north america;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+29;What are the diamond trading places in angola and south africa;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+30;What were the car bombings nearest to madrid;2;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0
+31;What were the combats and embargo in northern Iraq;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+32;What was the independence movement in quebec;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+33;What were the international sports competitions in the ruhr area;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+34;What are the malaria cases in the tropics;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+35;What are the credits in the former eastern bloc;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+36;What is the automotive industry nearest to the sea of japan;2;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+37;What are the archeological sites in the middle east;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+38;What are the solar or lunar eclipse in southeast asia;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+39;Where are the russian troops in the southern caucasus;4;2;location;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;3;0;0;0
+40;What are the cities nearest to active volcanoes;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+41;What are the shipwrecks in the atlantic ocean;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+42;What are the regional elections in northern germany;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+43;What is the scientific research in universities in New England;4;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;2;0;0;0
+44;What were the arms sales in yugoslavia;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+45;What are the tourist regions in northeast brazil;3;1;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0
+46;What are the forest fires in northern portugal;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+47;What are the Champions League games nearest to the mediterranean sea;2;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0
+48;What are the fishing regions in newfoundland and greenland;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0
+49;What are the ETA incidents in france;3;1;event;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;1;0;0;0
+50;What are the cities nearest to the danube river and the rhine river;6;3;object;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0

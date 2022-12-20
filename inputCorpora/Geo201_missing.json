@@ -1,0 +1,2030 @@
+[
+    {
+        "id": "47",
+        "qParsed": {
+            "question": "Are the cities that River Thames crosses more than 10",
+            "cleaned_Question": "Are cities that River Thames crosses more than 10",
+            "placename": [
+                "River Thames"
+            ],
+            "object": [
+                "cities"
+            ],
+            "ner_Question": "are object0 that placename0 crosses more than 10",
+            "parseTreeStr": "(start are (measure (coreC object 0)) that (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "River Thames"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cities"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Are the cities that River Thames crosses more than 10",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "River Thames"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "conamount",
+                        "id": "3",
+                        "keyword": "10",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "objectquality",
+                        "id": "4",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "1"
+                    },
+					{
+                        "before": [
+                            "2",
+							"3"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "153",
+        "qParsed": {
+            "question": "Are there more than 10 districts in Hampshire, England",
+            "cleaned_Question": "Are there more than 10 districts in Hampshire , England",
+            "placename": [
+                "Hampshire",
+                "England"
+            ],
+            "object": [
+                "districts"
+            ],
+            "ner_Question": "are there more than 10 object0 in placename0 , placename1",
+            "parseTreeStr": "(start are more than 10 object 0 in placename 0 placename 1)"
+        },
+        "rqParsed": {
+            "question": "Are there more than 10 districts in Hampshire, England",
+			"cctrans": {
+				"types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "districts"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "1",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "10",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "objectquality",
+                        "id": "3",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "Hampshire, England"
+                    }
+                ],
+				"extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    },
+					{
+                        "before": [
+                            "1",
+							"2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+			}
+        }
+    },
+    {
+        "id": "8",
+        "qParsed": {
+            "question": "Does England have more counties than Ireland",
+            "cleaned_Question": "England have more counties than Ireland",
+            "placename": [
+                "England",
+                "Ireland"
+            ],
+            "object": [
+                "counties"
+            ],
+            "ner_Question": "placename0 have more object0 than placename1",
+            "parseTreeStr": "(start placename (measure 0) (condition (boolR have)) (extent placename 1))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Ireland"
+                    }
+                ],
+                "extent": [
+                    "0"
+                ],
+                "transformations": []
+            }
+        },
+        "rqParsed": {
+            "question": "Does England have more counties than Ireland",
+            "cctrans": {
+                "types": [
+					{
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "counties"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Ireland"
+                    },
+					{
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "England"
+                    },
+					{
+                        "type": "conamount",
+                        "id": "4",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "objectquality",
+                        "id": "5",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+					{
+                        "before": [
+                            "0",
+                            "1"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "1"
+                    },
+					{
+                        "before": [
+                            "0",
+                            "3"
+                        ],
+                        "after": [
+                            "4"
+                        ],
+						"key": "3"
+                    },
+					{
+                        "before": [
+                            "2",
+                            "4"
+                        ],
+                        "after": [
+                            "5"
+                        ]
+                    }
+				]
+            }
+        }
+    },
+    {
+        "id": "55",
+        "qParsed": {
+            "question": "Is county Oxfordshire east of the county Essex",
+            "cleaned_Question": "Is county Oxfordshire east of county Essex",
+            "placename": [
+                "Oxfordshire",
+                "Essex"
+            ],
+            "object": [
+                "county"
+            ],
+            "ner_Question": "is object0 placename0 east of object0 placename1",
+            "parseTreeStr": "(start is (measure (coreC object 0) (destination (objectC placename 0)) of (origin (objectC object 0) (objectC placename 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Essex"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "county"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Oxfordshire"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "county"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "1",
+                            "2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Is county Oxfordshire east of the county Essex",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county Oxfordshire"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "county Essex"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "2",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "114",
+        "qParsed": {
+            "question": "Is Edinburgh west of Glasgow",
+            "cleaned_Question": "Is Edinburgh west of Glasgow",
+            "placename": [
+                "Edinburgh",
+                "Glasgow"
+            ],
+            "ner_Question": "is placename0 west of placename1",
+            "parseTreeStr": "(start is placename 0 of placename 1)"
+        },
+        "rqParsed": {
+            "question": "Is Edinburgh west of Glasgow",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Edinburgh"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Glasgow"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "2",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "188",
+        "qParsed": {
+            "question": "Is Glasgow the largest city of Scotland in terms of population",
+            "cleaned_Question": "Is Glasgow largest city of Scotland in terms of population",
+            "placename": [
+                "Glasgow",
+                "Scotland"
+            ],
+            "object": [
+                "city"
+            ],
+            "objconamount": [
+                "population"
+            ],
+            "ner_Question": "is placename0 largest object0 of placename1 in terms of objconamount0 era",
+            "parseTreeStr": "(start is placename 0 object 0 of placename 1 in of objconamount 0 era)"
+        },
+        "rqParsed": {
+            "question": "Is Glasgow the largest city of Scotland in terms of population",
+            "cctrans": {
+                "types": [
+					{
+                        "type": "objconamount",
+                        "id": "0",
+                        "keyword": "population",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "city"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "largest city"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Glasgow"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "4",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    },
+					{
+                        "type": "object",
+                        "id": "5",
+                        "keyword": "Scotland"
+                    }
+                ],
+				"extent": [
+                    "5"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+					{
+                        "before": [
+                            "2",
+							"3"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "103",
+        "qParsed": {
+            "question": "Is Hampshire north of Berkshire",
+            "cleaned_Question": "Is Hampshire north of Berkshire",
+            "placename": [
+                "Berkshire"
+            ],
+            "ner_Question": "is hampshire north of placename0",
+            "parseTreeStr": "(start is no of placename 0)"
+        },
+        "rqParsed": {
+            "question": "Is Hampshire north of Berkshire",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Hampshire"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Berkshire"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "2",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "165",
+        "qParsed": {
+            "question": "Is London south of Manchester",
+            "cleaned_Question": "Is London south of Manchester",
+            "placename": [
+                "London",
+                "Manchester"
+            ],
+            "ner_Question": "is placename0 south of placename1",
+            "parseTreeStr": "(start is placename 0 of placename 1)"
+        },
+        "rqParsed": {
+            "question": "Is London south of Manchester",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "London"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Manchester"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "2",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "113",
+        "qParsed": {
+            "question": "Is Somerset west of Westmorland",
+            "cleaned_Question": "Is Somerset west of Westmorland",
+            "placename": [
+                "Westmorland"
+            ],
+            "ner_Question": "is somerset west of placename0",
+            "parseTreeStr": "(start is of placename 0)"
+        },
+        "rqParsed": {
+            "question": "Is Somerset west of Westmorland",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Somerset"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Westmorland"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "2",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "11",
+        "qParsed": {
+            "question": "Is the Castle of Edinburgh less than 2 km away from Calton Hill",
+            "cleaned_Question": "Is Castle of Edinburgh less than 2 km away from Calton Hill",
+            "placename": [
+                "Castle of Edinburgh",
+                "Calton Hill"
+            ],
+            "ner_Question": "is placename0 less than 2 km away from placename1",
+            "parseTreeStr": "(start is placename 0 less than 2 away from placename 1)"
+        },
+        "rqParsed": {
+            "question": "Is the Castle of Edinburgh less than 2 km away from Calton Hill",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Calton Hill"
+                    },
+					{
+                        "type": "distfield",
+                        "id": "1",
+                        "keyword": ""
+                    },
+                    {
+                        "type": "boolfield",
+                        "id": "2",
+                        "keyword": ""
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Castle of Edinburgh"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "4",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    },
+                    {
+                        "before": [
+                            "1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+					{
+                        "before": [
+                            "2",
+                            "3"
+                        ],
+                        "after": [
+                            "4"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "167",
+        "qParsed": {
+            "question": "Is the City of London north of the Thames river",
+            "cleaned_Question": "Is City of London north of Thames river",
+            "placename": [
+                "City of London",
+                "Thames"
+            ],
+            "object": [
+                "river"
+            ],
+            "ner_Question": "is placename0 north of placename1 object0",
+            "parseTreeStr": "(start is placename 0 no of placename 1 object 0)"
+        },
+        "rqParsed": {
+            "question": "Is the City of London north of the Thames river",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "City of London"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Thames river"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "2",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "42",
+        "qParsed": {
+            "question": "Is the county of Antrim bigger than the county of Armagh",
+            "cleaned_Question": "Is county of Antrim bigger than county of Armagh",
+            "placename": [
+                "Antrim",
+                "Armagh"
+            ],
+            "object": [
+                "county",
+                "county"
+            ],
+            "ner_Question": "is object0 of placename0 bigger than object0 of placename1",
+            "parseTreeStr": "(start is (measure (coreC object 0) of (origin (objectC placename 0) (objectC object 0)) of (origin (objectC placename 1))))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Antrim"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "county"
+                    }
+                ],
+                "transformations": []
+            }
+        },
+        "rqParsed": {
+            "question": "Is the county of Antrim bigger than the county of Armagh",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county of Antrim"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "county of Armagh"
+                    },
+					{
+                        "type": "covamount",
+                        "id": "2",
+                        "keyword": "size",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "3",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+					{
+                        "before": [
+                            "0",
+                            "1",
+							"2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+				]
+            }
+        }
+    },
+    {
+        "id": "179",
+        "qParsed": {
+            "question": "Is the monument of the Great Fire of London east of King WIlliam Street",
+            "cleaned_Question": "Is monument of Great Fire of London east of King WIlliam Street",
+            "placename": [
+                "Great Fire of London",
+                "King WIlliam Street"
+            ],
+            "ner_Question": "is monument of placename0 east of placename1",
+            "parseTreeStr": "(start is of placename 0 of placename 1)"
+        },
+        "rqParsed": {
+            "question": "Is the monument of the Great Fire of London east of King WIlliam Street",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "monument of the Great Fire of London"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "King WIlliam Street"
+                    },
+                    {
+                        "type": "objectquality",
+                        "id": "2",
+						"keyword": "",
+                        "measureLevel": "boolean"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "80",
+        "qParsed": {
+            "question": "Is there a church in the county of Greater Manchester dedicated to St. Patrick",
+            "cleaned_Question": "Is there church in county of Greater Manchester dedicated to St. Patrick",
+            "placename": [
+                "Greater Manchester",
+                "St. Patrick"
+            ],
+            "object": [
+                "church",
+                "county"
+            ],
+            "ner_Question": "is there object0 in object1 of placename0 dedicated to placename1",
+            "parseTreeStr": "(start is (measure (coreC object 0)) in object 1 of placename 0 to placename 1)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "church"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "church"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Is there a church in the county of Greater Manchester dedicated to St. Patrick",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "church"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "St. Patrick"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "church"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "county of Greater Manchester"
+                    }
+                ],
+				"extent": [
+                    "3"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "83",
+        "qParsed": {
+            "question": "Is there a river in Ireland that crosses more than 3 cities",
+            "cleaned_Question": "Is there river in Ireland that crosses more than 3 cities",
+            "placename": [
+                "Ireland"
+            ],
+            "object": [
+                "river",
+                "cities"
+            ],
+            "ner_Question": "is there object0 in placename0 that crosses more than 3 object1",
+            "parseTreeStr": "(start is (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "river"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Ireland"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "river"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Is there a river that crosses more than 3 cities in Ireland",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "river"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "river"
+                    },
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "Ireland"
+                    }
+                ],
+                "extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+                            "1"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "1"
+                    },
+					{
+                        "before": [
+                            "1",
+                            "2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "189",
+        "qParsed": {
+            "question": "What is the distance between Liverpool and Glasgow",
+            "cleaned_Question": "What is distance between Liverpool and Glasgow",
+            "placename": [
+                "Glasgow"
+            ],
+            "object": [
+                "liverpool"
+            ],
+            "covamount": [
+                "distance"
+            ],
+            "ner_Question": "what is covamount0 era between object0 and placename0",
+            "parseTreeStr": "(start what is (measure (coreC covamount 0 era) (coreC object 0) and) (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "liverpool"
+                    },
+                    {
+                        "type": "covamount",
+                        "id": "1",
+                        "keyword": "distance",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "Glasgow"
+                    }
+                ],
+                "extent": [
+                    "2"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "What is the distance between Liverpool and Glasgow",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "Liverpool"
+                    },                    
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Glasgow"
+                    },
+					{
+                        "type": "covamount",
+                        "id": "2",
+                        "keyword": "distance",
+                        "measureLevel": "era"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "46",
+        "qParsed": {
+            "question": "Which cities in England have at least 2 castles",
+            "cleaned_Question": "Which cities in England have at least 2 castles",
+            "placename": [
+                "England"
+            ],
+            "object": [
+                "cities"
+            ],
+            "ner_Question": "which object0 in placename0 have at least 2 castles",
+            "parseTreeStr": "(start which (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "England"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cities"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which cities in England have at least 2 castles",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "castles"
+                    },
+					{
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "cities"
+                    },
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "England"
+                    }
+                ],
+                "extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "0"
+                    },
+					{
+                        "before": [
+                            "0",
+                            "2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "139",
+        "qParsed": {
+            "question": "Which cities or towns of the United Kingdom have a university",
+            "cleaned_Question": "Which cities or towns of United Kingdom have university",
+            "placename": [
+                "United Kingdom"
+            ],
+            "object": [
+                "cities",
+                "towns",
+                "university"
+            ],
+            "ner_Question": "which object0 or object1 of placename0 have object2",
+            "parseTreeStr": "(start which (measure (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "cities"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which cities or towns of the United Kingdom have a university",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities or towns"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "university"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "cities or towns"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "United Kingdom"
+                    }
+                ],
+                "extent": [
+                    "3"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "81",
+        "qParsed": {
+            "question": "Which city is southeast of Salford",
+            "cleaned_Question": "Which city is southeast of Salford",
+            "placename": [
+                "Salford"
+            ],
+            "object": [
+                "city"
+            ],
+            "ner_Question": "which object0 is southeast of placename0",
+            "parseTreeStr": "(start which (measure (coreC object 0)) is of placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "city"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "city"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which city is southeast of Salford",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "city"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "Salford"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "city"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "171",
+        "qParsed": {
+            "question": "Which counties border county Donegal to the south",
+            "cleaned_Question": "Which counties border county Donegal to south",
+            "placename": [
+                "Donegal"
+            ],
+            "ner_Question": "which counties border county placename0 to south",
+            "parseTreeStr": "(start which count count placename 0 to)"
+        },
+        "rqParsed": {
+            "question": "Which counties border county Donegal to the south",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county Donegal"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "counties"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "counties bordering Donegal"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "counties bordering Donegal to the south"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    },
+					{
+                        "before": [
+                            "0",
+                            "2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "199",
+        "qParsed": {
+            "question": "Which county is east of county Dorset",
+            "cleaned_Question": "Which county is east of county Dorset",
+            "placename": [
+                "Dorset"
+            ],
+            "object": [
+                "county",
+                "county"
+            ],
+            "ner_Question": "which object0 is east of object0 placename0",
+            "parseTreeStr": "(start which (measure (coreC object 0)) is of object 0 placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "county"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which county is east of county Dorset",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "county Dorset"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "county"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "66",
+        "qParsed": {
+            "question": "Which county is west of South Yorkshire",
+            "cleaned_Question": "Which county is west of South Yorkshire",
+            "placename": [
+                "South Yorkshire"
+            ],
+            "object": [
+                "county"
+            ],
+            "ner_Question": "which object0 is west of placename0",
+            "parseTreeStr": "(start which (measure (coreC object 0)) is of placename 0)",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "county"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "1"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which county is west of South Yorkshire",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "county"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "South Yorkshire"
+                    },
+					{
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "county"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "85",
+        "qParsed": {
+            "question": "Which mountains in Scotland have height more than 1000 meters",
+            "cleaned_Question": "Which mountains in Scotland have height more than 1000 meters",
+            "placename": [
+                "Scotland"
+            ]
+        },
+        "rqParsed": {
+            "question": "Which mountains have height more than 1000 meters in Scotland",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "mountains"
+                    },
+					{
+                        "type": "covamount",
+                        "id": "1",
+                        "keyword": "height",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "mountains"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Scotland"
+                    }
+                ],
+                "extent": [
+                    "3"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "134",
+        "qParsed": {
+            "question": "Which river crosses the most cities in England",
+            "cleaned_Question": "Which river crosses most cities in England",
+            "placename": [
+                "England"
+            ],
+            "object": [
+                "river",
+                "cities"
+            ],
+            "ner_Question": "which object0 crosses most object1 in placename0",
+            "parseTreeStr": "(start which (measure (coreC object 0)) in (extent placename 0))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "river"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "England"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "river"
+                    }
+                ],
+                "extent": [
+                    "1"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which river crosses the most cities in England",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "cities"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "river"
+                    },
+					{
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "river"
+                    },
+                    {
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "England"
+                    }
+                ],
+                "extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+							"1"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "1"
+                    },
+					{
+                        "before": [
+                            "1",
+                            "2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "156",
+        "qParsed": {
+            "question": "Which rivers in Scotland have more than 100 km length",
+            "cleaned_Question": "Which rivers in Scotland have more than 100 km length",
+            "placename": [
+                "Scotland"
+            ],
+            "quantity": [
+                "100 km"
+            ],
+            "covamount": [
+                "length"
+            ],
+            "ner_Question": "which rivers in placename0 have more than equantity0 covamount0 era",
+            "parseTreeStr": "(start which in placename 0 have more than equantity 0 covamount 0 era)"
+        },
+        "rqParsed": {
+            "question": "Which rivers have more than 100 km length in Scotland",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "covamount",
+                        "id": "0",
+                        "keyword": "length",
+                        "measureLevel": "era"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "rivers"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "rivers"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "Scotland"
+                    }
+                ],
+                "extent": [
+                    "3"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "141",
+        "qParsed": {
+            "question": "Which towns of England have at least two hospitals",
+            "cleaned_Question": "Which towns of England have at least 2 hospitals",
+            "placename": [
+                "England"
+            ],
+            "object": [
+                "towns",
+                "hospitals"
+            ],
+            "ner_Question": "which object0 of placename0 have at least 2 object1",
+            "parseTreeStr": "(start which (measure (coreC object 0) of (origin (objectC placename 0))) (condition (boolR have)) (condition (compareR at least) 2 (coreC object 1)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "hospitals"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "England"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "towns"
+                    }
+                ],
+                "transformations": []
+            }
+        },
+        "rqParsed": {
+            "question": "Which towns have at least 2 hospitals in England",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "hospitals"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "towns"
+                    },
+                    {
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+					{
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "towns"
+                    },
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "England"
+                    }
+                ],
+                "extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "1"
+                    },
+					{
+                        "before": [
+                            "1",
+                            "2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "99",
+        "qParsed": {
+            "question": "Which Welsh district has the most adjacent Welsh districts",
+            "cleaned_Question": "Which Welsh district has most adjacent Welsh districts",
+            "placename": [],
+            "object": [
+                "district"
+            ],
+            "ner_Question": "which welsh object0 has most adjacent welsh object0s",
+            "parseTreeStr": "(start which (measure (coreC object 0)) (condition (boolR has) (coreC object 0)))",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "district"
+                    },
+                    {
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "district"
+                    },
+                    {
+                        "type": "object",
+                        "id": "2",
+                        "keyword": "district"
+                    }
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "1",
+                            "0"
+                        ],
+                        "after": [
+                            "2"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rqParsed": {
+            "question": "Which Welsh district has the most adjacent Welsh districts",
+            "cctrans": {
+                "types": [
+                    {
+                        "type": "object",
+                        "id": "0",
+                        "keyword": "district"
+                    },
+					{
+                        "type": "object",
+                        "id": "1",
+                        "keyword": "district"
+                    },
+					{
+                        "type": "conamount",
+                        "id": "2",
+                        "keyword": "how many",
+                        "measureLevel": "count"
+                    },
+                    {
+                        "type": "object",
+                        "id": "3",
+                        "keyword": "district"
+                    },
+					{
+                        "type": "object",
+                        "id": "4",
+                        "keyword": "Welsh"
+                    }
+                ],
+				"extent": [
+                    "4"
+                ],
+                "transformations": [
+                    {
+                        "before": [
+                            "0",
+                            "1"
+                        ],
+                        "after": [
+                            "2"
+                        ],
+						"key": "1"
+                    },
+					{
+                        "before": [
+                            "1",
+                            "2"
+                        ],
+                        "after": [
+                            "3"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]

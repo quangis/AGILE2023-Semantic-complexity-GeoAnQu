@@ -1,14 +1,19 @@
-# [TODO] set "source" to the path of the parent folder than contains this R file and the "outputData" folder
+# [TODO] set to the absolute path of the folder containing this script file 
 source <- ""
 
 ################################################################################
 
-libraries <- c("plotrix", "rstatix", "FSA")
+libraries <- c("plotrix", "rstatix", "FSA", "gplots", "devtools", "scales", "ggradar", "gridExtra", "dplyr", "tibble", "fmsb")
 
 for(mylibrary in libraries){
-  ## [SC] installing gplots package
+  ## [SC] installing packages
   if (!(mylibrary %in% rownames(installed.packages()))) {
-    install.packages(mylibrary)
+    if (mylibrary == "ggradar"){
+      devtools::install_github("ricardo-bion/ggradar", dependencies = TRUE)
+    }
+    else {
+      install.packages(mylibrary)
+    }
   }
   library(mylibrary, character.only = TRUE)
 }
@@ -93,6 +98,7 @@ subConceptTypeFreqPerCorpus <- function(){
   }
 }
 
+
 outputFrequencyPerCorpus <- function(){
   print("")
   print("=================================== START outputFrequencyPerCorpus")
@@ -140,7 +146,13 @@ outputFrequencyPerCorpus <- function(){
       zeroIndexV <- c(zeroIndexV, rowIndex)
     }
   }
+  # par(mfcol=c(2,1), mar=c(3, 4, 3, 3))
+  # barplot(t(typeFreqM[zeroIndexV,]), beside=TRUE, ylim=c(0, 0.2)
+  #         , main="Output types that occur in the GeoAnQu corpus only", ylab="Proportion of questions")
+  # barplot(t(typeFreqM[nozeroIndexV,]), beside=TRUE, ylim=c(0, 1), legend=TRUE
+  #         , main="Output types that occur in a corpus other than GeoAnQu", ylab="Proportion of questions")
 }
+
 
 transStats <- function(){
   print("")
@@ -162,6 +174,9 @@ transStats <- function(){
     transCountDF <- transCountDF[order(transCountDF$transCount),]
     transCountDF <- cbind(transCountDF, prop=round(transCountDF$freq/sum(transCountDF$freq), 3))
     
+    # barplot(transCountDF$freq, names.arg=transCountDF$transCount
+    #         , main=paste0("Number of transformation - ", corpusId)
+    #         , xlab="Number of transformations", ylab="Frequency of questions")
     barplot(transCountDF$prop, names.arg=transCountDF$transCount
             #, main=paste0("Number of transformation - ", corpusId)
             , main=corpusId
@@ -211,6 +226,8 @@ transStats <- function(){
   print("===== Non-parametric alternative to ANOVA against aggregated corpus:")
   allCountDF[allCountDF$cId!="GeoAnQu",]$cId <- "aggregated"
   print(kruskal.test(tCount ~ cId, data = allCountDF))
+  
+  return(aggrMeanDF)
 }
 
 conceptStats <- function(){
@@ -233,6 +250,9 @@ conceptStats <- function(){
     typeCountDF <- typeCountDF[order(typeCountDF$typeCount),]
     typeCountDF <- cbind(typeCountDF, prop=round(typeCountDF$freq/sum(typeCountDF$freq), 3))
     
+    # barplot(typeCountDF$freq, names.arg=typeCountDF$typeCount
+    #         , main=paste0("Number of concepts - ", corpusId)
+    #         , xlab="Number of concepts", ylab="Frequency of questions")
     barplot(typeCountDF$prop, names.arg=typeCountDF$typeCount
             #, main=paste0("# of concepts - ", corpusId)
             , main=corpusId
@@ -282,16 +302,39 @@ conceptStats <- function(){
   print("===== Non-parametric alternative to ANOVA against aggregated corpus:")
   allCountDF[allCountDF$cId!="GeoAnQu",]$cId <- "aggregated"
   print(kruskal.test(tCount ~ cId, data = allCountDF))
+  
+  return(aggrMeanDF)
+}
+
+plotMeans <- function(cMeanDF, tMeanDF){
+  par(mfrow=c(1,2), mar=c(7, 2, 3, 1), oma=c(0,0,0,0))
+  cMeanDF <- cMeanDF[order(match(cMeanDF$cId, allCorporaV)),]
+  tMeanDF <- tMeanDF[order(match(tMeanDF$cId, allCorporaV)),]
+  
+  barplot2(cMeanDF$mean, plot.ci=TRUE
+          , ci.l=(cMeanDF$mean-cMeanDF$se), ci.u=(cMeanDF$mean+cMeanDF$se)
+          , names.arg=cMeanDF$cId, las=2
+          , cex.names=1.3, cex.axis=1.3, cex.lab=1.3, cex.main=1.3
+          , col="#a1e9f0", density=100, angle=45
+          , main="Mean number of concepts", ylab="", xlab="")
+  
+  barplot2(tMeanDF$mean, plot.ci=TRUE
+           , ci.l=(tMeanDF$mean-tMeanDF$se), ci.u=(tMeanDF$mean+tMeanDF$se)
+           , names.arg=tMeanDF$cId, las=2
+           , cex.names=1.3, cex.axis=1.3, cex.lab=1.3, cex.main=1.3
+           , col="#b9e38d", density=100, angle=45
+           , main="Mean number of transformations", ylab="", xlab="")
 }
 
 calcSubConceptTypeDiversityIndex <- function(){
   print("")
   print("=================================== START calcSubConceptTypeDiversityIndex")
   
-  indexM <- matrix(NA, nrow=6, ncol=length(allCorporaV)
+  indexM <- matrix(NA, nrow=7, ncol=length(allCorporaV)
                    , dimnames=list(c("cTypeHi","cTypeQuHi"
                                      ,"cTypeSi","cTypeQuSi"
-                                     ,"cTypeE","cTypeQuE")
+                                     ,"cTypeE","cTypeQuE"
+                                     ,"richness")
                                    , allCorporaV))
   
   for(corpusId in allCorporaV){
@@ -326,6 +369,8 @@ calcSubConceptTypeDiversityIndex <- function(){
     
     indexM["cTypeE",corpusId] <- round(indexM["cTypeHi",corpusId]/log(nrow(subFreqStatDF)), 3)
     indexM["cTypeQuE",corpusId] <- round(indexM["cTypeQuHi",corpusId]/log(nrow(subFreqStatDF)), 3)
+    
+    indexM["richness",corpusId] <- length(unique(subFreqStatDF$cType))
   }
   
   print("cTypeHi: Shannon index based on total frequency of concepts")
@@ -335,6 +380,14 @@ calcSubConceptTypeDiversityIndex <- function(){
   print("cTypeE: Pielou's evenness index based on cTypeHi")
   print("cTypeQuE: Pielou's evenness index based on cTypeQuHi")
   print(indexM)
+  
+  indexDF <- as.data.frame(t(indexM[c("richness","cTypeQuHi","cTypeQuE"),]))
+  colnames(indexDF)[colnames(indexDF)=="richness"] <- "R"
+  colnames(indexDF)[colnames(indexDF)=="cTypeQuHi"] <- "H'"
+  colnames(indexDF)[colnames(indexDF)=="cTypeQuE"] <- "J'"
+  print(indexDF)
+  
+  return(indexDF)
 }
 
 calcAggregateSubConceptTypeDiversityIndex <- function(){
@@ -389,8 +442,8 @@ calcOutputDiversityIndex <- function(){
   print("")
   print("=================================== START calcOutputDiversityIndex")
   
-  indexM <- matrix(NA, nrow=3, ncol=length(allCorporaV)
-                   , dimnames=list(c("cTypeQuHi","cTypeQuSi","cTypeQuE")
+  indexM <- matrix(NA, nrow=4, ncol=length(allCorporaV)
+                   , dimnames=list(c("cTypeQuHi","cTypeQuSi","cTypeQuE","richness")
                                    , allCorporaV))
   
   for(corpusId in allCorporaV){
@@ -408,12 +461,21 @@ calcOutputDiversityIndex <- function(){
     indexM["cTypeQuHi",corpusId] <- round(-sum(outFreqDF$prop*log(outFreqDF$prop)),3)
     indexM["cTypeQuSi",corpusId] <- round(1/sum(outFreqDF$prop^2), 3)
     indexM["cTypeQuE",corpusId] <- round(indexM["cTypeQuHi",corpusId]/log(nrow(outFreqDF)), 3)
+    indexM["richness",corpusId] <- length(unique(outFreqDF$qOutputType))
   }
   
   print("cTypeQuHi: Shannon index based on question-based frequency of concepts")
   print("cTypeQuSi: Simpson index based on question-based frequency of concepts")
   print("cTypeQuE: Pielou's evenness index based on cTypeQuHi")
   print(indexM)
+  
+  indexDF <- as.data.frame(t(indexM[c("richness","cTypeQuHi","cTypeQuE"),]))
+  colnames(indexDF)[colnames(indexDF)=="richness"] <- "R"
+  colnames(indexDF)[colnames(indexDF)=="cTypeQuHi"] <- "H'"
+  colnames(indexDF)[colnames(indexDF)=="cTypeQuE"] <- "J'"
+  print(indexDF)
+  
+  return(indexDF)
 }
 
 calcAggregateOutputDiversityIndex <- function(){
@@ -448,14 +510,35 @@ calcAggregateOutputDiversityIndex <- function(){
   print(paste("cTypeQuE: Pielou's evenness index based on cTypeQuHi",round(cTypeQuHi/log(nrow(outFreqDF)), 3)))
 }
 
+plotDiversity <- function(allDivDF, outDivDF){
+  all_index_radar <- allDivDF %>%
+    as_tibble(rownames = "cId") %>%
+    mutate_at(vars(-cId), rescale)
+  all_index_radar <- ggradar(all_index_radar, plot.title="Diversity of all concepts"
+                             , legend.text.size=12, legend.position="right"
+                             , group.point.size=3, group.line.width=1)
+
+  out_index_radar <- outDivDF %>%
+    as_tibble(rownames = "cId") %>%
+    mutate_at(vars(-cId), rescale)
+  out_index_radar <- ggradar(out_index_radar, plot.title="Diversity of goal concepts"
+                             , legend.text.size=12, legend.position="right"
+                             , group.point.size=3, group.line.width=1)
+  
+  grid.arrange(all_index_radar, out_index_radar, nrow = 2)
+}
+
 par(mfrow=c(2,5), mar=c(4.5, 4.5, 3, 1))
-conceptStats()
-transStats()
+conceptMeanDF <- conceptStats()
+transMeanDF <- transStats()
+plotMeans(conceptMeanDF, transMeanDF)
 
 subConceptTypeFreqPerCorpus()
-calcSubConceptTypeDiversityIndex()
+allDiversDF <- calcSubConceptTypeDiversityIndex()
 calcAggregateSubConceptTypeDiversityIndex()
 
 outputFrequencyPerCorpus()
-calcOutputDiversityIndex()
+outDiversDF <- calcOutputDiversityIndex()
 calcAggregateOutputDiversityIndex()
+
+plotDiversity(allDiversDF,outDiversDF)

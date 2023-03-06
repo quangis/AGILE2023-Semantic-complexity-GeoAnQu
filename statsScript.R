@@ -1,4 +1,4 @@
-# [TODO] set to the absolute path of the folder containing this script file 
+# [TODO] set to the absolute path of the folder containing this script file, e.g. 'source <- "C:/AGILE2023-Semantic-complexity-GeoAnQu-main/"'
 source <- ""
 
 ################################################################################
@@ -41,8 +41,10 @@ conceptTypesDF <- conceptTypesDF[order(conceptTypesDF$super),]
 
 allCorporaV <- c("Geo201", "GeoCLEF", "Giki", "GeoQuery", "GeoAnQu")
 
-
 loadCorpusData <- function(corpusId, suffix="_r"){
+  if(corpusId == "GeoAnQu") {
+    suffix = ""
+  }
   return(read.csv(paste0(source, inputData, corpusId, "_ParserStats", suffix, ".txt"), stringsAsFactors=FALSE, sep=";"))
 }
 

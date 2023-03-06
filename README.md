@@ -1,6 +1,12 @@
 # AGILE2023-Semantic-complexity-GeoAnQu
 
-Python/R source codes and datasets used for the submission to AGILE2023 conference
+Python/R source codes and datasets used for the submission to the AGILE2023 conference.
+
+
+## Requirements
+- It is strongly advised to run this code on Windows 10. The underlying third-party Python libraries known to have issues with Linux and MacOS.
+- Python 3.9.7. The instructions are for the Conda environment on Windows.
+- R 4.2.2 running with the RStudio IDE.
 
 
 ## Content structure
@@ -72,7 +78,9 @@ In the anaconda prompt, perform following steps:
 
 1.Navigate to the folder containing "main.py"
 
-2.Execute "main.py" with the "python" command.
+2.In Miniconda Prompt, navigate to the folder containing "main.py". For example, "cd C:\AGILE2023-Semantic-complexity-GeoAnQu-main".
+
+3.Execute "main.py" with the "python" command.
 
 
 ## Running the R code "statsScript.R"

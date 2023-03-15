@@ -1,5 +1,7 @@
 import json
 import csv
+import os
+from pathlib import Path
 
 from statistics import mean
 
@@ -11,7 +13,7 @@ def parseConceptTree(corpusId = "GeoAnQu", corpusNS = "qac"):
     jsonArray = []
 
     # [SC] open corpus datafile
-    with open(f"{corporaDir}\\{corpusId}.txt", 'r') as datacsvfile:
+    with open(Path(f"{corporaDir}/{corpusId}.txt"), 'r') as datacsvfile:
         datacsvreader = csv.DictReader(datacsvfile, delimiter=';')
 
         # parser = QuestionParser(None)
@@ -52,7 +54,7 @@ def parseConceptTree(corpusId = "GeoAnQu", corpusNS = "qac"):
 
             jsonArray.append(jsonObj)
 
-        with open(f"{dataOutputDir}\\{corpusId}.json", 'w') as f:
+        with open(Path(f"{dataOutputDir}/{corpusId}.json"), 'w') as f:
             json.dump(jsonArray, f, indent=4)
 
     return jsonArray
@@ -66,8 +68,8 @@ def generateStats(corpusId, revised=False):
     typesStr.sort()
 
     # [SC] open the json file containing parsed results
-    with open(f"{dataOutputDir}\\{corpusId}.json", 'r') as f\
-            , open(f"{corporaDir}\\{corpusId}_missing.json", 'r') as fm:
+    with open(Path(f"{dataOutputDir}/{corpusId}.json"), 'r') as f\
+            , open(Path(f"{corporaDir}/{corpusId}_missing.json"), 'r') as fm:
         jsonArray = json.load(f)
         missingJsonArray = json.load(fm)
         jsonArray.extend(missingJsonArray)
@@ -77,7 +79,7 @@ def generateStats(corpusId, revised=False):
             suffix = "_r"
 
         # [SC] type and transformation count summary is stored in this CSV file
-        with open(f"{dataOutputDir}\\{corpusId}_ParserStats{suffix}.txt", 'w', newline='') as statsFile:
+        with open(Path(f"{dataOutputDir}/{corpusId}_ParserStats{suffix}.txt"), 'w', newline='') as statsFile:
             fieldnames = ['ID', 'Question', 'qTypesCount', 'qTransCount', 'qOutputType']
             fieldnames.extend(typesStr)
             statsWriter = csv.DictWriter(statsFile, fieldnames=fieldnames, delimiter=";")
@@ -142,8 +144,8 @@ def generateStats(corpusId, revised=False):
 
 def printBasicStats(corpusId):
     # [SC] open the json file containing parsed results
-    with open(f"{dataOutputDir}\\{corpusId}.json", 'r') as f \
-            , open(f"{corporaDir}\\{corpusId}_missing.json", 'r') as fm:
+    with open(Path(f"{dataOutputDir}/{corpusId}.json"), 'r') as f \
+            , open(Path(f"{corporaDir}/{corpusId}_missing.json"), 'r') as fm:
         jsonArray = json.load(f)
         missingJsonArray = json.load(fm)
         jsonArray.extend(missingJsonArray)
@@ -193,8 +195,8 @@ def printBasicStats(corpusId):
 
 
 def compareToBaseline():
-    baseline = "geo_question_parser_haiqi/orgResults/GeoAnQu_parser_results.json"
-    output = "outputData/GeoAnQu.json"
+    baseline = Path(f"{rootDir}/geo_question_parser_haiqi/orgResults/GeoAnQu_parser_results.json")
+    output = Path(f"{rootDir}/outputData/GeoAnQu.json")
 
     with open(output, 'r') as outf, open(baseline, 'r') as basef:
         outArray = json.load(outf)
@@ -214,7 +216,7 @@ def compareToBaseline():
 
 
 def getUniqueTypes(corpusId="GeoAnQu"):
-    with open(f"{dataOutputDir}\\{corpusId}.json", 'r') as f:
+    with open(Path(f"{dataOutputDir}/{corpusId}.json"), 'r') as f:
         jsonArray = json.load(f)
 
         uniqueTypes = set()
@@ -238,12 +240,14 @@ def getUniqueTypes(corpusId="GeoAnQu"):
 
 
 if __name__ == "__main__":
+    rootDir = os.path.dirname(os.path.realpath(__file__))
+
     # [SC] folder with input corpora
-    corporaDir = "inputCorpora"
+    corporaDir = f"{rootDir}/inputCorpora"
     # [SC] data output folder
-    dataOutputDir = "outputData"
-
-
+    dataOutputDir = f"{rootDir}/outputData"
+    
+    
     geoTwoJson = parseConceptTree("Geo201", "g201") # GeoQuestions201 corpus
     geoQueryJson = parseConceptTree("GeoQuery", "geoq") # GeoQuery corpus
     gikiJson = parseConceptTree("Giki", "giki") # GikiCLEF/GikiP corpora
